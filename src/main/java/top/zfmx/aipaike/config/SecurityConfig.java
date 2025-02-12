@@ -4,7 +4,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
+import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.web.SecurityFilterChain;
+import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import top.zfmx.aipaike.config.filter.JwtAuthenticationFilter;
 import top.zfmx.aipaike.config.handler.*;
 
 /**
@@ -17,13 +20,19 @@ import top.zfmx.aipaike.config.handler.*;
 @Configuration
 public class SecurityConfig {
 
+    private final JwtAuthenticationFilter jwtAuthenticationFilter;
+
+    public SecurityConfig(JwtAuthenticationFilter jwtAuthenticationFilter) {
+        this.jwtAuthenticationFilter = jwtAuthenticationFilter;
+    }
+
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
 
         // 权限设置
         http.authorizeHttpRequests(
                 authorize -> authorize
-                        .requestMatchers("/export").permitAll()
+//                        .requestMatchers("/export").permitAll()
                         .anyRequest().authenticated()
         );
 
@@ -44,7 +53,11 @@ public class SecurityConfig {
 
         // session管理
         http.sessionManagement(session -> session
+                .sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 .maximumSessions(1).expiredSessionStrategy(new CommonSessionInformationExpiredStrategy()));
+
+        // 添加JWT过滤器
+        http.addFilterBefore(jwtAuthenticationFilter, UsernamePasswordAuthenticationFilter.class);
 
         http.cors(AbstractHttpConfigurer::disable);
         http.csrf(AbstractHttpConfigurer::disable);

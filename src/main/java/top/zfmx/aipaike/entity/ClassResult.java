@@ -2,6 +2,9 @@ package top.zfmx.aipaike.entity;
 
 import lombok.Data;
 
+import java.io.Serial;
+import java.io.Serializable;
+
 /**
  * 结果导出数据
  *
@@ -9,7 +12,10 @@ import lombok.Data;
  * @version 0.0.1
  **/
 @Data
-public class ExcelDTO {
+public class ClassResult implements Serializable {
+    @Serial
+    private static final long serialVersionUID = 1L;
+
     private Long id;
     private String teacher;
     private String classroomId;

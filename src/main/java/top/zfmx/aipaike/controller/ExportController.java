@@ -8,12 +8,10 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.web.bind.annotation.*;
-import top.zfmx.aipaike.entity.ExcelDTO;
+import top.zfmx.aipaike.entity.ClassResult;
 
-import javax.swing.text.html.HTMLDocument;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.net.ContentHandler;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
@@ -50,10 +48,10 @@ public class ExportController {
                 }
 
                 // TODO 填充数据
-                List<ExcelDTO> dataList = data();
+                List<ClassResult> dataList = data();
 
                 int rowNum = 1;
-                for (ExcelDTO dto : dataList) {
+                for (ClassResult dto : dataList) {
                     Row row = sheet.createRow(rowNum++);
                     row.createCell(0).setCellValue(dto.getId());
                     row.createCell(1).setCellValue(dto.getWeek());
@@ -73,10 +71,10 @@ public class ExportController {
         }
     }
 
-    private List<ExcelDTO> data(){
-        List<ExcelDTO> list = new ArrayList<>();
+    private List<ClassResult> data(){
+        List<ClassResult> list = new ArrayList<>();
         for (int i = 0 ; i < 10; i++){
-            ExcelDTO data = new ExcelDTO();
+            ClassResult data = new ClassResult();
             data.setId((long) i);
             data.setWeek(i);
             data.setClassroomId("Class_room" + i);
