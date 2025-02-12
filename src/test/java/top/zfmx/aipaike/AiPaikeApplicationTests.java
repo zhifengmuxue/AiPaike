@@ -1,4 +1,4 @@
-package org.example.aipaike;
+package top.zfmx.aipaike;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

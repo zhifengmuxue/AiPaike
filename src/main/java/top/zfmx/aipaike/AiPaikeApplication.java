@@ -1,4 +1,4 @@
-package org.example.aipaike;
+package top.zfmx.aipaike;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

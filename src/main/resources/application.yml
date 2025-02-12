@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: ai-pai-ke
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/coa?characterEncoding=utf8&userSSL=false&serverTimezone=GMT%2B8&rewriteBatchedStatements=true&allowPublicKeyRetrieval=true
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: 123456
+server:
+  port: 8080
