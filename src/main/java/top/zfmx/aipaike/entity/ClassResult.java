@@ -13,10 +13,11 @@ import java.io.Serializable;
  **/
 @Data
 public class ClassResult implements Serializable {
+
     @Serial
     private static final long serialVersionUID = 1L;
 
-    private Long id;
+    private String id;
     private String teacher;
     private String classroomId;
     private Integer week;
