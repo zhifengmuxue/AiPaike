@@ -23,6 +23,7 @@ public class SecurityConfig {
         // 权限设置
         http.authorizeHttpRequests(
                 authorize -> authorize
+                        .requestMatchers("/export").permitAll()
                         .anyRequest().authenticated()
         );
 
