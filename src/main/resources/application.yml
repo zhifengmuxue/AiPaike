@@ -7,5 +7,8 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     username: root
     password: 123456
+  ai:
+    dashscope:
+      api-key: sk-e2b399deb2dd4ce4888148e9ef29c2e1
 server:
   port: 8080

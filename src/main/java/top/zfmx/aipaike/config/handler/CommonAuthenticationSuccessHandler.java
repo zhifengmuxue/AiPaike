@@ -22,7 +22,7 @@ public class CommonAuthenticationSuccessHandler implements AuthenticationSuccess
         var username = ((org.springframework.security.core.userdetails.User) principal).getUsername();
         var token = JwtUtils.createToken(username);
 
-        var data = Map.of("principal", principal, "token", "Bearer " + token);
+        var data = Map.of("principal", principal, "token", token);
 
         response.getWriter().println(CommonResponseResult.success("登录成功", data));
     }
