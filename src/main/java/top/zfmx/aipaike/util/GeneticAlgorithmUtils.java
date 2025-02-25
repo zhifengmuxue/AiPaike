@@ -47,7 +47,7 @@ public class GeneticAlgorithmUtils {
     }
 
 
-        public record Individual(List<Gene> genes) {
+    public record Individual(List<Gene> genes) {
     }
 
     @Data
