@@ -1,20 +1,25 @@
 package top.zfmx.aipaike.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
 import java.util.List;
 
 /**
  * @author zfmx
  * @version 0.0.1
  **/
-public class CourseResult {
+@Data
+@AllArgsConstructor
+public class Schedule {
 
-    private Long id;
+    private String courseId;
+    private String teacher;
     private List<String> classes;
-    private Integer weekBegin;
+    private int student_count;
+    private Integer weekBegin;//第几周开始上
     private Integer weekEnd;
-    private Integer weekDay;    // 周几上课
     private Integer weekTimes;   // 周学次
     private Integer consecutiveSections;    //  连排节次
-    private Integer slotBegin;  // 第几节开始上课
-    private Integer slotEnd;    // 第几节下课
+
 }
