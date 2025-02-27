@@ -15,4 +15,7 @@ public class Classroom {
     private String campus;
     private String roomType;
     private Integer maxCapacity;
+    private Integer floor;
+    private String roomName;
+    private String building;
 }
