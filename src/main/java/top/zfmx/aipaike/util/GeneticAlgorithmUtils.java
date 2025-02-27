@@ -429,7 +429,8 @@ public class GeneticAlgorithmUtils {
             boolean result = false;
             for (int i = 0;i<gene1.getSlotBegin().size();i++ ){
                 if((gene1.getSlotBegin().get(i) <= gene2.getSlotEnd().get(i) || gene2.getSlotBegin().get(i) <= gene1.getSlotEnd().get(i)) && Objects.equals(gene1.getWeekDay().get(i), gene2.getWeekDay().get(i))){
-                    if (classes1.stream().anyMatch(classes2::contains) || Objects.equals(gene1.getSchedule().getTeacherId(), gene2.getSchedule().getTeacherId()) || Objects.equals(gene1.getRoomID(), gene2.getRoomID())){
+
+                    if (classes1.stream().anyMatch(classes2::contains) || Objects.equals(gene1.getSchedule().getTeacher(), gene2.getSchedule().getTeacher()) || Objects.equals(gene1.getRoomID(), gene2.getRoomID())){
                         result = true;
                         break;
                     }
