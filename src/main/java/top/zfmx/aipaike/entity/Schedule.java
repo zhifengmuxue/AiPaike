@@ -14,7 +14,8 @@ import java.util.List;
 public class Schedule {
 
     private String courseId;
-    private String teacher;
+    private String teacherId;
+    private String teacherName;
     private List<String> classes;
     private int student_count;
     private Integer weekBegin;//第几周开始上
