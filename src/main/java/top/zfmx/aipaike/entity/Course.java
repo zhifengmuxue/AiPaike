@@ -12,8 +12,8 @@ import lombok.Data;
 public class Course {
 
     private String courseId;
+    private String courseName;
     private String courseType;//课程类型
     private String roomType;//指定教室类型
-    private String campus;
     private String department;//开课院系
 }

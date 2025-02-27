@@ -6,8 +6,11 @@ import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 import top.zfmx.aipaike.entity.Classroom;
 import top.zfmx.aipaike.entity.Schedule;
+import top.zfmx.aipaike.entity.ScheduleResult;
 
 import java.util.*;
+
+import static java.util.Arrays.stream;
 
 
 /**
@@ -17,14 +20,74 @@ import java.util.*;
 @Component
 public class GeneticAlgorithmUtils {
 
-    public static Individual run(List<Schedule> schedules, List<Classroom> classrooms ,Integer popSize,Double mutProb, Integer eliteCout, Integer maxlter, Double crossProb){
+    public static Map<String, List<ScheduleResult>>  run(List<Schedule> schedules, List<Classroom> classrooms ,Integer popSize,Double mutProb, Integer eliteCout, Integer maxlter, Double crossProb){
         Algorithm ga = new Algorithm(popSize, mutProb, eliteCout, maxlter, crossProb);
 
         Population population = ga.initPopulation(schedules,classrooms);
         ga.evolve(population, classrooms);
-        return ga.getBestIndividual(population, classrooms);
+        Individual bestIndividual = ga.getBestIndividual(population,classrooms);
+        return GeneticAlgorithmUtils.convertToClassTimetable(bestIndividual, classrooms);
     }
+    public static Map<String, List<ScheduleResult>> convertToClassTimetable(Individual bestIndividual, List<Classroom> classrooms) {
+        Map<String, List<ScheduleResult>> classTimetable = new HashMap<>();
 
+        // 遍历每个基因（Gene）
+        for (Gene gene : bestIndividual.genes()) {
+            Schedule schedule = gene.getSchedule();
+            List<String> classes = schedule.getClasses();   // 获取该课程涉及的班级列表
+            String courseName = schedule.getCourseId();     // 获取该课程的名字
+            String teacher = schedule.getTeacherName();     // 获取该课程的老师
+            String roomId = gene.getRoomID();
+
+            // 查找教室信息（根据roomId从classrooms列表中查找）
+            Classroom classroom = classrooms.stream()
+                    .filter(c -> c.getRoomId().equals(roomId))
+                    .findFirst()
+                    .orElse(null);
+
+            String classroomName = (classroom != null) ? classroom.getRoomName() : "未知教室";
+            String roomBuilding = (classroom != null) ? classroom.getBuilding() : "未知教学楼";
+            int roomFloor = (classroom != null) ? classroom.getFloor() : -1;
+
+            // 获取课程的周次范围
+            int weekBegin = schedule.getWeekBegin();
+            int weekEnd = schedule.getWeekEnd();
+
+            // 遍历该基因的所有时间段（同一课程可能有多个时间段）
+            for (int i = 0; i < gene.getWeekDay().size(); i++) {
+                int weekDay = gene.getWeekDay().get(i);
+                int slotStart = gene.getSlotBegin().get(i);
+                int slotEnd = gene.getSlotEnd().get(i);
+
+                // 为每个涉及的班级添加课程安排
+                for (String className : classes) {
+                    ScheduleResult cs = new ScheduleResult(
+                            weekDay,
+                            slotStart,
+                            slotEnd,
+                            weekBegin,      // 开始周次
+                            weekEnd,        // 结束周次
+                            courseName,
+                            teacher,
+                            classroomName,
+                            roomBuilding,   // 教学楼
+                            roomFloor       // 楼层
+                    );
+
+                    // 将课程安排添加到对应班级的列表中
+                    classTimetable.computeIfAbsent(className, k -> new ArrayList<>()).add(cs);
+                }
+            }
+        }
+
+        // 对每个班级的课程安排按星期和节次排序
+        for (List<ScheduleResult> schedules : classTimetable.values()) {
+            schedules.sort(Comparator.comparingInt(ScheduleResult::getWeekDay)
+                    .thenComparingInt(ScheduleResult::getSlotStart));
+        }
+
+        return classTimetable;
+    }
 
     @Data
     public static class Gene {
@@ -45,7 +108,7 @@ public class GeneticAlgorithmUtils {
     }
 
 
-        public record Individual(List<Gene> genes) {
+    public record Individual(List<Gene> genes) {
     }
 
     @Data
@@ -220,15 +283,21 @@ public class GeneticAlgorithmUtils {
             }
 
             // 处理剩余的部分，如果上课时间不是整除consecutiveSections
-            if (schedule.getWeekTimes() % consecutiveSections != 0) {
+            if (schedule.getWeekTimes() % consecutiveSections != 0 && consecutiveSections == 4) {
                 int remainingOccurrences = schedule.getWeekTimes() % consecutiveSections;
                 int weekDay = rand.nextInt(5) + 1;
                 int slotBegin = begin_random(remainingOccurrences);
                 int slotEnd = slotBegin + remainingOccurrences - 1;
-
                 weekDays.add(weekDay);
                 slotBegins.add(slotBegin);
                 slotEnds.add(slotEnd);
+            } else if (schedule.getWeekTimes() % consecutiveSections != 0 && consecutiveSections == 2) {
+                int weekDay = rand.nextInt(5) + 1;
+                int slotBegin = begin_random(3);
+                int slotEnd = slotBegin + 2;
+                weekDays.set(weekDays.size() - 1, weekDay);      // 替换最后一个位置的值
+                slotBegins.set(slotBegins.size() - 1, slotBegin);
+                slotEnds.set(slotEnds.size() - 1, slotEnd);
             }
         }
 
@@ -353,22 +422,21 @@ public class GeneticAlgorithmUtils {
             return sorted;
         }
 
-        private static boolean hasConflict(Schedule schedule1, Schedule schedule2) {
+        private static boolean hasConflict(Gene gene1, Gene gene2) {
             // 检查周次是否重叠
-            boolean weekConflict = (schedule1.getWeekBegin() <= schedule2.getWeekEnd()) &&
-                    (schedule1.getWeekEnd() >= schedule2.getWeekBegin());
+            List<String> classes1 = gene1.getSchedule().getClasses();
+            List<String> classes2 = gene2.getSchedule().getClasses();
+            boolean result = false;
+            for (int i = 0;i<gene1.getSlotBegin().size();i++ ){
+                if((gene1.getSlotBegin().get(i) <= gene2.getSlotEnd().get(i) || gene2.getSlotBegin().get(i) <= gene1.getSlotEnd().get(i)) && Objects.equals(gene1.getWeekDay().get(i), gene2.getWeekDay().get(i))){
+                    if (classes1.stream().anyMatch(classes2::contains) || Objects.equals(gene1.getSchedule().getTeacherId(), gene2.getSchedule().getTeacherId()) || Objects.equals(gene1.getRoomID(), gene2.getRoomID())){
+                        result = true;
+                        break;
+                    }
+                }
+            }
+            return result;
 
-            if (!weekConflict) return false; // 周次不冲突则无需进一步检查
-
-            List<String> classes1 = schedule1.getClasses();
-            List<String> classes2 = schedule2.getClasses();
-
-            // 检查是否存在相同班级
-            return classes1.stream().anyMatch(classes2::contains); // 班级不同则无需检查时间段
-
-            //TODO 检查时间段是否冲突
-//            return hasTimeConflict(schedule1.get, schedule1.getConsecutiveSections(),
-//                    schedule2.getWeekTimes(), schedule2.getConsecutiveSections());
         }
 
 
@@ -400,12 +468,8 @@ public class GeneticAlgorithmUtils {
                     Gene gene2 = genes.get(j);
                     if ((gene1.getSchedule().getWeekBegin() <= gene2.getSchedule().getWeekEnd()) ||
                             (gene1.getSchedule().getWeekEnd() >= gene2.getSchedule().getWeekBegin())){
-                        if (Objects.equals(gene1.getRoomID(), gene2.getRoomID())) {
-                            if (Objects.equals(gene1.getSchedule().getTeacher(),gene2.getSchedule().getTeacher() )) {
-                                if (hasConflict(gene1.getSchedule(),gene2.getSchedule())){
-                                    fitness += 5; // 超出容量就增加
-                                }
-                            }
+                        if (hasConflict(gene1,gene2)){
+                            fitness += 5; // 超出容量就增加
                         }
 
                     }
