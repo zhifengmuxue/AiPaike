@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 import top.zfmx.aipaike.entity.Classroom;
+import top.zfmx.aipaike.entity.Course;
 import top.zfmx.aipaike.entity.Schedule;
 import top.zfmx.aipaike.entity.ScheduleResult;
 
@@ -20,10 +21,10 @@ import static java.util.Arrays.stream;
 @Component
 public class GeneticAlgorithmUtils {
 
-    public static Map<String, List<ScheduleResult>>  run(List<Schedule> schedules, List<Classroom> classrooms ,Integer popSize,Double mutProb, Integer eliteCout, Integer maxlter, Double crossProb){
+    public static Map<String, List<ScheduleResult>>  run(List<Schedule> schedules, List<Classroom> classrooms ,List<Course> courses,Integer popSize,Double mutProb, Integer eliteCout, Integer maxlter, Double crossProb){
         Algorithm ga = new Algorithm(popSize, mutProb, eliteCout, maxlter, crossProb);
 
-        Population population = ga.initPopulation(schedules,classrooms);
+        Population population = ga.initPopulation(schedules,classrooms,courses);
         ga.evolve(population, classrooms);
         Individual bestIndividual = ga.getBestIndividual(population,classrooms);
         return GeneticAlgorithmUtils.convertToClassTimetable(bestIndividual, classrooms);
@@ -35,7 +36,7 @@ public class GeneticAlgorithmUtils {
         for (Gene gene : bestIndividual.genes()) {
             Schedule schedule = gene.getSchedule();
             List<String> classes = schedule.getClasses();   // 获取该课程涉及的班级列表
-            String courseName = schedule.getCourseId();     // 获取该课程的名字
+            String courseName = gene.getCourse().getCourseName();     // 获取该课程的名字
             String teacher = schedule.getTeacherName();     // 获取该课程的老师
             String roomId = gene.getRoomID();
 
@@ -93,13 +94,15 @@ public class GeneticAlgorithmUtils {
     public static class Gene {
 
         private Schedule schedule;
+        private Course course;
         private List<Integer> weekDay;
         private List<Integer> slotBegin;
         private List<Integer> slotEnd;
         private String roomID;
 
-        public Gene(Schedule schedule, List<Integer>  weekDay,
+        public Gene(Schedule schedule,Course course, List<Integer>  weekDay,
                     List<Integer> slotBegin, List<Integer> slotEnd){
+            this.course = course;
             this.schedule = schedule;
             this.weekDay = weekDay;
             this.slotBegin = slotBegin;
@@ -230,7 +233,7 @@ public class GeneticAlgorithmUtils {
 //            return new Population(individuals);
 //        }
 
-        private Population initPopulation(List<Schedule> schedules, List<Classroom> classrooms) {
+        private Population initPopulation(List<Schedule> schedules, List<Classroom> classrooms,List<Course> courses) {
             Random rand = new Random();
 
             List<Individual> individuals = new ArrayList<>();
@@ -242,12 +245,26 @@ public class GeneticAlgorithmUtils {
                     List<Integer> weekDays = new ArrayList<>();
                     List<Integer> slotBegins = new ArrayList<>();
                     List<Integer> slotEnds = new ArrayList<>();
+                    Course matchedCourse = null; // 初始化变量保存匹配的课程
+                    for (Course course : courses) {
+                        if (schedule.getCourseId() .equals(course.getCourseId())) {
+                            matchedCourse = course; // 保存匹配的课程
+                            break;
+                        }
+                    }
 
-                    // 生成上课时间段的逻辑统一化
                     generateScheduleTimes(schedule, weeklyOccurrences, weekDays, slotBegins, slotEnds, rand);
+                    Gene gene = new Gene(schedule,matchedCourse, weekDays, slotBegins, slotEnds);
+                    List<String> matchedRoomIds = new ArrayList<>();
+                    for (Classroom classroom : classrooms) {
 
-                    Gene gene = new Gene(schedule, weekDays, slotBegins, slotEnds);
-                    gene.setRoomID(String.valueOf(rand.nextInt(classrooms.size())));
+                        if (classroom.getCampus().equals(schedule.getCampus()) && classroom.getRoomType().equals(matchedCourse.getRoomType()) && classroom.getMaxCapacity() >= schedule.getStudent_count()) {
+                            matchedRoomIds.add(classroom.getRoomId());
+                        }
+                    }
+
+                    int randomIndex = rand.nextInt(matchedRoomIds.size());
+                    gene.setRoomID(matchedRoomIds.get(randomIndex));
                     genes.add(gene);
                 }
 
@@ -299,6 +316,7 @@ public class GeneticAlgorithmUtils {
                 slotBegins.set(slotBegins.size() - 1, slotBegin);
                 slotEnds.set(slotEnds.size() - 1, slotEnd);
             }
+
         }
 
 
@@ -430,7 +448,7 @@ public class GeneticAlgorithmUtils {
             for (int i = 0;i<gene1.getSlotBegin().size();i++ ){
                 if((gene1.getSlotBegin().get(i) <= gene2.getSlotEnd().get(i) || gene2.getSlotBegin().get(i) <= gene1.getSlotEnd().get(i)) && Objects.equals(gene1.getWeekDay().get(i), gene2.getWeekDay().get(i))){
 
-                    if (classes1.stream().anyMatch(classes2::contains) || Objects.equals(gene1.getSchedule().getTeacher(), gene2.getSchedule().getTeacher()) || Objects.equals(gene1.getRoomID(), gene2.getRoomID())){
+                    if (classes1.stream().anyMatch(classes2::contains) || Objects.equals(gene1.getSchedule().getTeacherId(), gene2.getSchedule().getTeacherId()) || Objects.equals(gene1.getRoomID(), gene2.getRoomID())){
                         result = true;
                         break;
                     }
@@ -449,20 +467,24 @@ public class GeneticAlgorithmUtils {
                 int requiredCapacity = genes.get(i).getSchedule().getStudent_count();
 
                 String roomID = genes.get(i).getRoomID();
-                String campus = "0";
+                int Capacity = 0;
                 for (Classroom classroom : classrooms) {
                     if (roomID.equals(classroom.getRoomId())){
-                        campus = classroom.getCampus();
+                        Capacity = classroom.getMaxCapacity();
                     }
                 }
 
-                if ( Integer.getInteger(campus) < requiredCapacity) {
+                if ( Capacity < requiredCapacity) {
                     fitness += 5; // 超出容量就增加
                 }
                 for(int k = 0;k < genes.get(i).getSlotBegin().size();k++){
                     if (genes.get(i).getSlotBegin().get(k) == 1){
                         fitness += 1;
                     }
+                    if (genes.get(i).getCourse().getCourseName().contains("体育")){
+                        fitness += 2;
+                    }
+
                 }
                 for (int j = i + 1; j < genes.size(); j++) {
                     Gene gene1 = genes.get(i);
@@ -470,7 +492,7 @@ public class GeneticAlgorithmUtils {
                     if ((gene1.getSchedule().getWeekBegin() <= gene2.getSchedule().getWeekEnd()) ||
                             (gene1.getSchedule().getWeekEnd() >= gene2.getSchedule().getWeekBegin())){
                         if (hasConflict(gene1,gene2)){
-                            fitness += 5; // 超出容量就增加
+                            fitness += 5; // 存在冲突就增加
                         }
 
                     }
@@ -529,11 +551,12 @@ public class GeneticAlgorithmUtils {
 
                 // 遍历原时间段长度
                 for (int i = 0; i < geneToMutate.getSlotBegin().size(); i++) {
+                    int courseLength = geneToMutate.getSlotEnd().get(i) - geneToMutate.getSlotBegin().get(i);
                     // 生成新起始时间
-                    int newSlotBegin = begin_random(geneToMutate.getSchedule().getConsecutiveSections());
+                    int newSlotBegin = begin_random(courseLength + 1);
 
                     // 计算新结束时间
-                    int newSlotEnd = newSlotBegin + geneToMutate.getSchedule().getConsecutiveSections() - 1;
+                    int newSlotEnd = newSlotBegin + courseLength;
 
                     newSlotBegins.add(newSlotBegin);
                     newSlotEnds.add(newSlotEnd);
@@ -542,6 +565,7 @@ public class GeneticAlgorithmUtils {
                 // 创建新基因并替换原基因
                 Gene mutatedGene = new Gene(
                         geneToMutate.getSchedule(),
+                        geneToMutate.getCourse(),
                         newWeekDays,
                         newSlotBegins,
                         newSlotEnds

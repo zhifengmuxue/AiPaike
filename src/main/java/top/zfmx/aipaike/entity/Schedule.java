@@ -17,6 +17,7 @@ public class Schedule {
     private String teacherId;
     private String teacherName;
     private List<String> classes;
+    private String campus;
     private int student_count;
     private Integer weekBegin;//第几周开始上
     private Integer weekEnd;
