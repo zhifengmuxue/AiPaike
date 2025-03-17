@@ -133,108 +133,6 @@ public class GeneticAlgorithmUtils {
         private final int maxIter;//进化代数
         private final double crossProb;//交叉几率
 
-//        /**
-//         * 初始化种群
-//         * @param schedules 排课任务
-//         * @return 种群
-//         */
-//        private Population initPopulation(List<Schedule> schedules, List<Classroom> classrooms) {
-//            Random rand = new Random();
-//
-//            List<Individual> individuals = new ArrayList<>();
-//            for (int i = 0; i < popSize; i++) {
-//                List<Gene> genes = new ArrayList<>();
-//
-//                for (Schedule schedule : schedules) {
-//                    int weeklyOccurrences = schedule.getWeekTimes() / schedule.getConsecutiveSections(); // 上课次数
-//                    List<Integer> weekDays = new ArrayList<>();
-//                    List<Integer> slotBegins = new ArrayList<>();
-//                    List<Integer> slotEnds = new ArrayList<>();
-//                    if (schedule.getWeekTimes() % schedule.getConsecutiveSections() == 0) {
-//
-//                        // 生成每周上课的时间段
-//                        for (int k = 0; k < weeklyOccurrences; k++) {
-//                            // 生成随机星期几
-//                            int weekDay = rand.nextInt(5) + 1;
-//
-//                            // 生成随机起始时间
-//                            int slotBegin = begin_random(schedule.getConsecutiveSections());
-//
-//                            // 计算结束时间
-//                            int slotEnd = slotBegin + schedule.getConsecutiveSections() - 1;
-//
-//                            // 存储到三个独立列表
-//                            weekDays.add(weekDay);
-//                            slotBegins.add(slotBegin);
-//                            slotEnds.add(slotEnd);
-//                        }
-//                        Gene gene = new Gene(schedule, weekDays, slotBegins, slotEnds);
-//                        gene.setRoomID(String.valueOf(new Random().nextInt(classrooms.size())));
-//                        genes.add(gene);
-//
-//                    } else {
-//                        // 创建三个独立列表
-//                        if (schedule.getConsecutiveSections() == 2) {
-//                            // 生成每周上课的时间段
-//                            for (int k = 0; k < weeklyOccurrences - 1; k++) {
-//                                // 生成随机星期几
-//                                int weekDay = rand.nextInt(5) + 1;
-//                                // 生成随机起始时间
-//                                int slotBegin = begin_random(schedule.getConsecutiveSections());
-//                                // 计算结束时间
-//                                int slotEnd = slotBegin + schedule.getConsecutiveSections() - 1;
-//                                // 存储到三个独立列表
-//                                weekDays.add(weekDay);
-//                                slotBegins.add(slotBegin);
-//                                slotEnds.add(slotEnd);
-//                            }
-//                            int weekDay = rand.nextInt(5) + 1;
-//                            // 生成随机起始时间
-//                            int slotBegin = begin_random(3);
-//                            // 计算结束时间
-//                            int slotEnd = slotBegin + 2;
-//                            // 存储到三个独立列表
-//                            weekDays.add(weekDay);
-//                            slotBegins.add(slotBegin);
-//                            slotEnds.add(slotEnd);
-//                            Gene gene = new Gene(schedule, weekDays, slotBegins, slotEnds);
-//                            gene.setRoomID(String.valueOf(new Random().nextInt(classrooms.size())));
-//                            genes.add(gene);
-//                        } else if (schedule.getConsecutiveSections() == 4) {
-//                            for (int k = 0; k < weeklyOccurrences; k++) {
-//                                // 生成随机星期几
-//                                int weekDay = rand.nextInt(5) + 1;
-//                                // 生成随机起始时间
-//                                int slotBegin = begin_random(schedule.getConsecutiveSections());
-//                                // 计算结束时间
-//                                int slotEnd = slotBegin + schedule.getConsecutiveSections() - 1;
-//                                // 存储到三个独立列表
-//                                weekDays.add(weekDay);
-//                                slotBegins.add(slotBegin);
-//                                slotEnds.add(slotEnd);
-//                            }
-//                            int weekDay = rand.nextInt(5) + 1;
-//                            // 生成随机起始时间
-//                            int slotBegin = begin_random(schedule.getWeekTimes() % schedule.getConsecutiveSections());
-//                            // 计算结束时间
-//                            int slotEnd = slotBegin + schedule.getWeekTimes() % schedule.getConsecutiveSections() - 1;
-//                            // 存储到三个独立列表
-//                            weekDays.add(weekDay);
-//                            slotBegins.add(slotBegin);
-//                            slotEnds.add(slotEnd);
-//
-//                            Gene gene = new Gene(schedule, weekDays, slotBegins, slotEnds);
-//                            gene.setRoomID(String.valueOf(new Random().nextInt(classrooms.size())));
-//                            genes.add(gene);
-//                        }
-//
-//                    }
-//                }
-//
-//                individuals.add(new Individual(genes));
-//            }
-//            return new Population(individuals);
-//        }
 
         private Population initPopulation(List<Schedule> schedules, List<Classroom> classrooms,List<Course> courses) {
             Random rand = new Random();
@@ -430,7 +328,9 @@ public class GeneticAlgorithmUtils {
         private List<Individual> sortByFitness(Population population, List<Double> fitnessValues) {
             // 创建索引列表
             List<Integer> indices = new ArrayList<>(popSize);
-            for (int i = 0; i < popSize; i++) indices.add(i);
+            for (int i = 0; i < popSize; i++) {
+                indices.add(i);
+            }
 
             // 按适应度值升序排序索引
             indices.sort(Comparator.comparingDouble(fitnessValues::get));
@@ -529,7 +429,9 @@ public class GeneticAlgorithmUtils {
         private void mutate(Individual individual) {
             // 获取个体的所有基因
             List<Gene> genes = individual.genes();
-            if (genes.isEmpty()) return;
+            if (genes.isEmpty()) {
+                return;
+            }
 
             // 随机选择一个基因进行变异
             Random rand = new Random();
@@ -614,7 +516,9 @@ public class GeneticAlgorithmUtils {
 
                         }
                     }
-                    if (adjusted) break;
+                    if (adjusted) {
+                        break;
+                    }
                 }
             } while (adjusted); // 循环直到无新冲突
         }

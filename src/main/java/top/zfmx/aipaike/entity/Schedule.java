@@ -3,6 +3,8 @@ package top.zfmx.aipaike.entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
+import java.io.Serial;
+import java.io.Serializable;
 import java.util.List;
 
 /**
@@ -11,7 +13,10 @@ import java.util.List;
  **/
 @Data
 @AllArgsConstructor
-public class Schedule {
+public class Schedule implements Serializable {
+
+    @Serial
+    private final static long serialVersionUID = 11231L;
 
     private String courseId;
     private String teacherId;

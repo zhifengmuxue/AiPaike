@@ -14,7 +14,10 @@ import java.io.Serializable;
  **/
 @Data
 @AllArgsConstructor
-public class ScheduleResult{
+public class ScheduleResult implements Serializable {
+
+    @Serial
+    private static final long serialVersionUID = 13232L;
 
     private int weekDay;      // 星期几（1-5）
     private int slotStart;   // 开始节次
