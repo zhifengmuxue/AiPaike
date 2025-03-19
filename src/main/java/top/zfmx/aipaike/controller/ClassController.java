@@ -10,6 +10,7 @@ import top.zfmx.aipaike.entity.Schedule;
 import top.zfmx.aipaike.entity.ScheduleResult;
 import top.zfmx.aipaike.service.ClassroomService;
 import top.zfmx.aipaike.service.CourseService;
+import top.zfmx.aipaike.service.ScheduleResultService;
 import top.zfmx.aipaike.service.SchedulesService;
 import top.zfmx.aipaike.util.GeneticAlgorithmUtils;
 
@@ -29,7 +30,8 @@ public class ClassController {
     private ClassroomService classroomService;
     @Resource
     private CourseService courseService;
-
+    @Resource
+    private ScheduleResultService scheduleResultService;
     @GetMapping("/paike")
     public String paike() {
         List<Schedule> schedules = schedulesService.list();
@@ -41,10 +43,11 @@ public class ClassController {
         Integer maxlter = 20;
         Double crossProb = 0.7;
 
-        Map<String, List<ScheduleResult>> run = GeneticAlgorithmUtils.run(
-                schedules, classrooms, courses, popSize, mutProb,
-                eliteCout, maxlter, crossProb);
+        List<ScheduleResult> run = GeneticAlgorithmUtils.run(
+                schedules, classrooms, courses,
+                popSize, mutProb, eliteCout, maxlter, crossProb);
 
+        scheduleResultService.saveBatch(run);
         return null;
     }
 }

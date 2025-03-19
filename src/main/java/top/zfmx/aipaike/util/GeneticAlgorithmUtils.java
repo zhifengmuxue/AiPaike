@@ -22,75 +22,66 @@ import static top.zfmx.aipaike.util.GeneticAlgorithmUtils.Algorithm.adjustConfli
 @Component
 public class GeneticAlgorithmUtils {
 
-    public static Map<String, List<ScheduleResult>>  run(List<Schedule> schedules, List<Classroom> classrooms ,List<Course> courses,Integer popSize,Double mutProb, Integer eliteCout, Integer maxlter, Double crossProb){
+    public static List<ScheduleResult>  run(List<Schedule> schedules, List<Classroom> classrooms ,List<Course> courses,Integer popSize,Double mutProb, Integer eliteCout, Integer maxlter, Double crossProb){
         Algorithm ga = new Algorithm(popSize, mutProb, eliteCout, maxlter, crossProb);
 
         Population population = ga.initPopulation(schedules,classrooms,courses);
         ga.evolve(population, classrooms);
         Individual bestIndividual = ga.getBestIndividual(population,classrooms);
         adjustConflictsToEvening(bestIndividual);
-        return GeneticAlgorithmUtils.convertToClassTimetable(bestIndividual, classrooms);
+        return convertToClassTimetable(bestIndividual,classrooms);
     }
 
-    public static Map<String, List<ScheduleResult>> convertToClassTimetable(Individual bestIndividual, List<Classroom> classrooms) {
-        Map<String, List<ScheduleResult>> classTimetable = new HashMap<>();
-
-        // 遍历每个基因（Gene）
+    public static List<ScheduleResult> convertToClassTimetable(Individual bestIndividual, List<Classroom> classrooms) {
+        List<ScheduleResult> scheduleResults = new ArrayList<>();
         for (Gene gene : bestIndividual.genes()) {
             Schedule schedule = gene.getSchedule();
-            List<String> classes = schedule.getClasses();   // 获取该课程涉及的班级列表
-            String courseName = gene.getCourse().getCourseName();     // 获取该课程的名字
-            String teacher = schedule.getTeacherName();     // 获取该课程的老师
+            List<String> classes = schedule.getClasses();
+            String courseName = gene.getCourse().getCourseName();
+            String teacher = schedule.getTeacherName();
             String roomId = gene.getRoomID();
 
-            // 查找教室信息（根据roomId从classrooms列表中查找）
+            // 获取教室信息
             Classroom classroom = classrooms.stream()
                     .filter(c -> c.getRoomId().equals(roomId))
                     .findFirst()
                     .orElse(null);
 
-            String classroomName = (classroom != null) ? classroom.getRoomName() : "未知教室";
-            String roomBuilding = (classroom != null) ? classroom.getBuilding() : "未知教学楼";
-            int roomFloor = (classroom != null) ? classroom.getFloor() : -1;
+            String classroomName = classroom != null ? classroom.getRoomName() : "未知教室";
+            String roomBuilding = classroom != null ? classroom.getBuilding() : "未知教学楼";
+            int roomFloor = classroom != null ? classroom.getFloor() : -1;
 
-            // 获取课程的周次范围
             int weekBegin = schedule.getWeekBegin();
             int weekEnd = schedule.getWeekEnd();
 
-            // 遍历该基因的所有时间段（同一课程可能有多个时间段）
+            // 遍历时间段
             for (int i = 0; i < gene.getWeekDay().size(); i++) {
                 int weekDay = gene.getWeekDay().get(i);
                 int slotStart = gene.getSlotBegin().get(i);
                 int slotEnd = gene.getSlotEnd().get(i);
 
-                // 为每个涉及的班级添加课程安排
+                // 为每个班级生成课表条目
                 for (String className : classes) {
-                    ScheduleResult cs = new ScheduleResult(
+                    ScheduleResult result = new ScheduleResult(
                             weekDay,
                             slotStart,
                             slotEnd,
-                            weekBegin,      // 开始周次
-                            weekEnd,        // 结束周次
+                            weekBegin,
+                            weekEnd,
                             courseName,
                             teacher,
                             classroomName,
-                            roomBuilding,   // 教学楼
-                            roomFloor       // 楼层
+                            roomBuilding,
+                            roomFloor,
+                            className  // 新增的班级名称字段
                     );
 
-                    // 将课程安排添加到对应班级的列表中
-                    classTimetable.computeIfAbsent(className, k -> new ArrayList<>()).add(cs);
+                    scheduleResults.add(result);
                 }
             }
         }
 
-        // 对每个班级的课程安排按星期和节次排序
-        for (List<ScheduleResult> schedules : classTimetable.values()) {
-            schedules.sort(Comparator.comparingInt(ScheduleResult::getWeekDay)
-                    .thenComparingInt(ScheduleResult::getSlotStart));
-        }
-
-        return classTimetable;
+        return scheduleResults;
     }
 
     @Data
