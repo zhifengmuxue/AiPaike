@@ -154,10 +154,14 @@ public class GeneticAlgorithmUtils {
                             matchedRoomIds.add(classroom.getRoomId());
                         }
                     }
+                    if (!matchedRoomIds.isEmpty()){
+                        int randomIndex = rand.nextInt(matchedRoomIds.size());
+                        gene.setRoomID(matchedRoomIds.get(randomIndex));
+                        genes.add(gene);
+                    }else {
+                        continue;
+                    }
 
-                    int randomIndex = rand.nextInt(matchedRoomIds.size());
-                    gene.setRoomID(matchedRoomIds.get(randomIndex));
-                    genes.add(gene);
                 }
 
                 individuals.add(new Individual(genes));
@@ -292,8 +296,7 @@ public class GeneticAlgorithmUtils {
                 newPopulation.setIndividuals(individuals);
 
                 // 2. 生成新个体填充剩余位置
-                List<Individual> list = new ArrayList<>();
-                for (int i = eliteCount; i < popSize; i++) {
+                for (int i = newPopulation.getIndividuals().size(); i < popSize; i++) {
                     // 轮盘赌选择父代
                     Individual parent1 = rouletteWheelSelection(population, fitnessValues);
                     Individual parent2 = rouletteWheelSelection(population, fitnessValues);
@@ -308,22 +311,28 @@ public class GeneticAlgorithmUtils {
 
                     // 变异操作
                     mutate(child);
-                    list.add(child);
+                    newPopulation.setIndividuals(Collections.singletonList(child));
                 }
 
-                population.setIndividuals(list);
+
             }
         }
 
         // 按适应度排序种群（升序）
         private List<Individual> sortByFitness(Population population, List<Double> fitnessValues) {
-            // 创建索引列表
+            // 获取种群大小，并验证数据一致性
+            int popSize = fitnessValues.size();
+            if (popSize != population.individuals.size()) {
+                throw new IllegalArgumentException("适应度值数量与种群个体数不匹配");
+            }
+
+            // 创建索引列表（Java 8 简洁写法）
             List<Integer> indices = new ArrayList<>(popSize);
             for (int i = 0; i < popSize; i++) {
                 indices.add(i);
             }
 
-            // 按适应度值升序排序索引
+            // 按适应度值升序排序索引（低 -> 高）
             indices.sort(Comparator.comparingDouble(fitnessValues::get));
 
             // 构建排序后的个体列表
@@ -331,22 +340,27 @@ public class GeneticAlgorithmUtils {
             for (int index : indices) {
                 sorted.add(population.individuals.get(index));
             }
+
             return sorted;
         }
+
 
         private static boolean hasConflict(Gene gene1, Gene gene2) {
             // 检查周次是否重叠
             List<String> classes1 = gene1.getSchedule().getClasses();
             List<String> classes2 = gene2.getSchedule().getClasses();
             boolean result = false;
-            for (int i = 0;i<gene1.getSlotBegin().size();i++ ){
-                if((gene1.getSlotBegin().get(i) <= gene2.getSlotEnd().get(i) || gene2.getSlotBegin().get(i) <= gene1.getSlotEnd().get(i)) && Objects.equals(gene1.getWeekDay().get(i), gene2.getWeekDay().get(i))){
-
-                    if (classes1.stream().anyMatch(classes2::contains) || Objects.equals(gene1.getSchedule().getTeacherId(), gene2.getSchedule().getTeacherId()) || Objects.equals(gene1.getRoomID(), gene2.getRoomID())){
-                        result = true;
-                        break;
+            for (int i = 0;i < gene1.getSlotBegin().size();i++ ){
+                for (int j = 0;j < gene2.getSlotBegin().size();j++ ){
+                    if((gene1.getSlotBegin().get(i) <= gene2.getSlotEnd().get(j) || gene2.getSlotBegin().get(j) <= gene1.getSlotEnd().get(i))
+                            && Objects.equals(gene1.getWeekDay().get(i), gene2.getWeekDay().get(j))){
+                        if (classes1.stream().anyMatch(classes2::contains) || Objects.equals(gene1.getSchedule().getTeacherId(), gene2.getSchedule().getTeacherId()) || Objects.equals(gene1.getRoomID(), gene2.getRoomID())){
+                            result = true;
+                            break;
+                        }
                     }
                 }
+
             }
             return result;
 
@@ -358,19 +372,7 @@ public class GeneticAlgorithmUtils {
             int fitness = 0;
             List<Gene> genes = individual.genes();
             for (int i = 0; i < genes.size(); i++) {
-                int requiredCapacity = genes.get(i).getSchedule().getStudent_count();
 
-                String roomID = genes.get(i).getRoomID();
-                int Capacity = 0;
-                for (Classroom classroom : classrooms) {
-                    if (roomID.equals(classroom.getRoomId())){
-                        Capacity = classroom.getMaxCapacity();
-                    }
-                }
-
-                if ( Capacity < requiredCapacity) {
-                    fitness += 5; // 超出容量就增加
-                }
                 for(int k = 0;k < genes.get(i).getSlotBegin().size();k++){
                     if (genes.get(i).getSlotBegin().get(k) == 1){
                         fitness += 1;
@@ -385,9 +387,7 @@ public class GeneticAlgorithmUtils {
                     Gene gene2 = genes.get(j);
                     if ((gene1.getSchedule().getWeekBegin() <= gene2.getSchedule().getWeekEnd()) ||
                             (gene1.getSchedule().getWeekEnd() >= gene2.getSchedule().getWeekBegin())){
-                        if (hasConflict(gene1,gene2)){
-                            fitness += 5; // 存在冲突就增加
-                        }
+                        if (hasConflict(gene1,gene2)) fitness += 5; // 存在冲突就增加
 
                     }
                 }
@@ -475,7 +475,7 @@ public class GeneticAlgorithmUtils {
             double minFitness = Double.MAX_VALUE;
 
             // 遍历所有个体寻找最优解
-            for (int i = 0; i < popSize; i++) {
+            for (int i = 0; i < population.individuals.size(); i++) {
                 Individual current = population.individuals.get(i);
                 double currentFitness = calculateFitness(current, classrooms);
 
@@ -520,23 +520,26 @@ public class GeneticAlgorithmUtils {
             List<String> classes2 = gene2.getSchedule().getClasses();
 
             for (int i = 0;i<gene1.getSlotBegin().size();i++ ){
-                if((gene1.getSlotBegin().get(i) <= gene2.getSlotEnd().get(i) || gene2.getSlotBegin().get(i) <= gene1.getSlotEnd().get(i)) && Objects.equals(gene1.getWeekDay().get(i), gene2.getWeekDay().get(i))){
+                for (int j = 0;j<gene2.getSlotBegin().size();j++ ){
+                    if((gene1.getSlotBegin().get(i) <= gene2.getSlotEnd().get(j) || gene2.getSlotBegin().get(j) <= gene1.getSlotEnd().get(i)) && Objects.equals(gene1.getWeekDay().get(i), gene2.getWeekDay().get(j))){
 
-                    if (classes1.stream().anyMatch(classes2::contains) || Objects.equals(gene1.getSchedule().getTeacherId(), gene2.getSchedule().getTeacherId()) || Objects.equals(gene1.getRoomID(), gene2.getRoomID())){
-                        int courseTime1 = gene1.getSlotEnd().get(i) - gene1.getSlotBegin().get(i);
-                        int courseTime2 = gene2.getSlotEnd().get(i) - gene2.getSlotBegin().get(i);
-                        if(courseTime1<=courseTime2){
-                            gene1.getSlotBegin().set(i, 9);
-                            gene1.getSlotEnd().set(i, 9 + courseTime1);
+                        if (classes1.stream().anyMatch(classes2::contains) || Objects.equals(gene1.getSchedule().getTeacherId(), gene2.getSchedule().getTeacherId()) || Objects.equals(gene1.getRoomID(), gene2.getRoomID())){
+                            int courseTime1 = gene1.getSlotEnd().get(i) - gene1.getSlotBegin().get(i);
+                            int courseTime2 = gene2.getSlotEnd().get(j) - gene2.getSlotBegin().get(j);
+                            if(courseTime1<=courseTime2){
+                                gene1.getSlotBegin().set(i, 9);
+                                gene1.getSlotEnd().set(i, 9 + courseTime1);
+                            }
+                            else {
+                                gene2.getSlotBegin().set(j, 9);
+                                gene2.getSlotEnd().set(j, 9 + courseTime2);
+                            }
+
+
                         }
-                        else {
-                            gene2.getSlotBegin().set(i, 9);
-                            gene2.getSlotEnd().set(i, 9 + courseTime2);
-                        }
-
-
                     }
                 }
+
             }
 
         }

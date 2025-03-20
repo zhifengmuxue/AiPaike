@@ -1,7 +1,10 @@
 package top.zfmx.aipaike.entity;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.apache.ibatis.type.DateTypeHandler;
+import top.zfmx.aipaike.config.handler.TypeHandler;
 
 import java.io.Serial;
 import java.io.Serializable;
@@ -21,6 +24,7 @@ public class Schedule implements Serializable {
     private String courseId;
     private String teacherId;
     private String teacherName;
+    @TableField(typeHandler = TypeHandler.class)
     private List<String> classes;
     private String campus;
     private int student_count;

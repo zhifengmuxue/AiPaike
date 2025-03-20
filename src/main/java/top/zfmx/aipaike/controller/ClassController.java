@@ -39,7 +39,7 @@ public class ClassController {
         List<Course> courses = courseService.list();
         Integer popSize = schedules.size()/10;
         Double mutProb = 0.05;
-        Integer eliteCout = 5;
+        Integer eliteCout = 10;
         Integer maxlter = 20;
         Double crossProb = 0.7;
 
