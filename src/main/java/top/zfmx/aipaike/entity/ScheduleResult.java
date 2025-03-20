@@ -29,4 +29,5 @@ public class ScheduleResult implements Serializable {
     private String classroomName; // 教室名字
     private String roomBuilding; // 教室教学楼
     private int roomFloor; // 教室楼层
+    private String className; //上课班级
 }

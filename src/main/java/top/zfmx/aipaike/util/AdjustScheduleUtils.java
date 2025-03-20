@@ -16,8 +16,8 @@ import static top.zfmx.aipaike.util.GeneticAlgorithmUtils.Algorithm.adjustConfli
 @Component
 public class AdjustScheduleUtils {
 
-    public Map<String, List<ScheduleResult>> adjust(
-            Map<String, List<ScheduleResult>> adjustCourses,
+    public static List<ScheduleResult> run(
+            List<ScheduleResult> adjustCourses,
             AdjustmentRequest requests,
             int popSize, double mutProb, int eliteCount, int maxIter, double crossProb) {
 
@@ -32,22 +32,17 @@ public class AdjustScheduleUtils {
         Individual bestIndividual = ga.getBestIndividual(population);
         Algorithm.adjustConflicts(bestIndividual);
 
-        return convertToMap(bestIndividual);
+        return convertIndividualToScheduleList(bestIndividual);
     }
-    private Map<String, List<ScheduleResult>> convertToMap(Individual bestIndividual) {
-        Map<String, List<ScheduleResult>> resultMap = new HashMap<>();
+    public static List<ScheduleResult> convertIndividualToScheduleList(Individual bestIndividual) {
+        if (bestIndividual == null || bestIndividual.getGenes() == null) {
+            return Collections.emptyList();
+        }
 
-        // 获取班级名称
-        String className = bestIndividual.getClasses();
-
-        // 提取基因中的课程安排
-        List<ScheduleResult> schedules = bestIndividual.getGenes().stream()
+        return bestIndividual.getGenes().stream()
                 .map(Gene::getScheduleResult)
+                .filter(Objects::nonNull)  // 过滤空值
                 .collect(Collectors.toList());
-
-        // 构建映射关系
-        resultMap.put(className, schedules);
-        return resultMap;
     }
     @Getter
     @Data
@@ -62,7 +57,6 @@ public class AdjustScheduleUtils {
     @Data
     public static class Individual {
         private final List<Gene> genes;
-        private String classes;
 
         private static class Population {
             private List<Individual> individuals;
@@ -92,48 +86,45 @@ public class AdjustScheduleUtils {
         }
 
         // 初始化种群：修改需要调整的课程
-        private Population initPopulation(Map<String, List<ScheduleResult>> adjustCourses,
+        private Population initPopulation(List<ScheduleResult> adjustCourses,
                                           AdjustmentRequest requests) {
             List<Individual> individuals = new ArrayList<>();
             Random rand = new Random();
+            List<Gene> adjustedCourses = new ArrayList<>();
+            Individual individual = null;
             for (int i = 0; i < popSize; i++) {
-                Individual individual = null;
-                for (Map.Entry<String, List<ScheduleResult>> entry : adjustCourses.entrySet()) {
-                    String className = entry.getKey();  // 获取班级名称
-                    List<ScheduleResult> courseList = entry.getValue();
-                    List<Gene> adjustedCourses = new ArrayList<>();
+                individual = null;
+                // 处理该班级的课程
+                for (ScheduleResult course : adjustCourses) {
+                    if (isCourseAdjustable(course, requests)) {
+                        int consecutiveSections = course.getSlotEnd() - course.getSlotStart() + 1;
+                        int randomNumber;
+                        do {
+                            randomNumber = rand.nextInt(5) + 1; // 生成
+                        } while (randomNumber == requests.getWeekDay()); // 直到不等于weekDay
+                        course.setWeekDay(randomNumber);
 
-                    // 处理该班级的课程
-                    for (ScheduleResult course : courseList) {
-                        if (isCourseAdjustable(course, requests)) {
-
-                            int consecutiveSections = course.getSlotEnd() - course.getSlotStart() + 1;
-                            int randomNumber;
-                            do {
-                                randomNumber = rand.nextInt(5) + 1; // 生成
-                            } while (randomNumber == requests.getWeekDay()); // 直到不等于weekDay
-                            course.setWeekDay(randomNumber);
-
-                            int newSlotStart = begin_random(consecutiveSections);
-                            int newSlotEnd = newSlotStart + consecutiveSections - 1;
-                            course.setSlotStart(newSlotStart);
-                            course.setSlotEnd(newSlotEnd);
-                            Gene gene = new Gene(course);
-                            adjustedCourses.add(gene);
-                        }
+                        int newSlotStart = begin_random(consecutiveSections);
+                        int newSlotEnd = newSlotStart + consecutiveSections - 1;
+                        course.setSlotStart(newSlotStart);
+                        course.setSlotEnd(newSlotEnd);
+                        Gene gene = new Gene(course);
+                        adjustedCourses.add(gene);
                     }
-                    // 创建个体并设置班级属性
-                    individual = new Individual(adjustedCourses);
-                    individual.setClasses(className);  // 注入班级名称
 
                 }
-                individuals.add(individual);
+                // 创建个体并设置班级属性
+                individual = new Individual(adjustedCourses);
+
+
             }
+            individuals.add(individual);
+
 
             return new Population(individuals);
         }
 
-        // 课程条件校验方法
+        // 课程条件校验方法,
         private boolean isCourseAdjustable(ScheduleResult course, AdjustmentRequest requests) {
             return course.getWeekBegin() <= requests.getWeek()
                     && course.getWeekEnd() >= requests.getWeek()
@@ -353,7 +344,8 @@ public class AdjustScheduleUtils {
                         original.getTeacherName(),// 保留原教师
                         original.getClassroomName(),// 保留原教室
                         original.getRoomBuilding(), // 保留原教学楼
-                        original.getRoomFloor()  // 保留原楼层
+                        original.getRoomFloor(),  // 保留原楼层
+                        original.getClassName()
                 );
 
                 // 创建变异后的基因并替换原基因
@@ -425,7 +417,8 @@ public class AdjustScheduleUtils {
                         sr1.getTeacherName(),   // 保留教师
                         sr1.getClassroomName(), // 保留教室
                         sr1.getRoomBuilding(),  // 保留教学楼
-                        sr1.getRoomFloor()      // 保留楼层
+                        sr1.getRoomFloor()  ,    // 保留楼层
+                        sr1.getClassName()
                 );
                 gene1.setScheduleResult(newSr1);
             } else {
@@ -439,7 +432,8 @@ public class AdjustScheduleUtils {
                         sr2.getTeacherName(),
                         sr2.getClassroomName(),
                         sr2.getRoomBuilding(),
-                        sr2.getRoomFloor()
+                        sr2.getRoomFloor(),
+                        sr2.getClassName()
                 );
                 gene2.setScheduleResult(newSr2);
             }
