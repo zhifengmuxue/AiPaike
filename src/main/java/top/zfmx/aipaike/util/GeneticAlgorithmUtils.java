@@ -1,5 +1,6 @@
 package top.zfmx.aipaike.util;
 
+import jakarta.annotation.Resource;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,9 +9,15 @@ import top.zfmx.aipaike.entity.Classroom;
 import top.zfmx.aipaike.entity.Course;
 import top.zfmx.aipaike.entity.Schedule;
 import top.zfmx.aipaike.entity.ScheduleResult;
+import top.zfmx.aipaike.service.ClassroomService;
+import top.zfmx.aipaike.service.CourseService;
+import top.zfmx.aipaike.service.ScheduleResultService;
+import top.zfmx.aipaike.service.SchedulesService;
 
+import java.sql.*;
 import java.util.*;
 
+import static java.util.Arrays.stream;
 import static top.zfmx.aipaike.util.GeneticAlgorithmUtils.Algorithm.adjustConflictsToEvening;
 
 
@@ -298,7 +305,7 @@ public class GeneticAlgorithmUtils {
                 newPopulation.setIndividuals(individuals);
 
                 // 2. 生成新个体填充剩余位置
-                while (newPopulation.individuals.size() < popSize) {
+                for (int i = newPopulation.getIndividuals().size(); i < popSize; i++) {
                     // 轮盘赌选择父代
                     Individual parent1 = rouletteWheelSelection(population, fitnessValues);
                     Individual parent2 = rouletteWheelSelection(population, fitnessValues);
@@ -313,10 +320,10 @@ public class GeneticAlgorithmUtils {
 
                     // 变异操作
                     mutate(child);
-                    newPopulation.individuals.add(child);
+                    newPopulation.setIndividuals(Collections.singletonList(child));
                 }
 
-                population = newPopulation;
+
             }
         }
 
@@ -503,10 +510,11 @@ public class GeneticAlgorithmUtils {
                         if (hasConflict(gene1,gene2)){
                             adjustGeneToEvening(gene1,gene2);
 
+                            }
                         }
                     }
+
                 }
-            }
 
         }
 
