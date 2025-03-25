@@ -1,5 +1,6 @@
 package top.zfmx.aipaike.util;
 
+import jakarta.annotation.Resource;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -8,7 +9,12 @@ import top.zfmx.aipaike.entity.Classroom;
 import top.zfmx.aipaike.entity.Course;
 import top.zfmx.aipaike.entity.Schedule;
 import top.zfmx.aipaike.entity.ScheduleResult;
+import top.zfmx.aipaike.service.ClassroomService;
+import top.zfmx.aipaike.service.CourseService;
+import top.zfmx.aipaike.service.ScheduleResultService;
+import top.zfmx.aipaike.service.SchedulesService;
 
+import java.sql.*;
 import java.util.*;
 
 import static java.util.Arrays.stream;
@@ -26,9 +32,12 @@ public class GeneticAlgorithmUtils {
         Algorithm ga = new Algorithm(popSize, mutProb, eliteCout, maxlter, crossProb);
 
         Population population = ga.initPopulation(schedules,classrooms,courses);
+
         ga.evolve(population, classrooms);
+
         Individual bestIndividual = ga.getBestIndividual(population,classrooms);
         adjustConflictsToEvening(bestIndividual);
+
         return convertToClassTimetable(bestIndividual,classrooms);
     }
 
@@ -490,28 +499,23 @@ public class GeneticAlgorithmUtils {
         // 新增方法：检测并调整冲突到晚上，将最优解输入，遍历其代码看他是否存在冲突，有冲突就调到当天晚上
         static void adjustConflictsToEvening(Individual bestIndividual) {
             List<Gene> genes = bestIndividual.genes();
-            boolean adjusted;
-            do {
-                adjusted = false;
-                for (int i = 0; i < genes.size(); i++) {
-                    for (int j = i + 1; j < genes.size(); j++) {
-                        Gene gene1 = genes.get(i);
-                        Gene gene2 = genes.get(j);
-                        if ((gene1.getSchedule().getWeekBegin() <= gene2.getSchedule().getWeekEnd()) ||
-                                (gene1.getSchedule().getWeekEnd() >= gene2.getSchedule().getWeekBegin())){
-                            if (hasConflict(gene1,gene2)){
-                                adjustGeneToEvening(gene1,gene2);
-                                adjusted = true;
-                                break; // 调整后重新遍历
-                            }
 
+
+            for (int i = 0; i < genes.size(); i++) {
+                for (int j = i + 1; j < genes.size(); j++) {
+                    Gene gene1 = genes.get(i);
+                    Gene gene2 = genes.get(j);
+                    if ((gene1.getSchedule().getWeekBegin() <= gene2.getSchedule().getWeekEnd()) ||
+                            (gene1.getSchedule().getWeekEnd() >= gene2.getSchedule().getWeekBegin())){
+                        if (hasConflict(gene1,gene2)){
+                            adjustGeneToEvening(gene1,gene2);
+
+                            }
                         }
                     }
-                    if (adjusted) {
-                        break;
-                    }
+
                 }
-            } while (adjusted); // 循环直到无新冲突
+
         }
 
         // 新增方法：调整单个Gene到晚上
