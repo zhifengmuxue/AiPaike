@@ -5,9 +5,9 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
-import top.zfmx.aipaike.entity.AdjustmentRequest;
-import top.zfmx.aipaike.entity.ScheduleResult;
+import top.zfmx.aipaike.entity.*;
 
+import java.sql.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
