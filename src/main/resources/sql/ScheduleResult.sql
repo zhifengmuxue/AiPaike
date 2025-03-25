@@ -1,5 +1,4 @@
 CREATE TABLE schedule_result (
-                                 id INT,
                                  week_day INT ,
                                  slot_start INT ,
                                  slot_end INT ,
