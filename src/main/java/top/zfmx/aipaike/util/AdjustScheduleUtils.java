@@ -5,17 +5,16 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
-import top.zfmx.aipaike.entity.AdjustmentRequest;
-import top.zfmx.aipaike.entity.ScheduleResult;
+import top.zfmx.aipaike.entity.*;
 
+import java.sql.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
-import static top.zfmx.aipaike.util.GeneticAlgorithmUtils.Algorithm.adjustConflictsToEvening;
+
 
 @Component
 public class AdjustScheduleUtils {
-
     public static List<ScheduleResult> run(
             List<ScheduleResult> adjustCourses,
             AdjustmentRequest requests,
@@ -23,13 +22,12 @@ public class AdjustScheduleUtils {
 
         Algorithm ga = new Algorithm(popSize, mutProb, eliteCount, maxIter, crossProb);
 
-
         // 按requests顺序处理每个调整需求
         Population population = null;
-
         population = ga.initPopulation(adjustCourses, requests);
         ga.evolve(population,requests);
         Individual bestIndividual = ga.getBestIndividual(population);
+
         Algorithm.adjustConflicts(bestIndividual);
 
         return convertIndividualToScheduleList(bestIndividual);
@@ -58,9 +56,6 @@ public class AdjustScheduleUtils {
     public static class Individual {
         private final List<Gene> genes;
 
-        private static class Population {
-            private List<Individual> individuals;
-        }
     }
 
     @Data
@@ -86,42 +81,57 @@ public class AdjustScheduleUtils {
         }
 
         // 初始化种群：修改需要调整的课程
-        private Population initPopulation(List<ScheduleResult> adjustCourses,
-                                          AdjustmentRequest requests) {
+        private Population initPopulation(List<ScheduleResult> adjustCourses, AdjustmentRequest requests) {
             List<Individual> individuals = new ArrayList<>();
             Random rand = new Random();
-            List<Gene> adjustedCourses = new ArrayList<>();
-            Individual individual = null;
-            for (int i = 0; i < popSize; i++) {
-                individual = null;
-                // 处理该班级的课程
+
+            for (int i = 0; i < popSize; i++) { // 循环popSize次
+                List<Gene> adjustedCourses = new ArrayList<>(); // 每次循环新建基因列表
+
                 for (ScheduleResult course : adjustCourses) {
                     if (isCourseAdjustable(course, requests)) {
-                        int consecutiveSections = course.getSlotEnd() - course.getSlotStart() + 1;
-                        int randomNumber;
+                        // 创建课程副本避免修改原始数据
+                        ScheduleResult adjustedCourse = copyScheduleResult(course);
+
+                        int consecutiveSections = adjustedCourse.getSlotEnd() - adjustedCourse.getSlotStart() + 1;
+                        // 调整星期
+                        int newWeekDay;
                         do {
-                            randomNumber = rand.nextInt(5) + 1; // 生成
-                        } while (randomNumber == requests.getWeekDay()); // 直到不等于weekDay
-                        course.setWeekDay(randomNumber);
+                            newWeekDay = rand.nextInt(5) + 1;
+                        } while (newWeekDay == requests.getWeekDay());
+                        adjustedCourse.setWeekDay(newWeekDay);
 
+                        // 调整节次
                         int newSlotStart = begin_random(consecutiveSections);
-                        int newSlotEnd = newSlotStart + consecutiveSections - 1;
-                        course.setSlotStart(newSlotStart);
-                        course.setSlotEnd(newSlotEnd);
-                        Gene gene = new Gene(course);
-                        adjustedCourses.add(gene);
+                        adjustedCourse.setSlotStart(newSlotStart);
+                        adjustedCourse.setSlotEnd(newSlotStart + consecutiveSections - 1);
+
+                        adjustedCourses.add(new Gene(adjustedCourse));
                     }
-
                 }
-                // 创建个体并设置班级属性
-                individual = new Individual(adjustedCourses);
 
-
+                // 创建个体并添加到种群
+                individuals.add(new Individual(adjustedCourses));
             }
-            individuals.add(individual);
-
 
             return new Population(individuals);
+        }
+
+        // 辅助方法：深拷贝课程对象
+        private ScheduleResult copyScheduleResult(ScheduleResult original) {
+            return new ScheduleResult(
+                    original.getWeekDay(),
+                    original.getSlotStart(),
+                    original.getSlotEnd(),
+                    original.getWeekBegin(),
+                    original.getWeekEnd(),
+                    original.getCourseName(),
+                    original.getTeacherName(),
+                    original.getClassroomName(),
+                    original.getRoomBuilding(),
+                    original.getRoomFloor(),
+                    original.getClassName()
+            );
         }
 
         // 课程条件校验方法,
@@ -201,15 +211,13 @@ public class AdjustScheduleUtils {
 
                 // 1. 保留精英个体（按适应度升序排序）
                 List<Individual> sortedPopulation = sortByFitness(population, fitnessValues);
+
                 for (int i = 0; i < eliteCount; i++) {
                     individuals.add(sortedPopulation.get(i));
                 }
 
                 newPopulation.setIndividuals(individuals);
-
-                // 2. 生成新个体填充剩余位置
-                List<Individual> list = new ArrayList<>();
-                for (int i = eliteCount; i < popSize; i++) {
+                while (newPopulation.individuals.size() < popSize) {
                     // 轮盘赌选择父代
                     Individual parent1 = rouletteWheelSelection(population, fitnessValues);
                     Individual parent2 = rouletteWheelSelection(population, fitnessValues);
@@ -224,20 +232,24 @@ public class AdjustScheduleUtils {
 
                     // 变异操作
                     mutate(child,requests);
-                    list.add(child);
+                    newPopulation.individuals.add(child);
                 }
-
-                population.setIndividuals(list);
+                population = newPopulation;
             }
         }
 
         // 按适应度排序种群（升序）
         private List<Individual> sortByFitness(Population population, List<Double> fitnessValues) {
-            // 创建索引列表
-            List<Integer> indices = new ArrayList<>(popSize);
-            for (int i = 0; i < popSize; i++) indices.add(i);
+            // 获取种群大小，并验证数据一致性
+            int popSize = fitnessValues.size();
 
-            // 按适应度值升序排序索引
+            // 创建索引列表（Java 8 简洁写法）
+            List<Integer> indices = new ArrayList<>(popSize);
+            for (int i = 0; i < popSize; i++) {
+                indices.add(i);
+            }
+
+            // 按适应度值升序排序索引（低 -> 高）
             indices.sort(Comparator.comparingDouble(fitnessValues::get));
 
             // 构建排序后的个体列表
@@ -245,6 +257,7 @@ public class AdjustScheduleUtils {
             for (int index : indices) {
                 sorted.add(population.individuals.get(index));
             }
+
             return sorted;
         }
         /**
@@ -356,11 +369,11 @@ public class AdjustScheduleUtils {
         }
 
         public Individual getBestIndividual(Population population) {
-            Individual bestIndividual = null;
-            double minFitness = Double.MAX_VALUE;
+            Individual bestIndividual = population.individuals.getFirst();
+            double minFitness = calculateFitness(population.individuals.getFirst());
 
             // 遍历所有个体寻找最优解
-            for (int i = 0; i < popSize; i++) {
+            for (int i = 1; i < population.individuals.size(); i++) {
                 Individual current = population.individuals.get(i);
                 double currentFitness = calculateFitness(current);
 
@@ -373,28 +386,20 @@ public class AdjustScheduleUtils {
             return bestIndividual;
         }
         // 新增方法：检测并调整冲突到晚上，将最优解输入，遍历其代码看他是否存在冲突，有冲突就调到当天晚上
-        static void adjustConflicts(Individual bestIndividual) {
-            List<Gene> genes = bestIndividual.genes;
-            boolean adjusted;
-            do {
-                adjusted = false;
-                for (int i = 0; i < genes.size(); i++) {
-                    for (int j = i + 1; j < genes.size(); j++) {
-                        Gene gene1 = genes.get(i);
-                        Gene gene2 = genes.get(j);
-                        if ((gene1.getScheduleResult().getWeekBegin() <= gene2.getScheduleResult().getWeekEnd()) ||
-                                (gene1.getScheduleResult().getWeekEnd() >= gene2.getScheduleResult().getWeekBegin())){
-                            if (hasConflict(gene1,gene2)){
-                                adjustGeneToEvening(gene1,gene2);
-                                adjusted = true;
-                                break; // 调整后重新遍历
-                            }
-
+        private static void adjustConflicts(Individual bestIndividual) {
+            List<Gene> genes = bestIndividual.getGenes();
+            for (int i = 0; i < genes.size(); i++) {
+                for (int j = i + 1; j < genes.size(); j++) {
+                    Gene gene1 = genes.get(i);
+                    Gene gene2 = genes.get(j);
+                    if ((gene1.getScheduleResult().getWeekBegin() <= gene2.getScheduleResult().getWeekEnd()) ||
+                            (gene1.getScheduleResult().getWeekEnd() >= gene2.getScheduleResult().getWeekBegin())){
+                        if (hasConflict(gene1,gene2)){
+                            adjustGeneToEvening(gene1,gene2);
                         }
                     }
-                    if (adjusted) break;
                 }
-            } while (adjusted); // 循环直到无新冲突
+            }
         }
 
         // 新增方法：调整单个Gene到晚上

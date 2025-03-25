@@ -305,7 +305,7 @@ public class GeneticAlgorithmUtils {
                 newPopulation.setIndividuals(individuals);
 
                 // 2. 生成新个体填充剩余位置
-                for (int i = newPopulation.getIndividuals().size(); i < popSize; i++) {
+                while (newPopulation.individuals.size() < popSize) {
                     // 轮盘赌选择父代
                     Individual parent1 = rouletteWheelSelection(population, fitnessValues);
                     Individual parent2 = rouletteWheelSelection(population, fitnessValues);
@@ -320,10 +320,10 @@ public class GeneticAlgorithmUtils {
 
                     // 变异操作
                     mutate(child);
-                    newPopulation.setIndividuals(Collections.singletonList(child));
+                    newPopulation.individuals.add(child);
                 }
 
-
+                population = newPopulation;
             }
         }
 
@@ -510,11 +510,10 @@ public class GeneticAlgorithmUtils {
                         if (hasConflict(gene1,gene2)){
                             adjustGeneToEvening(gene1,gene2);
 
-                            }
                         }
                     }
-
                 }
+            }
 
         }
 
