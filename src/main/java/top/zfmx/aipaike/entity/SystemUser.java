@@ -26,7 +26,7 @@ public class SystemUser implements Serializable {
     private long id;
     private final String username;
     private final String password;
-    private final String role;  //todo 后续需要处理
+    private final String role;
     private final boolean isEnable;
     private final LocalDateTime createTime;
     private final LocalDateTime updateTime;

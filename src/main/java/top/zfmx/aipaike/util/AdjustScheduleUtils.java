@@ -11,9 +11,10 @@ import java.sql.*;
 import java.util.*;
 import java.util.stream.Collectors;
 
+/**
+ * @author scja26
+ */
 
-
-@Component
 public class AdjustScheduleUtils {
     public static List<ScheduleResult> run(
             List<ScheduleResult> adjustCourses,
@@ -39,7 +40,7 @@ public class AdjustScheduleUtils {
 
         return bestIndividual.getGenes().stream()
                 .map(Gene::getScheduleResult)
-                .filter(Objects::nonNull)  // 过滤空值
+                .filter(Objects::nonNull)
                 .collect(Collectors.toList());
     }
     @Getter
@@ -49,9 +50,8 @@ public class AdjustScheduleUtils {
         public Gene(ScheduleResult ScheduleResult) {
             this.ScheduleResult = ScheduleResult;
         }
-
-
     }
+
     @Data
     public static class Individual {
         private final List<Gene> genes;

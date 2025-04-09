@@ -904,3940 +904,1333 @@ INSERT INTO classroom (room_Id, campus, room_type, max_capacity,floor,room_name,
 INSERT INTO classroom (room_Id, campus, room_type, max_capacity,floor,room_name, building) VALUES ('XDNYZX303','铁门关校区', '机房', '50','3' ,'XDNY3#303-会计实训室', '现代农业实训中心');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','681.0', '郭科伟', '铁门关校区','22早期教育1班,22早期教育2班' ,'49', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','681', '郭科伟', '铁门关校区','22早期教育1班,22早期教育2班' ,'49', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','372.0', '赵亚丽', '库尔勒校区','24教学10班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','372', '赵亚丽', '库尔勒校区','24教学10班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A15','381.0', '王晶晶', '铁门关校区','23党务工作1班' ,'37', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A15','381', '王晶晶', '铁门关校区','23党务工作1班' ,'37', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育10班' ,'31', '13','16','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','23学前教育10班' ,'31', '13','16','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110B0B01','481.0', '孟怀洲', '铁门关校区','24智能焊接技术1班' ,'41', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110B0B01','481', '孟怀洲', '铁门关校区','24智能焊接技术1班' ,'41', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A07-1','339.0', '刘亚萍', '铁门关校区','23早期教育1班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A07-1','339', '刘亚萍', '铁门关校区','23早期教育1班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A27','611.0', '李来徽', '铁门关校区','23社会工作1班' ,'33', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A27','611', '李来徽', '铁门关校区','23社会工作1班' ,'33', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B01-1','586.0', '张丰', '铁门关校区','24婴幼儿托育服务与管理1班,24婴幼儿托育服务与管理2班' ,'72', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B01-1','586', '张丰', '铁门关校区','24婴幼儿托育服务与管理1班,24婴幼儿托育服务与管理2班' ,'72', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B01','715.0', '潘瑞莹', '铁门关校区','23机电一体化技术2班' ,'48', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B01','715', '潘瑞莹', '铁门关校区','23机电一体化技术2班' ,'48', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B15','582.0', '彭廷海', '铁门关校区','23数字媒体技术1班' ,'38', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B15','582', '彭廷海', '铁门关校区','23数字媒体技术1班' ,'38', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','166.0', '赵银芳', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','166', '赵银芳', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0C01','734.0', '朱红羽', '铁门关校区','22数字媒体2班' ,'41', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0C01','734', '朱红羽', '铁门关校区','22数字媒体2班' ,'41', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0B07','350.0', '宋春雨', '铁门关校区','22数字化设计1班' ,'34', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0B07','350', '宋春雨', '铁门关校区','22数字化设计1班' ,'34', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','10.0', '钟薇', '铁门关校区','24学前教育7班' ,'30', '10','13','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','10', '钟薇', '铁门关校区','24学前教育7班' ,'30', '10','13','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B01','501.0', '马军鹏', '铁门关校区','22软件技术1班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B01','501', '马军鹏', '铁门关校区','22软件技术1班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0B11','755.0', '王镱霏', '铁门关校区','22汽车服务营销1班' ,'15', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0B11','755', '王镱霏', '铁门关校区','22汽车服务营销1班' ,'15', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206ZXA01','58.0', '朱子鹤', '库尔勒校区','22汽修1班,22汽修2班' ,'58', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206ZXA01','58', '朱子鹤', '库尔勒校区','22汽修1班,22汽修2班' ,'58', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育2班' ,'37', '9','12','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','23学前教育2班' ,'37', '9','12','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','740.0', '向荣欣', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','740', '向荣欣', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496', '张桂香', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','471.0', '赵伟华', '铁门关校区','22学前教育7班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','471', '赵伟华', '铁门关校区','22学前教育7班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','22学前教育12班' ,'34', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558', '杨永芬', '铁门关校区','22学前教育12班' ,'34', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0B02-1','561.0', '宋贺', '库尔勒校区','22保育1班' ,'29', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0B02-1','561', '宋贺', '库尔勒校区','22保育1班' ,'29', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A15','490.0', '张亚楠', '铁门关校区','22油气储运1班' ,'28', '1','8','10','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A15','490', '张亚楠', '铁门关校区','22油气储运1班' ,'28', '1','8','10','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540.0', '马华丽', '铁门关校区','24学前教育7班' ,'30', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540', '马华丽', '铁门关校区','24学前教育7班' ,'30', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','333.0', '李玲玉', '库尔勒校区','24教学13班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','333', '李玲玉', '库尔勒校区','24教学13班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育5班' ,'34', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562', '杨舒程', '铁门关校区','22学前教育5班' ,'34', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','724.0', '宁亚', '铁门关校区','24软件技术2班' ,'42', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','724', '宁亚', '铁门关校区','24软件技术2班' ,'42', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','358.0', '吴小银', '铁门关校区','24分析检验技术1班,24分析检验技术2班' ,'81', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','358', '吴小银', '铁门关校区','24分析检验技术1班,24分析检验技术2班' ,'81', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0B07','672.0', '马得梅', '铁门关校区','23分析检验技术1班' ,'50', '1','10','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0B07','672', '马得梅', '铁门关校区','23分析检验技术1班' ,'50', '1','10','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B07','741.0', '王姝懿', '铁门关校区','24音乐表演1班' ,'16', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B07','741', '王姝懿', '铁门关校区','24音乐表演1班' ,'16', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','166.0', '赵银芳', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','166', '赵银芳', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-3','665.0', '王玲', '库尔勒校区','23幼儿保育1班' ,'37', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-3','665', '王玲', '库尔勒校区','23幼儿保育1班' ,'37', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','22.0', '肖媛媛', '库尔勒校区','24教学6班' ,'50', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','22', '肖媛媛', '库尔勒校区','24教学6班' ,'50', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B06','432.0', '高占鹏', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B06','432', '高占鹏', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0A03','765.0', '钱晓艳', '铁门关校区','24汽车智能技术1班' ,'32', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0A03','765', '钱晓艳', '铁门关校区','24汽车智能技术1班' ,'32', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','681.0', '郭科伟', '铁门关校区','22学前教育15班' ,'18', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','681', '郭科伟', '铁门关校区','22学前教育15班' ,'18', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244.0', '吴沁林', '铁门关校区','24新能源汽车检测与维修技术1班,24新能源汽车检测与维修技术2班' ,'68', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244', '吴沁林', '铁门关校区','24新能源汽车检测与维修技术1班,24新能源汽车检测与维修技术2班' ,'68', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23新能源汽车检测与维修技术3班' ,'31', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496', '张桂香', '铁门关校区','23新能源汽车检测与维修技术3班' ,'31', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B10','670.0', '李豪', '铁门关校区','23软件技术2班' ,'34', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B10','670', '李豪', '铁门关校区','23软件技术2班' ,'34', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23汽车技术服务与营销1班,23汽车智能技术班' ,'47', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302', '桂永春', '铁门关校区','23汽车技术服务与营销1班,23汽车智能技术班' ,'47', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','655.0', '张可盈', '铁门关校区','23学前教育6班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','655', '张可盈', '铁门关校区','23学前教育6班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB12','588.0', '邹尚岑', '库尔勒校区','22保育2班' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB12','588', '邹尚岑', '库尔勒校区','22保育2班' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B03','721.0', '王博', '库尔勒校区','22汽车检测维修1班(五年制)' ,'19', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B03','721', '王博', '库尔勒校区','22汽车检测维修1班(五年制)' ,'19', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育15班' ,'18', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','22学前教育15班' ,'18', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B01','382.0', '王自丽', '铁门关校区','24数字媒体技术3班' ,'14', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B01','382', '王自丽', '铁门关校区','24数字媒体技术3班' ,'14', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-3','68.0', '刘江', '库尔勒校区','23汽车检测与维修技术1班（五年制）' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-3','68', '刘江', '库尔勒校区','23汽车检测与维修技术1班（五年制）' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B05','257.0', '胡宇', '铁门关校区','21汽车检测维修1班(五年制)' ,'25', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B05','257', '胡宇', '铁门关校区','21汽车检测维修1班(五年制)' ,'25', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','507.0', '吕江慧', '铁门关校区','24化工智能制造技术1班' ,'43', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','507', '吕江慧', '铁门关校区','24化工智能制造技术1班' ,'43', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0A02','352.0', '孙生莲', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0A02','352', '孙生莲', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369.0', '赵兰兰', '铁门关校区','22学前教育9班' ,'29', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369', '赵兰兰', '铁门关校区','22学前教育9班' ,'29', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0B04','428.0', '刘嘉斌', '铁门关校区','24早期教育1班' ,'35', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0B04','428', '刘嘉斌', '铁门关校区','24早期教育1班' ,'35', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369.0', '赵兰兰', '铁门关校区','22学前教育6班' ,'33', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369', '赵兰兰', '铁门关校区','22学前教育6班' ,'33', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B03-3','432.0', '高占鹏', '库尔勒校区','23学前教育2班（五年制）' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B03-3','432', '高占鹏', '库尔勒校区','23学前教育2班（五年制）' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0B14','522.0', '张惠敏', '铁门关校区','23电气自动化技术2班' ,'43', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0B14','522', '张惠敏', '铁门关校区','23电气自动化技术2班' ,'43', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A01','764.0', '陈莉', '铁门关校区','23棉花加工与经营管理1班,23现代农业经济管理1班,23现代农业经济管理2班' ,'63', '1','9','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A01','764', '陈莉', '铁门关校区','23棉花加工与经营管理1班,23现代农业经济管理1班,23现代农业经济管理2班' ,'63', '1','9','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','22学前教育11班' ,'35', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558', '杨永芬', '铁门关校区','22学前教育11班' ,'35', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','358.0', '吴小银', '铁门关校区','24社会工作1班,24社会工作2班,24社会工作3班' ,'68', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','358', '吴小银', '铁门关校区','24社会工作1班,24社会工作2班,24社会工作3班' ,'68', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B04','154.0', '唐阳阳', '库尔勒校区','22保育3班' ,'30', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B04','154', '唐阳阳', '库尔勒校区','22保育3班' ,'30', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','14.0', '杨惠娟', '铁门关校区','24汽车技术服务与营销2班' ,'41', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','14', '杨惠娟', '铁门关校区','24汽车技术服务与营销2班' ,'41', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B19','705.0', '何珍珍', '铁门关校区','24电子商务1班（产业学院）' ,'53', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B19','705', '何珍珍', '铁门关校区','24电子商务1班（产业学院）' ,'53', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','365.0', '于鹤文', '铁门关校区','24机电一体化技术1班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','365', '于鹤文', '铁门关校区','24机电一体化技术1班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB02','506.0', '孙雅莹', '铁门关校区','22网络技术3班' ,'45', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB02','506', '孙雅莹', '铁门关校区','22网络技术3班' ,'45', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','365.0', '于鹤文', '铁门关校区','24数字化设计与制造技术1班,24数字化设计与制造技术2班' ,'68', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','365', '于鹤文', '铁门关校区','24数字化设计与制造技术1班,24数字化设计与制造技术2班' ,'68', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B09','383.0', '张祥', '铁门关校区','23计算机网络技术1班' ,'41', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B09','383', '张祥', '铁门关校区','23计算机网络技术1班' ,'41', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','606.0', '周江鸥', '铁门关校区','23机电一体化技术3班' ,'47', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','606', '周江鸥', '铁门关校区','23机电一体化技术3班' ,'47', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0B16','487.0', '王宁', '铁门关校区','22分析检验1班' ,'26', '1','8','10','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0B16','487', '王宁', '铁门关校区','22分析检验1班' ,'26', '1','8','10','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B15','172.0', '彭美荣', '库尔勒校区','22数字媒体1班(五年制)' ,'35', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B15','172', '彭美荣', '库尔勒校区','22数字媒体1班(五年制)' ,'35', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B05','292.0', '马逸伦', '铁门关校区','23婴幼儿托育服务与管理2班' ,'22', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B05','292', '马逸伦', '铁门关校区','23婴幼儿托育服务与管理2班' ,'22', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','310.0', '汪文舒', '铁门关校区','24电气自动化技术3班' ,'27', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','310', '汪文舒', '铁门关校区','24电气自动化技术3班' ,'27', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B04','653.0', '张晓涵', '铁门关校区','21汽车检测维修1班(五年制)' ,'22', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B04','653', '张晓涵', '铁门关校区','21汽车检测维修1班(五年制)' ,'22', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214B0B12','455.0', '袁慧楠', '铁门关校区','22电子商务1班' ,'38', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214B0B12','455', '袁慧楠', '铁门关校区','22电子商务1班' ,'38', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23油气储运技术1班' ,'43', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464', '应俊平', '铁门关校区','23油气储运技术1班' ,'43', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540.0', '马华丽', '铁门关校区','24学前教育5班' ,'31', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540', '马华丽', '铁门关校区','24学前教育5班' ,'31', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-1','546.0', '张爱娜', '库尔勒校区','24教学8班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-1','546', '张爱娜', '库尔勒校区','24教学8班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B04','154.0', '唐阳阳', '库尔勒校区','22保育1班' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B04','154', '唐阳阳', '库尔勒校区','22保育1班' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','72.0', '路菁', '库尔勒校区','24教学12班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','72', '路菁', '库尔勒校区','24教学12班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0B09','321.0', '柴金伟', '铁门关校区','23机械制造及自动化1班' ,'29', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0B09','321', '柴金伟', '铁门关校区','23机械制造及自动化1班' ,'29', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102ZXB03','65.0', '谢天航', '铁门关校区','23数字化设计与制造技术1班' ,'38', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102ZXB03','65', '谢天航', '铁门关校区','23数字化设计与制造技术1班' ,'38', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0A07','455.0', '袁慧楠', '铁门关校区','22网络直播3班' ,'31', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0A07','455', '袁慧楠', '铁门关校区','22网络直播3班' ,'31', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B40','714.0', '陈安琪', '铁门关校区','21应用化工1班(五年制)' ,'53', '1','10','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B40','714', '陈安琪', '铁门关校区','21应用化工1班(五年制)' ,'53', '1','10','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23党务工作1班' ,'37', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496', '张桂香', '铁门关校区','23党务工作1班' ,'37', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330.0', '雷涛', '铁门关校区','24学前教育5班,24学前教育6班' ,'63', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330', '雷涛', '铁门关校区','24学前教育5班,24学前教育6班' ,'63', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育5班' ,'31', '9','12','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','23学前教育5班' ,'31', '9','12','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24新能源汽车检测与维修技术2班' ,'35', '10','13','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302', '桂永春', '铁门关校区','24新能源汽车检测与维修技术2班' ,'35', '10','13','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','507.0', '吕江慧', '铁门关校区','24油气储运技术2班' ,'31', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','507', '吕江慧', '铁门关校区','24油气储运技术2班' ,'31', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B01','716.0', '牛庆彬', '铁门关校区','23机电一体化技术4班' ,'47', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B01','716', '牛庆彬', '铁门关校区','23机电一体化技术4班' ,'47', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','659.0', '胡高芳', '铁门关校区','24机械制造与自动化1班' ,'40', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','659', '胡高芳', '铁门关校区','24机械制造与自动化1班' ,'40', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410303B0B03','311.0', '张超', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '15','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410303B0B03','311', '张超', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '15','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B14','618.0', '朱嘉琪', '库尔勒校区','22计算机应用1班' ,'34', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B14','618', '朱嘉琪', '库尔勒校区','22计算机应用1班' ,'34', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','310.0', '汪文舒', '铁门关校区','24电气自动化技术4班' ,'26', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','310', '汪文舒', '铁门关校区','24电气自动化技术4班' ,'26', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0A06','668.0', '王星星', '铁门关校区','22网络直播2班' ,'39', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0A06','668', '王星星', '铁门关校区','22网络直播2班' ,'39', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0B09','217.0', '白亮', '铁门关校区','22汽车智能技术1班' ,'19', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0B09','217', '白亮', '铁门关校区','22汽车智能技术1班' ,'19', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0A05','91.0', '何莲梅', '铁门关校区','24机械制造与自动化1班,24机械制造与自动化2班' ,'81', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0A05','91', '何莲梅', '铁门关校区','24机械制造与自动化1班,24机械制造与自动化2班' ,'81', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B05','682.0', '房灵紫', '库尔勒校区','24学前教育1班（五年制）,24学前教育2班（五年制）,24幼儿保育1班' ,'56', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B05','682', '房灵紫', '库尔勒校区','24学前教育1班（五年制）,24学前教育2班（五年制）,24幼儿保育1班' ,'56', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0B07','608.0', '王国华', '铁门关校区','24社会工作1班' ,'23', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0B07','608', '王国华', '铁门关校区','24社会工作1班' ,'23', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育7班' ,'31', '9','12','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','23学前教育7班' ,'31', '9','12','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130.0', '曹立汶', '铁门关校区','23学前教育1班' ,'32', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130', '曹立汶', '铁门关校区','23学前教育1班' ,'32', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','467.0', '于东晖', '铁门关校区','23学前教育9班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','467', '于东晖', '铁门关校区','23学前教育9班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','333.0', '李玲玉', '库尔勒校区','24教学7班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','333', '李玲玉', '库尔勒校区','24教学7班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','343.0', '马万俊', '库尔勒校区','22应用化工1班(五年制),22数字媒体1班(五年制),22数字媒体2班(五年制)' ,'100', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','343', '马万俊', '库尔勒校区','22应用化工1班(五年制),22数字媒体1班(五年制),22数字媒体2班(五年制)' ,'100', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','675.0', '王颖', '铁门关校区','23学前教育5班' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','675', '王颖', '铁门关校区','23学前教育5班' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102ZXB01','196.0', '何雪梅', '铁门关校区','22数字化设计1班' ,'34', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102ZXB01','196', '何雪梅', '铁门关校区','22数字化设计1班' ,'34', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','260.0', '古丽博斯坦·艾比不拉', '库尔勒校区','24教学7班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','260', '古丽博斯坦·艾比不拉', '库尔勒校区','24教学7班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586.0', '张丰', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586', '张丰', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B15','582.0', '彭廷海', '铁门关校区','23数字媒体技术2班' ,'43', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B15','582', '彭廷海', '铁门关校区','23数字媒体技术2班' ,'43', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0B06','568.0', '赵银刚', '铁门关校区','23音乐表演1班' ,'18', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0B06','568', '赵银刚', '铁门关校区','23音乐表演1班' ,'18', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300ZXA02','132.0', '李龙', '铁门关校区','22机电1班' ,'32', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300ZXA02','132', '李龙', '铁门关校区','22机电1班' ,'32', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102ZXB03','500.0', '郭龙', '铁门关校区','23物联网应用技术1班,23物联网应用技术2班' ,'99', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102ZXB03','500', '郭龙', '铁门关校区','23物联网应用技术1班,23物联网应用技术2班' ,'99', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0B06','686.0', '张秀红', '铁门关校区','22党务工作1班,22党务工作2班' ,'52', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0B06','686', '张秀红', '铁门关校区','22党务工作1班,22党务工作2班' ,'52', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0B01','754.0', '王强', '铁门关校区','23数字化设计与制造技术1班' ,'38', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0B01','754', '王强', '铁门关校区','23数字化设计与制造技术1班' ,'38', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0A01-1','559.0', '李娜', '铁门关校区','24音乐表演1班' ,'16', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0A01-1','559', '李娜', '铁门关校区','24音乐表演1班' ,'16', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0B01','500.0', '郭龙', '铁门关校区','24物联网应用技术2班' ,'38', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0B01','500', '郭龙', '铁门关校区','24物联网应用技术2班' ,'38', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A38','732.0', '孙行行', '铁门关校区','nan' ,'0', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A38','732', '孙行行', '铁门关校区','nan' ,'0', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23现代物流管理1班,23畜禽智能化养殖1班' ,'57', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496', '张桂香', '铁门关校区','23现代物流管理1班,23畜禽智能化养殖1班' ,'57', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','177.0', '吕晗', '铁门关校区','24智能焊接技术1班' ,'41', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','177', '吕晗', '铁门关校区','24智能焊接技术1班' ,'41', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','709.0', '热伊莱·胡加木尼牙孜', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','709', '热伊莱·胡加木尼牙孜', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B06','432.0', '高占鹏', '铁门关校区','24婴幼儿托育服务与管理1班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B06','432', '高占鹏', '铁门关校区','24婴幼儿托育服务与管理1班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','10.0', '钟薇', '铁门关校区','24早期教育1班' ,'35', '14','17','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','10', '钟薇', '铁门关校区','24早期教育1班' ,'35', '14','17','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','661.0', '马慧', '铁门关校区','24机械制造与自动化1班,24机械制造与自动化2班' ,'81', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','661', '马慧', '铁门关校区','24机械制造与自动化1班,24机械制造与自动化2班' ,'81', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A15','713.0', '王靖', '铁门关校区','22化工智造1班,22应用化工1班' ,'77', '1','10','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A15','713', '王靖', '铁门关校区','22化工智造1班,22应用化工1班' ,'77', '1','10','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23分析检验技术1班' ,'50', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464', '应俊平', '铁门关校区','23分析检验技术1班' ,'50', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','663.0', '薛霞', '铁门关校区','24软件技术2班' ,'42', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','663', '薛霞', '铁门关校区','24软件技术2班' ,'42', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B04','653.0', '张晓涵', '铁门关校区','21汽车检测维修1班(五年制)' ,'22', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B04','653', '张晓涵', '铁门关校区','21汽车检测维修1班(五年制)' ,'22', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','206.0', '王丹', '库尔勒校区','24教学6班' ,'50', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','206', '王丹', '库尔勒校区','24教学6班' ,'50', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','85.0', '曲红霞', '铁门关校区','24汽车智能技术2班' ,'30', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','85', '曲红霞', '铁门关校区','24汽车智能技术2班' ,'30', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','382.0', '王自丽', '铁门关校区','24分析检验技术1班' ,'42', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','382', '王自丽', '铁门关校区','24分析检验技术1班' ,'42', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A17-1','456.0', '丁婕', '铁门关校区','24数字化设计与制造技术1班,24数字化设计与制造技术2班' ,'68', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A17-1','456', '丁婕', '铁门关校区','24数字化设计与制造技术1班,24数字化设计与制造技术2班' ,'68', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B10','605.0', '马景瑞', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '1','9','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B10','605', '马景瑞', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '1','9','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23社会工作1班,23社会工作2班' ,'70', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496', '张桂香', '铁门关校区','23社会工作1班,23社会工作2班' ,'70', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B11','610.0', '董延芳', '铁门关校区','22网络直播2班' ,'39', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B11','610', '董延芳', '铁门关校区','22网络直播2班' ,'39', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','681.0', '郭科伟', '铁门关校区','22学前教育12班' ,'34', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','681', '郭科伟', '铁门关校区','22学前教育12班' ,'34', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300ZXA02','132.0', '李龙', '库尔勒校区','22机电2班,22机电3班' ,'48', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300ZXA02','132', '李龙', '库尔勒校区','22机电2班,22机电3班' ,'48', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0A03','341.0', '罗梦娇', '库尔勒校区','23学前教育2班（五年制）' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0A03','341', '罗梦娇', '库尔勒校区','23学前教育2班（五年制）' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B07','368.0', '张震', '铁门关校区','23新能源汽车检测与维修技术1班' ,'30', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B07','368', '张震', '铁门关校区','23新能源汽车检测与维修技术1班' ,'30', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','471.0', '赵伟华', '铁门关校区','22学前教育10班' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','471', '赵伟华', '铁门关校区','22学前教育10班' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369.0', '赵兰兰', '铁门关校区','22学前教育10班' ,'31', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369', '赵兰兰', '铁门关校区','22学前教育10班' ,'31', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B37','99.0', '戈琳娜', '库尔勒校区','22数字媒体2班(五年制)' ,'34', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B37','99', '戈琳娜', '库尔勒校区','22数字媒体2班(五年制)' ,'34', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B40','604.0', '张太龙', '铁门关校区','23数字媒体技术1班' ,'38', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B40','604', '张太龙', '铁门关校区','23数字媒体技术1班' ,'38', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育12班' ,'34', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','22学前教育12班' ,'34', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A07','452.0', '刘启全', '铁门关校区','23机电一体化技术2班' ,'48', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A07','452', '刘启全', '铁门关校区','23机电一体化技术2班' ,'48', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0A07','607.0', '程占', '铁门关校区','24电气自动化技术3班,24电气自动化技术4班' ,'53', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0A07','607', '程占', '铁门关校区','24电气自动化技术3班,24电气自动化技术4班' ,'53', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B11','332.0', '李海超', '铁门关校区','22汽车检测维修2班' ,'22', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B11','332', '李海超', '铁门关校区','22汽车检测维修2班' ,'22', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B06','431.0', '刘星', '铁门关校区','23婴幼儿托育服务与管理1班' ,'22', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B06','431', '刘星', '铁门关校区','23婴幼儿托育服务与管理1班' ,'22', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B09','383.0', '张祥', '铁门关校区','23计算机网络技术4班' ,'41', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B09','383', '张祥', '铁门关校区','23计算机网络技术4班' ,'41', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','545.0', '明婕', '铁门关校区','24油气储运技术1班,24油气储运技术2班' ,'71', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','545', '明婕', '铁门关校区','24油气储运技术1班,24油气储运技术2班' ,'71', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','723.0', '张林升', '铁门关校区','24计算机网络技术1班,24计算机网络技术2班' ,'67', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','723', '张林升', '铁门关校区','24计算机网络技术1班,24计算机网络技术2班' ,'67', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A02','329.0', '马得林', '铁门关校区','24分析检验技术2班' ,'39', '11','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A02','329', '马得林', '铁门关校区','24分析检验技术2班' ,'39', '11','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210ZXA01','549.0', '方璟儒', '铁门关校区','22汽车服务营销1班' ,'15', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210ZXA01','549', '方璟儒', '铁门关校区','22汽车服务营销1班' ,'15', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','199.0', '陈忠宏', '铁门关校区','24汽车技术服务与营销1班,24汽车技术服务与营销2班' ,'80', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','199', '陈忠宏', '铁门关校区','24汽车技术服务与营销1班,24汽车技术服务与营销2班' ,'80', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A09','256.0', '韩增强', '铁门关校区','23应用化工技术1班,23应用化工技术2班' ,'58', '1','10','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A09','256', '韩增强', '铁门关校区','23应用化工技术1班,23应用化工技术2班' ,'58', '1','10','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24物联网应用技术1班,24物联网应用技术2班' ,'77', '10','13','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464', '应俊平', '铁门关校区','24物联网应用技术1班,24物联网应用技术2班' ,'77', '10','13','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A02','667.0', '刘凤会', '铁门关校区','24现代物流管理1班' ,'41', '10','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A02','667', '刘凤会', '铁门关校区','24现代物流管理1班' ,'41', '10','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','498.0', '彭聪', '铁门关校区','24电子商务1班' ,'25', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','498', '彭聪', '铁门关校区','24电子商务1班' ,'25', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23电气自动化技术1班' ,'40', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464', '应俊平', '铁门关校区','23电气自动化技术1班' ,'40', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-3','665.0', '王玲', '库尔勒校区','23学前教育1班（五年制）,23学前教育2班（五年制）' ,'66', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-3','665', '王玲', '库尔勒校区','23学前教育1班（五年制）,23学前教育2班（五年制）' ,'66', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B01','554.0', '胡惠元', '铁门关校区','24现代农业经济管理2班' ,'42', '1','12','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B01','554', '胡惠元', '铁门关校区','24现代农业经济管理2班' ,'42', '1','12','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','23学前教育13班' ,'35', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558', '杨永芬', '铁门关校区','23学前教育13班' ,'35', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B02','367.0', '张珍珍', '铁门关校区','24软件技术1班' ,'44', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B02','367', '张珍珍', '铁门关校区','24软件技术1班' ,'44', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','741.0', '王姝懿', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','741', '王姝懿', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','468.0', '胡娜', '库尔勒校区','24教学10班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','468', '胡娜', '库尔勒校区','24教学10班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','357.0', '王晓蓓', '铁门关校区','24社会工作1班,24社会工作2班,24社会工作3班' ,'68', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','357', '王晓蓓', '铁门关校区','24社会工作1班,24社会工作2班,24社会工作3班' ,'68', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B08','416.0', '张莉', '铁门关校区','21应用化工1班(五年制)' ,'53', '1','9','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B08','416', '张莉', '铁门关校区','21应用化工1班(五年制)' ,'53', '1','9','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130.0', '曹立汶', '铁门关校区','23学前教育7班' ,'31', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130', '曹立汶', '铁门关校区','23学前教育7班' ,'31', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KZXA01','739.0', '武小玲', '铁门关校区','23婴幼儿托育服务与管理1班' ,'22', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KZXA01','739', '武小玲', '铁门关校区','23婴幼儿托育服务与管理1班' ,'22', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A10','337.0', '李泳宏', '铁门关校区','23油气储运技术1班' ,'43', '10','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A10','337', '李泳宏', '铁门关校区','23油气储运技术1班' ,'43', '10','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B10','605.0', '马景瑞', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '10','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B10','605', '马景瑞', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '10','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','752.0', '白轩宇', '铁门关校区','24党务工作1班' ,'44', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','752', '白轩宇', '铁门关校区','24党务工作1班' ,'44', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530701ZXA01','232.0', '何向荣', '铁门关校区','22电子商务1班' ,'38', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530701ZXA01','232', '何向荣', '铁门关校区','22电子商务1班' ,'38', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0A06','697.0', '张瑜', '库尔勒校区','22保育1班' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0A06','697', '张瑜', '库尔勒校区','22保育1班' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24电气自动化技术3班,24电气自动化技术4班' ,'53', '14','17','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464', '应俊平', '铁门关校区','24电气自动化技术3班,24电气自动化技术4班' ,'53', '14','17','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B16','700.0', '顾乡侬', '库尔勒校区','21数字媒体1班(五年制)' ,'31', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B16','700', '顾乡侬', '库尔勒校区','21数字媒体1班(五年制)' ,'31', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0C06','433.0', '连进牛', '铁门关校区','22电气自动化1班,22电气自动化2班' ,'47', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0C06','433', '连进牛', '铁门关校区','22电气自动化1班,22电气自动化2班' ,'47', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0C01','716.0', '牛庆彬', '铁门关校区','23数字化设计与制造技术1班' ,'38', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0C01','716', '牛庆彬', '铁门关校区','23数字化设计与制造技术1班' ,'38', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','353.0', '孙燕华', '铁门关校区','24化工智能制造技术1班,24学前教育5班' ,'43', '14','17','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','353', '孙燕华', '铁门关校区','24化工智能制造技术1班,24学前教育5班' ,'43', '14','17','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B04','170.0', '曹镛', '铁门关校区','24婴幼儿托育服务与管理1班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B04','170', '曹镛', '铁门关校区','24婴幼儿托育服务与管理1班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','585.0', '唐振钊', '铁门关校区','23学前教育10班' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','585', '唐振钊', '铁门关校区','23学前教育10班' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0C03','327.0', '金龙', '铁门关校区','22汽车智能技术1班' ,'19', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0C03','327', '金龙', '铁门关校区','22汽车智能技术1班' ,'19', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369.0', '赵兰兰', '铁门关校区','22学前教育5班' ,'34', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369', '赵兰兰', '铁门关校区','22学前教育5班' ,'34', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A02','329.0', '马得林', '铁门关校区','24分析检验技术1班' ,'42', '11','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A02','329', '马得林', '铁门关校区','24分析检验技术1班' ,'42', '11','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23新能源汽车检测与维修技术2班' ,'35', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496', '张桂香', '铁门关校区','23新能源汽车检测与维修技术2班' ,'35', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','471.0', '赵伟华', '铁门关校区','22学前教育9班' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','471', '赵伟华', '铁门关校区','22学前教育9班' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B02','518.0', '骆彦朝', '铁门关校区','23机电一体化技术1班,23机电一体化技术2班' ,'97', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B02','518', '骆彦朝', '铁门关校区','23机电一体化技术1班,23机电一体化技术2班' ,'97', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24现代农业经济管理1班' ,'40', '10','13','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496', '张桂香', '铁门关校区','24现代农业经济管理1班' ,'40', '10','13','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24智能焊接技术1班' ,'41', '10','13','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496', '张桂香', '铁门关校区','24智能焊接技术1班' ,'41', '10','13','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','359.0', '吴玉梅', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','359', '吴玉梅', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','28.0', '张燕林', '库尔勒校区','24教学14班' ,'50', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','28', '张燕林', '库尔勒校区','24教学14班' ,'50', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B04-1','49.0', '瞿林', '库尔勒校区','23应用化工技术1班（五年制）' ,'46', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B04-1','49', '瞿林', '库尔勒校区','23应用化工技术1班（五年制）' ,'46', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育13班' ,'35', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562', '杨舒程', '铁门关校区','22学前教育13班' ,'35', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0A04','557.0', '张策百川', '铁门关校区','23音乐表演1班' ,'18', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0A04','557', '张策百川', '铁门关校区','23音乐表演1班' ,'18', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B02','346.0', '裴涛', '铁门关校区','24计算机网络技术1班' ,'33', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B02','346', '裴涛', '铁门关校区','24计算机网络技术1班' ,'33', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0A07','341.0', '罗梦娇', '库尔勒校区','23学前教育1班（五年制）' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0A07','341', '罗梦娇', '库尔勒校区','23学前教育1班（五年制）' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A03','83.0', '梁婧', '库尔勒校区','23汽车检测与维修技术1班（五年制）,23汽车运用与维修1班,23汽车运用与维修2班' ,'101', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A03','83', '梁婧', '库尔勒校区','23汽车检测与维修技术1班（五年制）,23汽车运用与维修1班,23汽车运用与维修2班' ,'101', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23物联网应用技术1班,23物联网应用技术2班' ,'99', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302', '桂永春', '铁门关校区','23物联网应用技术1班,23物联网应用技术2班' ,'99', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B01','512.0', '赵转梅', '铁门关校区','24软件技术2班' ,'42', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B01','512', '赵转梅', '铁门关校区','24软件技术2班' ,'42', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','22学前教育9班' ,'29', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558', '杨永芬', '铁门关校区','22学前教育9班' ,'29', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A20','611.0', '李来徽', '铁门关校区','23社会工作1班,23社会工作2班' ,'70', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A20','611', '李来徽', '铁门关校区','23社会工作1班,23社会工作2班' ,'70', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','353.0', '孙燕华', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '14','17','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','353', '孙燕华', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '14','17','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0A01','42.0', '王挺', '铁门关校区','22机电一体化1班(五年制)' ,'43', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0A01','42', '王挺', '铁门关校区','22机电一体化1班(五年制)' ,'43', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','723.0', '张林升', '铁门关校区','24电子商务1班,24网络直播与运营1班' ,'52', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','723', '张林升', '铁门关校区','24电子商务1班,24网络直播与运营1班' ,'52', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B09','553.0', '宋箫龙', '库尔勒校区','23汽车检测与维修技术1班（五年制）' ,'29', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B09','553', '宋箫龙', '库尔勒校区','23汽车检测与维修技术1班（五年制）' ,'29', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23电气自动化技术2班' ,'43', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464', '应俊平', '铁门关校区','23电气自动化技术2班' ,'43', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','372.0', '赵亚丽', '库尔勒校区','24教学6班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','372', '赵亚丽', '库尔勒校区','24教学6班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B09','562.0', '杨舒程', '铁门关校区','23婴幼儿托育服务与管理1班' ,'22', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B09','562', '杨舒程', '铁门关校区','23婴幼儿托育服务与管理1班' ,'22', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育3班' ,'34', '9','12','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','23学前教育3班' ,'34', '9','12','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育6班' ,'33', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','22学前教育6班' ,'33', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0A02','754.0', '王强', '铁门关校区','24机械制造与自动化1班' ,'40', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0A02','754', '王强', '铁门关校区','24机械制造与自动化1班' ,'40', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23婴幼儿托育服务与管理1班,23婴幼儿托育服务与管理2班' ,'44', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302', '桂永春', '铁门关校区','23婴幼儿托育服务与管理1班,23婴幼儿托育服务与管理2班' ,'44', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','601.0', '刘嘉雄', '铁门关校区','24现代农业经济管理1班' ,'40', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','601', '刘嘉雄', '铁门关校区','24现代农业经济管理1班' ,'40', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','241.0', '李雪瑶', '铁门关校区','23学前教育14班' ,'36', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','241', '李雪瑶', '铁门关校区','23学前教育14班' ,'36', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','358.0', '吴小银', '铁门关校区','24应用化工技术1班' ,'35', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','358', '吴小银', '铁门关校区','24应用化工技术1班' ,'35', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B07-3','66.0', '王艺璇', '库尔勒校区','23学前教育1班（五年制）' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B07-3','66', '王艺璇', '库尔勒校区','23学前教育1班（五年制）' ,'33', '1','18','2','2');
 
 
 INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','nan', 'nan', '铁门关校区','nan' ,'0', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23应用化工技术2班' ,'28', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464', '应俊平', '铁门关校区','23应用化工技术2班' ,'28', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300B0B02','23.0', '姜维', '库尔勒校区','23机电技术应用1班,23机电技术应用2班' ,'57', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300B0B02','23', '姜维', '库尔勒校区','23机电技术应用1班,23机电技术应用2班' ,'57', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','683.0', '王小丽', '铁门关校区','24棉花加工与经营管理1班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','683', '王小丽', '铁门关校区','24棉花加工与经营管理1班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0A02','229.0', '靳鹏辉', '铁门关校区','24新能源汽车检测与维修技术3班' ,'35', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0A02','229', '靳鹏辉', '铁门关校区','24新能源汽车检测与维修技术3班' ,'35', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B02','518.0', '骆彦朝', '铁门关校区','23机电一体化技术3班' ,'47', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B02','518', '骆彦朝', '铁门关校区','23机电一体化技术3班' ,'47', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B10','443.0', '王丽', '铁门关校区','22电气自动化1班,22电气自动化2班' ,'47', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B10','443', '王丽', '铁门关校区','22电气自动化1班,22电气自动化2班' ,'47', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB12','588.0', '邹尚岑', '库尔勒校区','22保育3班' ,'30', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB12','588', '邹尚岑', '库尔勒校区','22保育3班' ,'30', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','470.0', '石云', '铁门关校区','22学前教育12班' ,'34', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','470', '石云', '铁门关校区','22学前教育12班' ,'34', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A02','329.0', '马得林', '铁门关校区','24分析检验技术1班' ,'42', '1','10','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A02','329', '马得林', '铁门关校区','24分析检验技术1班' ,'42', '1','10','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','68.0', '刘江', '库尔勒校区','22机电一体化1班(五年制)' ,'43', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','68', '刘江', '库尔勒校区','22机电一体化1班(五年制)' ,'43', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','310.0', '汪文舒', '铁门关校区','24电气自动化技术1班' ,'27', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','310', '汪文舒', '铁门关校区','24电气自动化技术1班' ,'27', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0B02','772.0', '杨梦蕾', '铁门关校区','23现代物流管理1班' ,'31', '13','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0B02','772', '杨梦蕾', '铁门关校区','23现代物流管理1班' ,'31', '13','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B12','699.0', '李棋景', '铁门关校区','23物联网应用技术1班' ,'49', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B12','699', '李棋景', '铁门关校区','23物联网应用技术1班' ,'49', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB02','506.0', '孙雅莹', '铁门关校区','22网络技术1班' ,'46', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB02','506', '孙雅莹', '铁门关校区','22网络技术1班' ,'46', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育9班' ,'29', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','22学前教育9班' ,'29', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0C04','63.0', '赵帅庆', '铁门关校区','22汽车检测维修1班,22汽车检测维修2班' ,'51', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0C04','63', '赵帅庆', '铁门关校区','22汽车检测维修1班,22汽车检测维修2班' ,'51', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-3','73.0', '刘健', '库尔勒校区','23计算机应用1班,23计算机应用2班' ,'64', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-3','73', '刘健', '库尔勒校区','23计算机应用1班,23计算机应用2班' ,'64', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','334.0', '李庆霞', '铁门关校区','24计算机网络技术1班,24计算机网络技术2班,24计算机网络技术3班' ,'99', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','334', '李庆霞', '铁门关校区','24计算机网络技术1班,24计算机网络技术2班,24计算机网络技术3班' ,'99', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214ZXB04','501.0', '马军鹏', '铁门关校区','23电子商务1班' ,'47', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214ZXB04','501', '马军鹏', '铁门关校区','23电子商务1班' ,'47', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','740.0', '向荣欣', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','740', '向荣欣', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201ZXB04','557.0', '张策百川', '铁门关校区','22音乐表演1班' ,'7', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201ZXB04','557', '张策百川', '铁门关校区','22音乐表演1班' ,'7', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','199.0', '陈忠宏', '铁门关校区','24新能源汽车检测与维修技术3班' ,'35', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','199', '陈忠宏', '铁门关校区','24新能源汽车检测与维修技术3班' ,'35', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0A01','721.0', '王博', '库尔勒校区','22汽车检测维修1班(五年制)' ,'19', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0A01','721', '王博', '库尔勒校区','22汽车检测维修1班(五年制)' ,'19', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','10.0', '钟薇', '铁门关校区','24学前教育8班' ,'29', '10','13','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','10', '钟薇', '铁门关校区','24学前教育8班' ,'29', '10','13','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','9.0', '周萍', '铁门关校区','24党务工作1班' ,'44', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','9', '周萍', '铁门关校区','24党务工作1班' ,'44', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330.0', '雷涛', '铁门关校区','24学前教育3班,24学前教育4班' ,'60', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330', '雷涛', '铁门关校区','24学前教育3班,24学前教育4班' ,'60', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A15','381.0', '王晶晶', '铁门关校区','23党务工作3班' ,'31', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A15','381', '王晶晶', '铁门关校区','23党务工作3班' ,'31', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','560.0', '方佳璐', '铁门关校区','23学前教育10班' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','560', '方佳璐', '铁门关校区','23学前教育10班' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','369.0', '赵兰兰', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','369', '赵兰兰', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B13','567.0', '石可心', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B13','567', '石可心', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B01','554.0', '胡惠元', '铁门关校区','24现代农业经济管理1班' ,'40', '13','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B01','554', '胡惠元', '铁门关校区','24现代农业经济管理1班' ,'40', '13','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0A32','680.0', '任蓉', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0A32','680', '任蓉', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','78.0', '孙烨', '铁门关校区','24现代农业经济管理2班' ,'42', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','78', '孙烨', '铁门关校区','24现代农业经济管理2班' ,'42', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXA03','458.0', '王丽荣', '铁门关校区','23数字媒体技术2班' ,'43', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXA03','458', '王丽荣', '铁门关校区','23数字媒体技术2班' ,'43', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A14','739.0', '武小玲', '铁门关校区','23早期教育2班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A14','739', '武小玲', '铁门关校区','23早期教育2班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','560.0', '方佳璐', '铁门关校区','23学前教育8班' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','560', '方佳璐', '铁门关校区','23学前教育8班' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330.0', '雷涛', '铁门关校区','24软件技术1班' ,'44', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330', '雷涛', '铁门关校区','24软件技术1班' ,'44', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A34','602.0', '马欢', '铁门关校区','23社会工作1班,23社会工作2班' ,'70', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A34','602', '马欢', '铁门关校区','23社会工作1班,23社会工作2班' ,'70', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586.0', '张丰', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586', '张丰', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','366.0', '张锋', '铁门关校区','24电子商务1班（产业学院）' ,'53', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','366', '张锋', '铁门关校区','24电子商务1班（产业学院）' ,'53', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育6班' ,'33', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562', '杨舒程', '铁门关校区','22学前教育6班' ,'33', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','343.0', '马万俊', '铁门关校区','24汽车技术服务与营销1班,24汽车技术服务与营销2班' ,'80', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','343', '马万俊', '铁门关校区','24汽车技术服务与营销1班,24汽车技术服务与营销2班' ,'80', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','556.0', '王振华', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','556', '王振华', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','449.0', '侯莉', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','449', '侯莉', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23网络直播与运营1班' ,'36', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302', '桂永春', '铁门关校区','23网络直播与运营1班' ,'36', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470209B0A08','672.0', '马得梅', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '1','10','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470209B0A08','672', '马得梅', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '1','10','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','585.0', '唐振钊', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','585', '唐振钊', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A01','480.0', '候芳芳', '铁门关校区','24现代农业经济管理2班' ,'42', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A01','480', '候芳芳', '铁门关校区','24现代农业经济管理2班' ,'42', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','324.0', '韩春林', '铁门关校区','23新能源汽车检测与维修技术1班,23新能源汽车检测与维修技术2班,23新能源汽车检测与维修技术3班' ,'96', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','324', '韩春林', '铁门关校区','23新能源汽车检测与维修技术1班,23新能源汽车检测与维修技术2班,23新能源汽车检测与维修技术3班' ,'96', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','212.0', '向川', '铁门关校区','24棉花加工与经营管理1班,24棉花加工与经营管理2班' ,'69', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','212', '向川', '铁门关校区','24棉花加工与经营管理1班,24棉花加工与经营管理2班' ,'69', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A17-1','456.0', '丁婕', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班,24油气储运技术2班' ,'43', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A17-1','456', '丁婕', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班,24油气储运技术2班' ,'43', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0B01','563.0', '李雪', '铁门关校区','24早期教育2班' ,'35', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0B01','563', '李雪', '铁门关校区','24早期教育2班' ,'35', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','560.0', '方佳璐', '铁门关校区','23学前教育9班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','560', '方佳璐', '铁门关校区','23学前教育9班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369.0', '赵兰兰', '铁门关校区','22学前教育4班' ,'33', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369', '赵兰兰', '铁门关校区','22学前教育4班' ,'33', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','206.0', '王丹', '库尔勒校区','24教学7班' ,'50', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','206', '王丹', '库尔勒校区','24教学7班' ,'50', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','498.0', '彭聪', '铁门关校区','24社会工作1班' ,'23', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','498', '彭聪', '铁门关校区','24社会工作1班' ,'23', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','170.0', '曹镛', '铁门关校区','23学前教育13班' ,'35', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','170', '曹镛', '铁门关校区','23学前教育13班' ,'35', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','108.0', '孙思邈', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','108', '孙思邈', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A38','732.0', '孙行行', '铁门关校区','23党务工作1班' ,'37', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A38','732', '孙行行', '铁门关校区','23党务工作1班' ,'37', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A01','9.0', '周萍', '铁门关校区','24党务工作1班,24党务工作2班' ,'87', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A01','9', '周萍', '铁门关校区','24党务工作1班,24党务工作2班' ,'87', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','431.0', '刘星', '铁门关校区','23学前教育14班' ,'36', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','431', '刘星', '铁门关校区','23学前教育14班' ,'36', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B01','682.0', '房灵紫', '库尔勒校区','22保育2班' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B01','682', '房灵紫', '库尔勒校区','22保育2班' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','88.0', '徐盈盈', '铁门关校区','24汽车技术服务与营销2班' ,'41', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','88', '徐盈盈', '铁门关校区','24汽车技术服务与营销2班' ,'41', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','731.0', '蔺琪云', '库尔勒校区','24教学9班' ,'50', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','731', '蔺琪云', '库尔勒校区','24教学9班' ,'50', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0A02','721.0', '王博', '库尔勒校区','22汽车检测维修1班(五年制)' ,'19', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0A02','721', '王博', '库尔勒校区','22汽车检测维修1班(五年制)' ,'19', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206ZXB03','338.0', '刘亚杰', '库尔勒校区','22汽修2班' ,'29', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206ZXB03','338', '刘亚杰', '库尔勒校区','22汽修2班' ,'29', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','365.0', '于鹤文', '铁门关校区','24机械制造与自动化1班,24机械制造与自动化2班' ,'81', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','365', '于鹤文', '铁门关校区','24机械制造与自动化1班,24机械制造与自动化2班' ,'81', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育7班' ,'32', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562', '杨舒程', '铁门关校区','22学前教育7班' ,'32', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A09','256.0', '韩增强', '铁门关校区','23应用化工技术3班' ,'32', '11','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A09','256', '韩增强', '铁门关校区','23应用化工技术3班' ,'32', '11','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','691.0', '谭翱翔', '库尔勒校区','24教学9班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','691', '谭翱翔', '库尔勒校区','24教学9班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','357.0', '王晓蓓', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','357', '王晓蓓', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '10','13','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496', '张桂香', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '10','13','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212ZXA04','719.0', '雍睿思', '铁门关校区','23新能源汽车检测与维修技术1班,23新能源汽车检测与维修技术2班,23新能源汽车检测与维修技术3班' ,'96', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212ZXA04','719', '雍睿思', '铁门关校区','23新能源汽车检测与维修技术1班,23新能源汽车检测与维修技术2班,23新能源汽车检测与维修技术3班' ,'96', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A38','732.0', '孙行行', '铁门关校区','23党务工作2班,23党务工作3班' ,'66', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A38','732', '孙行行', '铁门关校区','23党务工作2班,23党务工作3班' ,'66', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-1','546.0', '张爱娜', '库尔勒校区','24教学11班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-1','546', '张爱娜', '库尔勒校区','24教学11班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','78.0', '孙烨', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','78', '孙烨', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','740.0', '向荣欣', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','740', '向荣欣', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','68.0', '刘江', '库尔勒校区','22数字媒体1班(五年制),22数字媒体2班(五年制)' ,'69', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','68', '刘江', '库尔勒校区','22数字媒体1班(五年制),22数字媒体2班(五年制)' ,'69', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','312.0', '张蕊婕', '铁门关校区','24新能源汽车检测与维修技术3班' ,'35', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','312', '张蕊婕', '铁门关校区','24新能源汽车检测与维修技术3班' ,'35', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0B05','551.0', '王虎龙', '铁门关校区','23汽车技术服务与营销1班' ,'26', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0B05','551', '王虎龙', '铁门关校区','23汽车技术服务与营销1班' ,'26', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B08','439.0', '翟建楠', '库尔勒校区','23计算机应用2班' ,'33', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B08','439', '翟建楠', '库尔勒校区','23计算机应用2班' ,'33', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','31.0', '李富丽', '铁门关校区','24学前教育2班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','31', '李富丽', '铁门关校区','24学前教育2班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A01','764.0', '陈莉', '铁门关校区','23棉花加工与经营管理1班,23现代农业经济管理1班,23现代农业经济管理2班' ,'63', '10','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A01','764', '陈莉', '铁门关校区','23棉花加工与经营管理1班,23现代农业经济管理1班,23现代农业经济管理2班' ,'63', '10','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','177.0', '吕晗', '铁门关校区','24智能焊接技术2班' ,'36', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','177', '吕晗', '铁门关校区','24智能焊接技术2班' ,'36', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0C05','321.0', '柴金伟', '铁门关校区','23机械制造及自动化1班' ,'29', '1','18','8','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0C05','321', '柴金伟', '铁门关校区','23机械制造及自动化1班' ,'29', '1','18','8','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A03','662.0', '冯靖棋', '库尔勒校区','23幼儿保育1班,23数字媒体技术1班（五年制）' ,'87', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A03','662', '冯靖棋', '库尔勒校区','23幼儿保育1班,23数字媒体技术1班（五年制）' ,'87', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A44','494.0', '闫军刚', '铁门关校区','24社会工作1班,24社会工作2班,24社会工作3班' ,'68', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A44','494', '闫军刚', '铁门关校区','24社会工作1班,24社会工作2班,24社会工作3班' ,'68', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0C01','734.0', '朱红羽', '铁门关校区','22数字媒体1班' ,'39', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0C01','734', '朱红羽', '铁门关校区','22数字媒体1班' ,'39', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','374.0', '曹玉婷', '铁门关校区','24物联网应用技术2班' ,'38', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','374', '曹玉婷', '铁门关校区','24物联网应用技术2班' ,'38', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','556.0', '王振华', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','556', '王振华', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','730.0', '冯艳霞', '库尔勒校区','24教学14班' ,'50', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','730', '冯艳霞', '库尔勒校区','24教学14班' ,'50', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300B0B04','59.0', '安怡凤', '库尔勒校区','23机电技术应用1班,23机电技术应用2班' ,'57', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300B0B04','59', '安怡凤', '库尔勒校区','23机电技术应用1班,23机电技术应用2班' ,'57', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A24','732.0', '孙行行', '铁门关校区','22社会工作1班' ,'27', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A24','732', '孙行行', '铁门关校区','22社会工作1班' ,'27', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A01','348.0', '尚鹏博', '铁门关校区','24油气储运技术1班,24油气储运技术2班' ,'71', '11','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A01','348', '尚鹏博', '铁门关校区','24油气储运技术1班,24油气储运技术2班' ,'71', '11','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B04','154.0', '唐阳阳', '库尔勒校区','23幼儿保育1班' ,'37', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B04','154', '唐阳阳', '库尔勒校区','23幼儿保育1班' ,'37', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育12班' ,'34', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562', '杨舒程', '铁门关校区','22学前教育12班' ,'34', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0A05','56.0', '王鹏鹏', '铁门关校区','23数字化设计与制造技术1班,23机械制造及自动化1班' ,'67', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0A05','56', '王鹏鹏', '铁门关校区','23数字化设计与制造技术1班,23机械制造及自动化1班' ,'67', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0A03','364.0', '于登高', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0A03','364', '于登高', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','353.0', '孙燕华', '铁门关校区','23学前教育11班,23学前教育12班' ,'64', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','353', '孙燕华', '铁门关校区','23学前教育11班,23学前教育12班' ,'64', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A01','667.0', '刘凤会', '铁门关校区','24现代物流管理2班' ,'42', '10','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A01','667', '刘凤会', '铁门关校区','24现代物流管理2班' ,'42', '10','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXA03','335.0', '李晓龙', '铁门关校区','23数字媒体技术3班' ,'36', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXA03','335', '李晓龙', '铁门关校区','23数字媒体技术3班' ,'36', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244.0', '吴沁林', '铁门关校区','24现代物流管理2班' ,'42', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244', '吴沁林', '铁门关校区','24现代物流管理2班' ,'42', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A05','38.0', '杨璐', '铁门关校区','23机电一体化技术2班' ,'48', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A05','38', '杨璐', '铁门关校区','23机电一体化技术2班' ,'48', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','274.0', '刘恒玮', '铁门关校区','24数字媒体技术3班' ,'14', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','274', '刘恒玮', '铁门关校区','24数字媒体技术3班' ,'14', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117B0B04','441.0', '王冬梅', '铁门关校区','23棉花加工与经营管理1班' ,'25', '13','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117B0B04','441', '王冬梅', '铁门关校区','23棉花加工与经营管理1班' ,'25', '13','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','585.0', '唐振钊', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','585', '唐振钊', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B03','500.0', '郭龙', '铁门关校区','24数字媒体技术3班' ,'14', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B03','500', '郭龙', '铁门关校区','24数字媒体技术3班' ,'14', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214B0A04','81.0', '梁辉', '铁门关校区','23电子商务1班' ,'47', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214B0A04','81', '梁辉', '铁门关校区','23电子商务1班' ,'47', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','676.0', '李杰', '库尔勒校区','24学前教育1班（五年制）,24学前教育2班（五年制）,24幼儿保育1班' ,'56', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','676', '李杰', '库尔勒校区','24学前教育1班（五年制）,24学前教育2班（五年制）,24幼儿保育1班' ,'56', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0C02','458.0', '王丽荣', '铁门关校区','22数字媒体1班' ,'39', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0C02','458', '王丽荣', '铁门关校区','22数字媒体1班' ,'39', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','349.0', '史正兵', '铁门关校区','23学前教育4班' ,'35', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','349', '史正兵', '铁门关校区','23学前教育4班' ,'35', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B10-1','617.0', '付玉', '库尔勒校区','22应用化工1班(五年制)' ,'31', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B10-1','617', '付玉', '库尔勒校区','22应用化工1班(五年制)' ,'31', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244.0', '吴沁林', '铁门关校区','24汽车技术服务与营销1班,24汽车技术服务与营销2班' ,'80', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244', '吴沁林', '铁门关校区','24汽车技术服务与营销1班,24汽车技术服务与营销2班' ,'80', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A31','323.0', '程双儿', '铁门关校区','23早期教育2班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A31','323', '程双儿', '铁门关校区','23早期教育2班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','731.0', '蔺琪云', '库尔勒校区','24教学10班' ,'50', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','731', '蔺琪云', '库尔勒校区','24教学10班' ,'50', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','359.0', '吴玉梅', '铁门关校区','23分析检验技术1班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','359', '吴玉梅', '铁门关校区','23分析检验技术1班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110B0B11','717.0', '武云涛', '铁门关校区','23智能焊接技术1班' ,'23', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110B0B11','717', '武云涛', '铁门关校区','23智能焊接技术1班' ,'23', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B03','513.0', '麻翠翠', '铁门关校区','23计算机网络技术2班' ,'43', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B03','513', '麻翠翠', '铁门关校区','23计算机网络技术2班' ,'43', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24机械制造与自动化2班' ,'41', '14','17','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464', '应俊平', '铁门关校区','24机械制造与自动化2班' ,'41', '14','17','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','23学前教育12班' ,'30', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558', '杨永芬', '铁门关校区','23学前教育12班' ,'30', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','325.0', '韩慧', '铁门关校区','24电气自动化技术3班,24电气自动化技术4班' ,'53', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','325', '韩慧', '铁门关校区','24电气自动化技术3班,24电气自动化技术4班' ,'53', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23机电一体化技术1班' ,'49', '5','8','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464', '应俊平', '铁门关校区','23机电一体化技术1班' ,'49', '5','8','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244.0', '吴沁林', '铁门关校区','24电子商务1班（产业学院）' ,'53', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244', '吴沁林', '铁门关校区','24电子商务1班（产业学院）' ,'53', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244.0', '吴沁林', '铁门关校区','24汽车智能技术1班,24汽车智能技术2班' ,'62', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244', '吴沁林', '铁门关校区','24汽车智能技术1班,24汽车智能技术2班' ,'62', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130.0', '曹立汶', '铁门关校区','23学前教育8班' ,'31', '10','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130', '曹立汶', '铁门关校区','23学前教育8班' ,'31', '10','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A02','667.0', '刘凤会', '铁门关校区','24现代物流管理1班' ,'41', '1','9','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A02','667', '刘凤会', '铁门关校区','24现代物流管理1班' ,'41', '1','9','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0B14','650.0', '鲁文斌', '铁门关校区','23电气自动化技术1班' ,'40', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0B14','650', '鲁文斌', '铁门关校区','23电气自动化技术1班' ,'40', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育6班' ,'33', '9','12','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','23学前教育6班' ,'33', '9','12','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330.0', '雷涛', '铁门关校区','24网络直播与运营1班（产业学院）' ,'52', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330', '雷涛', '铁门关校区','24网络直播与运营1班（产业学院）' ,'52', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A12','680.0', '任蓉', '铁门关校区','23早期教育1班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A12','680', '任蓉', '铁门关校区','23早期教育1班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育4班' ,'33', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562', '杨舒程', '铁门关校区','22学前教育4班' ,'33', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B13','669.0', '王成佳', '铁门关校区','23软件技术2班' ,'34', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B13','669', '王成佳', '铁门关校区','23软件技术2班' ,'34', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A42','419.0', '杨文莉', '铁门关校区','23党务工作2班' ,'35', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A42','419', '杨文莉', '铁门关校区','23党务工作2班' ,'35', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B08','554.0', '胡惠元', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '13','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B08','554', '胡惠元', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '13','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','23学前教育11班' ,'34', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558', '杨永芬', '铁门关校区','23学前教育11班' ,'34', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','9.0', '周萍', '铁门关校区','24党务工作2班' ,'43', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','9', '周萍', '铁门关校区','24党务工作2班' ,'43', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A09','256.0', '韩增强', '铁门关校区','23应用化工技术1班,23应用化工技术2班' ,'58', '11','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A09','256', '韩增强', '铁门关校区','23应用化工技术1班,23应用化工技术2班' ,'58', '11','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B15','172.0', '彭美荣', '库尔勒校区','22计算机应用2班' ,'37', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B15','172', '彭美荣', '库尔勒校区','22计算机应用2班' ,'37', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0A32','680.0', '任蓉', '铁门关校区','24早期教育1班' ,'35', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0A32','680', '任蓉', '铁门关校区','24早期教育1班' ,'35', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B03','701.0', '翟彩云', '铁门关校区','23计算机网络技术1班' ,'41', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B03','701', '翟彩云', '铁门关校区','23计算机网络技术1班' ,'41', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A01','475.0', '赵家嘉', '铁门关校区','24机电一体化技术1班' ,'32', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A01','475', '赵家嘉', '铁门关校区','24机电一体化技术1班' ,'32', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A07','452.0', '刘启全', '铁门关校区','21机电一体化1班(五年制)' ,'36', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A07','452', '刘启全', '铁门关校区','21机电一体化1班(五年制)' ,'36', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','300.0', '刘省委', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','300', '刘省委', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','22学前教育8班' ,'33', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558', '杨永芬', '铁门关校区','22学前教育8班' ,'33', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A18','733.0', '张亮', '铁门关校区','24党务工作2班' ,'43', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A18','733', '张亮', '铁门关校区','24党务工作2班' ,'43', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A13','463.0', '王凡兰', '铁门关校区','23早期教育2班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A13','463', '王凡兰', '铁门关校区','23早期教育2班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B15','226.0', '韩书红', '铁门关校区','22网络直播3班' ,'31', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B15','226', '韩书红', '铁门关校区','22网络直播3班' ,'31', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117B0B02','441.0', '王冬梅', '铁门关校区','23棉花加工与经营管理1班' ,'25', '1','12','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117B0B02','441', '王冬梅', '铁门关校区','23棉花加工与经营管理1班' ,'25', '1','12','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A01','713.0', '王靖', '铁门关校区','24应用化工技术1班' ,'35', '11','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A01','713', '王靖', '铁门关校区','24应用化工技术1班' ,'35', '11','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B01','715.0', '潘瑞莹', '铁门关校区','23机电一体化技术3班' ,'47', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B01','715', '潘瑞莹', '铁门关校区','23机电一体化技术3班' ,'47', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A42','419.0', '杨文莉', '铁门关校区','23党务工作3班' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A42','419', '杨文莉', '铁门关校区','23党务工作3班' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','177.0', '吕晗', '铁门关校区','24数字化设计与制造技术1班' ,'38', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','177', '吕晗', '铁门关校区','24数字化设计与制造技术1班' ,'38', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0B04','719.0', '雍睿思', '铁门关校区','23汽车技术服务与营销1班' ,'26', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0B04','719', '雍睿思', '铁门关校区','23汽车技术服务与营销1班' ,'26', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0A08','753.0', '郭高飞', '铁门关校区','24电气自动化技术1班,24电气自动化技术2班' ,'54', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0A08','753', '郭高飞', '铁门关校区','24电气自动化技术1班,24电气自动化技术2班' ,'54', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A01','603.0', '洪贤泰', '铁门关校区','24棉花加工与经营管理1班' ,'33', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A01','603', '洪贤泰', '铁门关校区','24棉花加工与经营管理1班' ,'33', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','752.0', '白轩宇', '铁门关校区','24应用化工技术1班' ,'35', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','752', '白轩宇', '铁门关校区','24应用化工技术1班' ,'35', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0A05','675.0', '王颖', '铁门关校区','24音乐表演1班' ,'16', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0A05','675', '王颖', '铁门关校区','24音乐表演1班' ,'16', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B15','582.0', '彭廷海', '铁门关校区','23数字媒体技术3班' ,'36', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B15','582', '彭廷海', '铁门关校区','23数字媒体技术3班' ,'36', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A31','323.0', '程双儿', '铁门关校区','23早期教育1班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A31','323', '程双儿', '铁门关校区','23早期教育1班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540.0', '马华丽', '铁门关校区','24学前教育3班' ,'28', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540', '马华丽', '铁门关校区','24学前教育3班' ,'28', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','343.0', '马万俊', '库尔勒校区','22机电一体化1班(五年制),22汽车检测维修1班(五年制)' ,'62', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','343', '马万俊', '库尔勒校区','22机电一体化1班(五年制),22汽车检测维修1班(五年制)' ,'62', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','545.0', '明婕', '铁门关校区','24新能源汽车检测与维修技术1班,24新能源汽车检测与维修技术3班' ,'68', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','545', '明婕', '铁门关校区','24新能源汽车检测与维修技术1班,24新能源汽车检测与维修技术3班' ,'68', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A07','452.0', '刘启全', '铁门关校区','23机电一体化技术4班' ,'47', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A07','452', '刘启全', '铁门关校区','23机电一体化技术4班' ,'47', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXB10','699.0', '李棋景', '铁门关校区','23数字媒体技术1班' ,'38', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXB10','699', '李棋景', '铁门关校区','23数字媒体技术1班' ,'38', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B16','700.0', '顾乡侬', '库尔勒校区','21数字媒体2班(五年制)' ,'28', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B16','700', '顾乡侬', '库尔勒校区','21数字媒体2班(五年制)' ,'28', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B01','360.0', '徐国申', '库尔勒校区','23汽车检测与维修技术1班（五年制）' ,'29', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B01','360', '徐国申', '库尔勒校区','23汽车检测与维修技术1班（五年制）' ,'29', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B11','307.0', '李荣荣', '库尔勒校区','21数字媒体1班(五年制)' ,'31', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B11','307', '李荣荣', '库尔勒校区','21数字媒体1班(五年制)' ,'31', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','48.0', '巩俞含', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','48', '巩俞含', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','167.0', '尚巾慧', '库尔勒校区','24教学12班' ,'50', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','167', '尚巾慧', '库尔勒校区','24教学12班' ,'50', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','166.0', '赵银芳', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','166', '赵银芳', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300ZXA08','301.0', '王勇健', '库尔勒校区','22机电1班' ,'32', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300ZXA08','301', '王勇健', '库尔勒校区','22机电1班' ,'32', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','309.0', '万晓娟', '铁门关校区','24分析检验技术1班,24分析检验技术2班' ,'81', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','309', '万晓娟', '铁门关校区','24分析检验技术1班,24分析检验技术2班' ,'81', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','212.0', '向川', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','212', '向川', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24新能源汽车检测与维修技术1班' ,'33', '10','13','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302', '桂永春', '铁门关校区','24新能源汽车检测与维修技术1班' ,'33', '10','13','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','22学前教育10班' ,'31', '1','9','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558', '杨永芬', '铁门关校区','22学前教育10班' ,'31', '1','9','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','300.0', '刘省委', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','300', '刘省委', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0A07','607.0', '程占', '铁门关校区','24电气自动化技术1班,24电气自动化技术2班' ,'54', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0A07','607', '程占', '铁门关校区','24电气自动化技术1班,24电气自动化技术2班' ,'54', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0A01','50.0', '时乐然', '铁门关校区','24分析检验技术1班' ,'42', '11','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0A01','50', '时乐然', '铁门关校区','24分析检验技术1班' ,'42', '11','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410303B0B02','376.0', '代佳君', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','12','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410303B0B02','376', '代佳君', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','12','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B03','560.0', '方佳璐', '铁门关校区','22音乐表演1班' ,'7', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B03','560', '方佳璐', '铁门关校区','22音乐表演1班' ,'7', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','343.0', '马万俊', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','343', '马万俊', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B02-2','308.0', '牛秀', '库尔勒校区','23应用化工技术1班（五年制）' ,'46', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B02-2','308', '牛秀', '库尔勒校区','23应用化工技术1班（五年制）' ,'46', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203ZXB06','272.0', '牟倡宏', '铁门关校区','22软件技术1班' ,'33', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203ZXB06','272', '牟倡宏', '铁门关校区','22软件技术1班' ,'33', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','606.0', '周江鸥', '铁门关校区','23机电一体化技术2班' ,'48', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','606', '周江鸥', '铁门关校区','23机电一体化技术2班' ,'48', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0A02','754.0', '王强', '铁门关校区','24机械制造与自动化2班' ,'41', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0A02','754', '王强', '铁门关校区','24机械制造与自动化2班' ,'41', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','340.0', '刘玉阁', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','340', '刘玉阁', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB01','669.0', '王成佳', '铁门关校区','23计算机网络技术3班,23计算机网络技术4班' ,'82', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB01','669', '王成佳', '铁门关校区','23计算机网络技术3班,23计算机网络技术4班' ,'82', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','199.0', '陈忠宏', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','199', '陈忠宏', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','756.0', '吴英格', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班,24数字媒体技术3班' ,'43', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','756', '吴英格', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班,24数字媒体技术3班' ,'43', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B09','562.0', '杨舒程', '铁门关校区','23婴幼儿托育服务与管理2班' ,'22', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B09','562', '杨舒程', '铁门关校区','23婴幼儿托育服务与管理2班' ,'22', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','468.0', '胡娜', '库尔勒校区','24教学6班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','468', '胡娜', '库尔勒校区','24教学6班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B08','416.0', '张莉', '铁门关校区','21应用化工1班(五年制)' ,'53', '10','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B08','416', '张莉', '铁门关校区','21应用化工1班(五年制)' ,'53', '10','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102ZXA01','335.0', '李晓龙', '铁门关校区','23物联网应用技术1班,23物联网应用技术2班' ,'99', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102ZXA01','335', '李晓龙', '铁门关校区','23物联网应用技术1班,23物联网应用技术2班' ,'99', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24化工智能制造技术2班,24学前教育6班' ,'70', '14','17','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302', '桂永春', '铁门关校区','24化工智能制造技术2班,24学前教育6班' ,'70', '14','17','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXB01','604.0', '张太龙', '库尔勒校区','21数字媒体1班(五年制)' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXB01','604', '张太龙', '库尔勒校区','21数字媒体1班(五年制)' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','748.0', '彭思婕', '铁门关校区','24化工智能制造技术1班' ,'43', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','748', '彭思婕', '铁门关校区','24化工智能制造技术1班' ,'43', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A02','769.0', '黄甜甜', '铁门关校区','24现代物流管理2班' ,'42', '10','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A02','769', '黄甜甜', '铁门关校区','24现代物流管理2班' ,'42', '10','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B09','46.0', '王瑾', '库尔勒校区','23化学工艺1班' ,'27', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B09','46', '王瑾', '库尔勒校区','23化学工艺1班' ,'27', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A17-1','725.0', '衡怡欣', '铁门关校区','24网络直播与运营1班（产业学院）' ,'52', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A17-1','725', '衡怡欣', '铁门关校区','24网络直播与运营1班（产业学院）' ,'52', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','359.0', '吴玉梅', '铁门关校区','23油气储运技术1班' ,'43', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','359', '吴玉梅', '铁门关校区','23油气储运技术1班' ,'43', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','691.0', '谭翱翔', '库尔勒校区','24教学11班' ,'50', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','691', '谭翱翔', '库尔勒校区','24教学11班' ,'50', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B13','567.0', '石可心', '铁门关校区','24婴幼儿托育服务与管理1班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B13','567', '石可心', '铁门关校区','24婴幼儿托育服务与管理1班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','418.0', '陈录琴', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','418', '陈录琴', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586.0', '张丰', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586', '张丰', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','25.0', '蒲丽', '铁门关校区','24音乐表演1班' ,'16', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','25', '蒲丽', '铁门关校区','24音乐表演1班' ,'16', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B43','351.0', '苏光辉', '铁门关校区','23数字媒体技术1班' ,'38', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B43','351', '苏光辉', '铁门关校区','23数字媒体技术1班' ,'38', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B09','610.0', '董延芳', '铁门关校区','23网络直播与运营1班' ,'36', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B09','610', '董延芳', '铁门关校区','23网络直播与运营1班' ,'36', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','212.0', '向川', '铁门关校区','24党务工作2班' ,'43', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','212', '向川', '铁门关校区','24党务工作2班' ,'43', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B05','676.0', '李杰', '库尔勒校区','22保育1班' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B05','676', '李杰', '库尔勒校区','22保育1班' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','4.0', '苏强', '铁门关校区','24软件技术1班' ,'44', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','4', '苏强', '铁门关校区','24软件技术1班' ,'44', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0A02','352.0', '孙生莲', '铁门关校区','24新能源汽车检测与维修技术1班,24新能源汽车检测与维修技术2班' ,'68', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0A02','352', '孙生莲', '铁门关校区','24新能源汽车检测与维修技术1班,24新能源汽车检测与维修技术2班' ,'68', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B19','438.0', '郭雨婷', '铁门关校区','22网络技术1班' ,'46', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B19','438', '郭雨婷', '铁门关校区','22网络技术1班' ,'46', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','734.0', '朱红羽', '铁门关校区','24网络直播与运营1班' ,'27', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','734', '朱红羽', '铁门关校区','24网络直播与运营1班' ,'27', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A07-1','339.0', '刘亚萍', '铁门关校区','23早期教育2班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A07-1','339', '刘亚萍', '铁门关校区','23早期教育2班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','670.0', '李豪', '铁门关校区','24社会工作3班' ,'22', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','670', '李豪', '铁门关校区','24社会工作3班' ,'22', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586.0', '张丰', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586', '张丰', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','467.0', '于东晖', '铁门关校区','23学前教育6班' ,'33', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','467', '于东晖', '铁门关校区','23学前教育6班' ,'33', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23数字化设计与制造技术1班' ,'38', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496', '张桂香', '铁门关校区','23数字化设计与制造技术1班' ,'38', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','730.0', '冯艳霞', '库尔勒校区','24教学12班' ,'50', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','730', '冯艳霞', '库尔勒校区','24教学12班' ,'50', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','659.0', '胡高芳', '铁门关校区','24智能焊接技术2班' ,'36', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','659', '胡高芳', '铁门关校区','24智能焊接技术2班' ,'36', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','729.0', '娜迪古丽·吾布里', '库尔勒校区','24教学10班' ,'50', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','729', '娜迪古丽·吾布里', '库尔勒校区','24教学10班' ,'50', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0B06','698.0', '龚德滔', '铁门关校区','23物联网应用技术2班' ,'50', '1','18','6','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0B06','698', '龚德滔', '铁门关校区','23物联网应用技术2班' ,'50', '1','18','6','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B11','502.0', '安吉芳', '铁门关校区','23计算机网络技术4班' ,'41', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B11','502', '安吉芳', '铁门关校区','23计算机网络技术4班' ,'41', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B09','519.0', '李智军', '铁门关校区','22机电一体化1班,22机电一体化2班' ,'56', '1','18','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B09','519', '李智军', '铁门关校区','22机电一体化1班,22机电一体化2班' ,'56', '1','18','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '1','4','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464', '应俊平', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '1','4','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','353.0', '孙燕华', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '14','17','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','353', '孙燕华', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '14','17','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育11班' ,'34', '13','16','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761', '孟凯凯', '铁门关校区','23学前教育11班' ,'34', '13','16','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','328.0', '靳忠宏', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','328', '靳忠宏', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B01','554.0', '胡惠元', '铁门关校区','24现代农业经济管理1班' ,'40', '1','12','4','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B01','554', '胡惠元', '铁门关校区','24现代农业经济管理1班' ,'40', '1','12','4','2');
 
 
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0A01','364.0', '于登高', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','449.0', '侯莉', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0A08','753.0', '郭高飞', '铁门关校区','24电气自动化技术3班,24电气自动化技术4班' ,'53', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A12','680.0', '任蓉', '铁门关校区','23早期教育2班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586.0', '张丰', '铁门关校区','24学前教育2班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','507.0', '吕江慧', '铁门关校区','24汽车技术服务与营销1班' ,'39', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B03','27.0', '鹿宏京', '铁门关校区','23网络直播与运营2班' ,'37', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A05','38.0', '杨璐', '铁门关校区','21机电一体化1班(五年制)' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130.0', '曹立汶', '铁门关校区','23学前教育2班' ,'37', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','724.0', '宁亚', '铁门关校区','24新能源汽车检测与维修技术1班,24新能源汽车检测与维修技术2班' ,'68', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B05','415.0', '刘畅', '库尔勒校区','23数字媒体技术1班（五年制）' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','300.0', '刘省委', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','365.0', '于鹤文', '铁门关校区','24智能焊接技术1班,24智能焊接技术2班' ,'77', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B06','561.0', '宋贺', '库尔勒校区','24学前教育1班（五年制）,24学前教育2班（五年制）,24幼儿保育1班' ,'56', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B08','548.0', '尹明涛', '铁门关校区','22新能源检测与维修2班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24汽车技术服务与营销2班' ,'41', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A01','603.0', '洪贤泰', '铁门关校区','24现代物流管理1班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117B0B04','441.0', '王冬梅', '铁门关校区','23棉花加工与经营管理1班' ,'25', '1','12','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','292.0', '马逸伦', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B13','63.0', '赵帅庆', '铁门关校区','21汽车检测维修1班(五年制)' ,'22', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23应用化工技术1班' ,'30', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0B16','698.0', '龚德滔', '铁门关校区','22物联网1班' ,'45', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A02','256.0', '韩增强', '铁门关校区','24油气储运技术1班,24油气储运技术2班' ,'71', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','556.0', '王振华', '铁门关校区','24学前教育2班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B31','658.0', '月丽古·卡得尔', '库尔勒校区','22保育3班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B02','367.0', '张珍珍', '铁门关校区','24软件技术2班' ,'42', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','212.0', '向川', '铁门关校区','24社会工作3班' ,'22', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A31','323.0', '程双儿', '铁门关校区','23婴幼儿托育服务与管理1班' ,'22', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A07','452.0', '刘启全', '铁门关校区','23机电一体化技术3班' ,'47', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107ZXA05','352.0', '孙生莲', '铁门关校区','22汽车智能技术1班' ,'19', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','432.0', '高占鹏', '铁门关校区','23学前教育13班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','359.0', '吴玉梅', '铁门关校区','23应用化工技术3班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A01','480.0', '候芳芳', '铁门关校区','24棉花加工与经营管理2班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','10.0', '钟薇', '铁门关校区','23计算机网络技术2班' ,'43', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B18','511.0', '高珊珊', '铁门关校区','23软件技术2班' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B03-3','432.0', '高占鹏', '库尔勒校区','23学前教育1班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B03','678.0', '张丽娜', '库尔勒校区','23汽车运用与维修2班' ,'33', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','28.0', '张燕林', '库尔勒校区','24教学13班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','675.0', '王颖', '铁门关校区','23学前教育14班' ,'36', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','365.0', '于鹤文', '铁门关校区','24电气自动化技术3班,24电气自动化技术4班' ,'53', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','14.0', '杨惠娟', '铁门关校区','24机械制造与自动化2班' ,'41', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214ZXA07','226.0', '韩书红', '铁门关校区','23电子商务1班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','349.0', '史正兵', '铁门关校区','23学前教育6班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','691.0', '谭翱翔', '库尔勒校区','24教学13班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B11','502.0', '安吉芳', '铁门关校区','23计算机网络技术3班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B08','554.0', '胡惠元', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '1','12','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B04','154.0', '唐阳阳', '库尔勒校区','23学前教育1班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','748.0', '彭思婕', '铁门关校区','24应用化工技术1班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24分析检验技术2班' ,'39', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306ZXB06','738.0', '段以泽', '铁门关校区','22电气自动化1班,22电气自动化2班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','449.0', '侯莉', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0A07','455.0', '袁慧楠', '铁门关校区','22网络直播1班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','722.0', '吴奕涵', '铁门关校区','24棉花加工与经营管理1班' ,'33', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A07','489.0', '杜红雁', '铁门关校区','23油气储运技术1班' ,'43', '1','9','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0A09','337.0', '李泳宏', '铁门关校区','23分析检验技术1班' ,'50', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A12','490.0', '张亚楠', '铁门关校区','22油气储运1班' ,'28', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B08','601.0', '刘嘉雄', '铁门关校区','23计算机网络技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A02','329.0', '马得林', '铁门关校区','24应用化工技术1班' ,'35', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A24','732.0', '孙行行', '铁门关校区','22社会工作2班' ,'22', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-3','271.0', '李雪静', '库尔勒校区','23机电一体化技术1班（五年制）,23机电一体化技术2班（五年制）' ,'54', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','357.0', '王晓蓓', '铁门关校区','24党务工作1班' ,'44', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24现代农业经济管理2班' ,'42', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','73.0', '刘健', '库尔勒校区','22应用化工1班(五年制)' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-1','546.0', '张爱娜', '库尔勒校区','24教学6班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','85.0', '曲红霞', '铁门关校区','24汽车智能技术1班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B04-1','584.0', '牛添', '铁门关校区','24早期教育2班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A02','737.0', '凌冰倩', '铁门关校区','24现代农业经济管理2班' ,'42', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','741.0', '王姝懿', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','449.0', '侯莉', '铁门关校区','24早期教育2班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B03','63.0', '赵帅庆', '铁门关校区','23新能源汽车检测与维修技术1班' ,'30', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','349.0', '史正兵', '铁门关校区','23学前教育2班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B03','274.0', '刘恒玮', '铁门关校区','24计算机网络技术3班' ,'32', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B04','720.0', '杨新明', '铁门关校区','23汽车检测与维修技术1班' ,'32', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0A01','304.0', '李凤娟', '铁门关校区','24分析检验技术2班' ,'39', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24婴幼儿托育服务与管理1班' ,'33', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0A03','508.0', '张生涛', '铁门关校区','24物联网应用技术1班' ,'39', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-3','271.0', '李雪静', '库尔勒校区','23汽车运用与维修1班,23汽车运用与维修2班' ,'72', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','292.0', '马逸伦', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B39','713.0', '王靖', '铁门关校区','21应用化工1班(五年制)' ,'53', '9','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0C17','219.0', '付燕芸', '库尔勒校区','24应用化工技术1班（五年制）' ,'32', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','349.0', '史正兵', '铁门关校区','23学前教育5班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA04','742.0', '冯祎芸', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','111.0', '李姝萱', '库尔勒校区','24教学11班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A03','39.0', '陈丽娜', '库尔勒校区','23机电一体化技术1班（五年制）,23机电一体化技术2班（五年制）' ,'54', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','68.0', '刘江', '库尔勒校区','22汽车检测维修1班(五年制)' ,'19', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B06','57.0', '董伟', '铁门关校区','22应用化工1班' ,'49', '7','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','312.0', '张蕊婕', '铁门关校区','24新能源汽车检测与维修技术2班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B06','720.0', '杨新明', '铁门关校区','23汽车检测与维修技术1班,23汽车检测与维修技术2班' ,'69', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211ZXA01','549.0', '方璟儒', '铁门关校区','22汽车检测维修1班,22汽车检测维修2班' ,'51', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','340.0', '刘玉阁', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育14班' ,'36', '13','16','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B15','488.0', '刘家贤', '库尔勒校区','22化工1班' ,'31', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','580.0', '董家佑', '铁门关校区','23学前教育11班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0A03','765.0', '钱晓艳', '铁门关校区','24汽车智能技术2班' ,'30', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A05','132.0', '李龙', '铁门关校区','23机电一体化技术4班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','170.0', '曹镛', '铁门关校区','23学前教育3班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B08','601.0', '刘嘉雄', '铁门关校区','23计算机网络技术3班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA04','339.0', '刘亚萍', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育10班' ,'31', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','508.0', '张生涛', '铁门关校区','24分析检验技术2班' ,'39', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','325.0', '韩慧', '铁门关校区','24分析检验技术1班' ,'42', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0A01','50.0', '时乐然', '铁门关校区','24分析检验技术1班' ,'42', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201ZXB04','557.0', '张策百川', '铁门关校区','23音乐表演1班' ,'18', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300ZXA07','651.0', '郑洪水', '库尔勒校区','22机电2班,22机电3班' ,'48', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-3','74.0', '何承波', '库尔勒校区','23计算机应用1班,23计算机应用2班' ,'64', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0B11','755.0', '王镱霏', '铁门关校区','22汽车服务营销1班' ,'15', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23软件技术1班,23软件技术2班' ,'65', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','358.0', '吴小银', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班' ,'43', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','580.0', '董家佑', '铁门关校区','23学前教育9班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','759.0', '李博文', '铁门关校区','24新能源汽车检测与维修技术3班' ,'35', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','736.0', '席文栋', '铁门关校区','24汽车技术服务与营销1班' ,'39', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXB01','604.0', '张太龙', '库尔勒校区','21数字媒体2班(五年制)' ,'28', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530701B0A01','351.0', '苏光辉', '铁门关校区','24电子商务1班' ,'25', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育7班' ,'32', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0B07','61.0', '王对宝', '铁门关校区','23油气储运技术1班' ,'43', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A02','140.0', '张叶荣', '铁门关校区','24现代农业经济管理1班' ,'40', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A12','680.0', '任蓉', '铁门关校区','23早期教育3班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B09','40.0', '饶学东', '库尔勒校区','23计算机应用1班' ,'31', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','559.0', '李娜', '铁门关校区','23婴幼儿托育服务与管理1班' ,'22', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','24.0', '刘学政', '库尔勒校区','24教学6班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','585.0', '唐振钊', '铁门关校区','23学前教育11班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24汽车技术服务与营销1班' ,'39', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','340.0', '刘玉阁', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369.0', '赵兰兰', '铁门关校区','22学前教育11班' ,'35', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0B02-1','561.0', '宋贺', '库尔勒校区','22保育3班' ,'30', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B16','700.0', '顾乡侬', '铁门关校区','23数字媒体技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','655.0', '张可盈', '铁门关校区','23学前教育14班' ,'36', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A36','608.0', '王国华', '铁门关校区','23社会工作1班,23社会工作2班' ,'70', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','357.0', '王晓蓓', '铁门关校区','24党务工作2班' ,'43', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540.0', '马华丽', '铁门关校区','24学前教育2班' ,'33', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0B03','651.0', '郑洪水', '库尔勒校区','22机电一体化1班(五年制)' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301ZXB01','650.0', '鲁文斌', '铁门关校区','21机电一体化1班(五年制)' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B18','511.0', '高珊珊', '铁门关校区','23软件技术1班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','88.0', '徐盈盈', '铁门关校区','24社会工作1班' ,'23', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','559.0', '李娜', '铁门关校区','23学前教育13班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214B0B13','583.0', '马文华', '铁门关校区','22电子商务1班' ,'38', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','25.0', '蒲丽', '铁门关校区','24分析检验技术1班' ,'42', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','22.0', '肖媛媛', '库尔勒校区','24教学8班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B07','489.0', '杜红雁', '铁门关校区','23应用化工技术1班,23应用化工技术2班,23应用化工技术3班' ,'90', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0A03','475.0', '赵家嘉', '铁门关校区','24数字化设计与制造技术1班,24数字化设计与制造技术2班' ,'68', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206ZXB03','338.0', '刘亚杰', '库尔勒校区','22汽修1班' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0B10','551.0', '王虎龙', '铁门关校区','22汽车智能技术1班' ,'19', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','300.0', '刘省委', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','78.0', '孙烨', '铁门关校区','24现代农业经济管理1班' ,'40', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','683.0', '王小丽', '铁门关校区','24软件技术1班' ,'44', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B40','604.0', '张太龙', '铁门关校区','23数字媒体技术3班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B06','273.0', '王欢', '库尔勒校区','23计算机应用2班' ,'33', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211ZXA04','719.0', '雍睿思', '铁门关校区','21汽车检测维修1班(五年制)' ,'25', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B43','351.0', '苏光辉', '铁门关校区','23数字媒体技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A17-1','725.0', '衡怡欣', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班,24计算机网络技术3班' ,'87', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B05','708.0', '何代弟', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '13','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','10.0', '钟薇', '铁门关校区','24早期教育2班' ,'35', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','585.0', '唐振钊', '铁门关校区','23学前教育2班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','168.0', '苗森', '库尔勒校区','24教学10班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B03','27.0', '鹿宏京', '铁门关校区','23网络直播与运营1班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117B0B02','441.0', '王冬梅', '铁门关校区','23棉花加工与经营管理1班' ,'25', '13','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B07','368.0', '张震', '铁门关校区','23新能源汽车检测与维修技术2班' ,'35', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410303B0B01','555.0', '张江伟', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','12','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','374.0', '曹玉婷', '铁门关校区','24数字媒体技术3班,24电子商务1班' ,'39', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0C03','51.0', '王博', '铁门关校区','22数字媒体2班' ,'41', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23新能源汽车检测与维修技术1班' ,'30', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA04','339.0', '刘亚萍', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410303B0B01','555.0', '张江伟', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '13','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','374.0', '曹玉婷', '铁门关校区','24计算机网络技术3班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211ZXA04','719.0', '雍睿思', '铁门关校区','23汽车检测与维修技术1班,23汽车检测与维修技术2班' ,'69', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586.0', '张丰', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','663.0', '薛霞', '铁门关校区','24早期教育1班,24早期教育2班,24音乐表演1班' ,'86', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','545.0', '明婕', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0B10','443.0', '王丽', '铁门关校区','23电气自动化技术1班' ,'40', '1','18','8','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B07','360.0', '徐国申', '库尔勒校区','22汽修1班' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117ZXB01','708.0', '何代弟', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '13','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470209B0A04','348.0', '尚鹏博', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班' ,'43', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0C02','512.0', '赵转梅', '铁门关校区','22软件技术1班' ,'33', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0B01','58.0', '朱子鹤', '库尔勒校区','24汽车检测与维修技术1班（五年制）,24汽车检测与维修技术2班（五年制）' ,'51', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A01','348.0', '尚鹏博', '铁门关校区','24油气储运技术1班,24油气储运技术2班' ,'71', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','540.0', '马华丽', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','683.0', '王小丽', '铁门关校区','24棉花加工与经营管理2班' ,'36', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A02','754.0', '王强', '铁门关校区','24机电一体化技术1班' ,'32', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','212.0', '向川', '铁门关校区','24社会工作1班,24社会工作2班' ,'46', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0A02','742.0', '冯祎芸', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','545.0', '明婕', '铁门关校区','24汽车智能技术1班,24汽车智能技术2班' ,'62', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B14','618.0', '朱嘉琪', '库尔勒校区','22数字媒体2班(五年制)' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','723.0', '张林升', '铁门关校区','24物联网应用技术1班,24物联网应用技术2班' ,'77', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','731.0', '蔺琪云', '库尔勒校区','24教学8班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A45','626.0', '柴琴', '铁门关校区','23党务工作2班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','353.0', '孙燕华', '铁门关校区','24应用化工技术1班' ,'35', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0A06','668.0', '王星星', '铁门关校区','22网络直播1班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','72.0', '路菁', '库尔勒校区','24教学1班,24教学2班' ,'100', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23党务工作2班,23党务工作3班' ,'66', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B13','63.0', '赵帅庆', '铁门关校区','21汽车检测维修1班(五年制)' ,'22', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470209B0A07','714.0', '陈安琪', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104ZXB03','519.0', '李智军', '铁门关校区','22机械制造1班' ,'30', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB02','506.0', '孙雅莹', '铁门关校区','22网络技术4班' ,'46', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24学前教育1班,24学前教育2班' ,'64', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B03','326.0', '胡梨红', '铁门关校区','23物联网应用技术1班' ,'49', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0A03','521.0', '程明志', '铁门关校区','24机械制造与自动化1班,24机械制造与自动化2班' ,'81', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','25.0', '蒲丽', '铁门关校区','24早期教育3班' ,'60', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','449.0', '侯莉', '铁门关校区','24婴幼儿托育服务与管理1班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','23学前教育10班' ,'31', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','418.0', '陈录琴', '铁门关校区','23党务工作1班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','22学前教育13班' ,'35', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470209B0A02','337.0', '李泳宏', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班' ,'43', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','507.0', '吕江慧', '铁门关校区','24汽车技术服务与营销2班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','22.0', '肖媛媛', '库尔勒校区','24教学7班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','655.0', '张可盈', '铁门关校区','23学前教育13班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','655.0', '张可盈', '铁门关校区','23学前教育12班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B08','605.0', '马景瑞', '铁门关校区','23应用化工技术1班,23应用化工技术2班' ,'58', '1','9','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','312.0', '张蕊婕', '铁门关校区','24新能源汽车检测与维修技术1班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','547.0', '贺彩', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班' ,'43', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0A02','229.0', '靳鹏辉', '铁门关校区','24汽车智能技术1班,24汽车智能技术2班' ,'62', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0A02','481.0', '孟怀洲', '铁门关校区','24数字化设计与制造技术2班' ,'30', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0B11','327.0', '金龙', '铁门关校区','22汽车智能技术1班' ,'19', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A10','337.0', '李泳宏', '铁门关校区','23油气储运技术1班' ,'43', '1','9','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B01','512.0', '赵转梅', '铁门关校区','24软件技术1班' ,'44', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410303B0B11','666.0', '王继学', '铁门关校区','23畜禽智能化养殖1班' ,'26', '1','14','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','79.0', '彭丽璞', '铁门关校区','24电子商务1班,24网络直播与运营1班' ,'52', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B11','332.0', '李海超', '铁门关校区','22汽车检测维修1班' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B02','500.0', '郭龙', '铁门关校区','24计算机网络技术3班' ,'32', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0A02','273.0', '王欢', '库尔勒校区','22计算机应用1班' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A45','626.0', '柴琴', '铁门关校区','23党务工作3班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B05','415.0', '刘畅', '库尔勒校区','23计算机应用1班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','324.0', '韩春林', '铁门关校区','23汽车检测与维修技术1班,23汽车检测与维修技术2班' ,'69', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','372.0', '赵亚丽', '库尔勒校区','24教学12班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B15','226.0', '韩书红', '铁门关校区','22网络直播1班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXB05','346.0', '裴涛', '库尔勒校区','21数字媒体1班(五年制),21数字媒体2班(五年制)' ,'59', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A15','381.0', '王晶晶', '铁门关校区','23党务工作2班' ,'35', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B03','511.0', '高珊珊', '铁门关校区','24计算机网络技术1班' ,'33', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A03','39.0', '陈丽娜', '库尔勒校区','23化学工艺1班,23应用化工技术1班（五年制）' ,'73', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','25.0', '蒲丽', '铁门关校区','24油气储运技术2班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','545.0', '明婕', '铁门关校区','24党务工作1班' ,'44', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','72.0', '路菁', '库尔勒校区','24教学14班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','358.0', '吴小银', '铁门关校区','24党务工作1班,24党务工作2班' ,'87', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','681.0', '郭科伟', '铁门关校区','22学前教育16班' ,'33', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','48.0', '巩俞含', '铁门关校区','22学前教育4班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','683.0', '王小丽', '铁门关校区','24网络直播与运营1班（产业学院）' ,'52', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B02','556.0', '王振华', '铁门关校区','23音乐表演1班' ,'18', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B01','257.0', '胡宇', '铁门关校区','23新能源汽车检测与维修技术3班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B41','486.0', '蔡佳雪', '铁门关校区','21应用化工1班(五年制)' ,'53', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-3','68.0', '刘江', '库尔勒校区','23汽车运用与维修1班,23汽车运用与维修2班' ,'72', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','170.0', '曹镛', '铁门关校区','23学前教育12班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B07-3','66.0', '王艺璇', '库尔勒校区','23学前教育2班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','325.0', '韩慧', '铁门关校区','24智能焊接技术1班,24智能焊接技术2班' ,'77', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A03','662.0', '冯靖棋', '库尔勒校区','23机电技术应用1班,23机电技术应用2班' ,'57', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0A03','508.0', '张生涛', '铁门关校区','24物联网应用技术2班' ,'38', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330.0', '雷涛', '铁门关校区','24学前教育1班,24学前教育2班' ,'64', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0B04','428.0', '刘嘉斌', '铁门关校区','24早期教育2班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330.0', '雷涛', '铁门关校区','24婴幼儿托育服务与管理1班,24婴幼儿托育服务与管理2班' ,'72', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B01','501.0', '马军鹏', '铁门关校区','22物联网1班' ,'45', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B06','415.0', '刘畅', '库尔勒校区','23数字媒体技术1班（五年制）' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','556.0', '王振华', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23网络直播与运营2班' ,'37', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','759.0', '李博文', '铁门关校区','24汽车智能技术2班' ,'30', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B03','513.0', '麻翠翠', '铁门关校区','23计算机网络技术3班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0B03','434.0', '李春霄', '铁门关校区','22数字化设计1班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24学前教育3班,24学前教育4班' ,'60', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B08','605.0', '马景瑞', '铁门关校区','23应用化工技术3班' ,'32', '10','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110ZXB04','35.0', '刘生', '铁门关校区','22智能焊接1班' ,'24', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-1','546.0', '张爱娜', '库尔勒校区','24教学12班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B08','605.0', '马景瑞', '铁门关校区','23应用化工技术1班,23应用化工技术2班' ,'58', '10','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A01','667.0', '刘凤会', '铁门关校区','24现代物流管理1班' ,'41', '10','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','366.0', '张锋', '铁门关校区','24汽车技术服务与营销2班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A31','323.0', '程双儿', '铁门关校区','23早期教育3班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','72.0', '路菁', '库尔勒校区','24教学8班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B04','549.0', '方璟儒', '铁门关校区','22新能源检测与维修1班,22新能源检测与维修2班' ,'62', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0A04','276.0', '刘维汉', '库尔勒校区','23汽车检测与维修技术1班（五年制）' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0A06','668.0', '王星星', '铁门关校区','22网络直播3班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B06','431.0', '刘星', '铁门关校区','23婴幼儿托育服务与管理2班' ,'22', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','25.0', '蒲丽', '铁门关校区','24油气储运技术1班' ,'40', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','328.0', '靳忠宏', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B09','55.0', '张建豫', '铁门关校区','22新能源检测与维修1班,22新能源检测与维修2班' ,'62', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A01','713.0', '王靖', '铁门关校区','24应用化工技术1班' ,'35', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B05','676.0', '李杰', '库尔勒校区','22保育2班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A07-1','339.0', '刘亚萍', '铁门关校区','23早期教育3班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586.0', '张丰', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B02','518.0', '骆彦朝', '铁门关校区','21机电一体化1班(五年制)' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102ZXB02','499.0', '李鑫川', '铁门关校区','23物联网应用技术1班' ,'49', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','241.0', '李雪瑶', '铁门关校区','23学前教育1班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B04','154.0', '唐阳阳', '库尔勒校区','23学前教育2班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0C03','317.0', '张小玲', '铁门关校区','22数字媒体1班' ,'39', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','353.0', '孙燕华', '铁门关校区','23学前教育5班,23学前教育6班' ,'64', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0A32','680.0', '任蓉', '铁门关校区','24婴幼儿托育服务与管理1班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A47','686.0', '张秀红', '铁门关校区','23社会工作1班,23社会工作2班' ,'70', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130.0', '曹立汶', '铁门关校区','23学前教育3班' ,'34', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','353.0', '孙燕华', '铁门关校区','23学前教育1班,23学前教育2班' ,'69', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','418.0', '陈录琴', '铁门关校区','23棉花加工与经营管理1班,23社会工作1班' ,'58', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210ZXA04','217.0', '白亮', '铁门关校区','23汽车技术服务与营销1班' ,'26', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B03','331.0', '李安', '铁门关校区','23汽车检测与维修技术1班,23汽车检测与维修技术2班' ,'69', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','568.0', '赵银刚', '铁门关校区','23学前教育2班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B08','605.0', '马景瑞', '铁门关校区','23应用化工技术3班' ,'32', '1','9','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410307B0B08','555.0', '张江伟', '铁门关校区','23畜禽智能化养殖1班' ,'26', '1','14','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23计算机网络技术1班' ,'41', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','724.0', '宁亚', '铁门关校区','24网络直播与运营1班（产业学院）' ,'52', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB01','669.0', '王成佳', '铁门关校区','23计算机网络技术1班,23计算机网络技术2班' ,'84', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24新能源汽车检测与维修技术3班' ,'35', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A32','626.0', '柴琴', '铁门关校区','22党务工作2班' ,'20', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104ZXB04','738.0', '段以泽', '铁门关校区','22机电一体化1班,22机电一体化2班' ,'56', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','68.0', '刘江', '库尔勒校区','22应用化工1班(五年制)' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117B0B05','33.0', '王宇雷', '铁门关校区','24棉花加工与经营管理2班' ,'36', '1','6','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','440.0', '刘建玺', '铁门关校区','24新能源汽车检测与维修技术1班' ,'33', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214ZXA01','226.0', '韩书红', '铁门关校区','23网络直播与运营1班,23网络直播与运营2班' ,'73', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0A09','337.0', '李泳宏', '铁门关校区','23分析检验技术1班' ,'50', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110B0B06','717.0', '武云涛', '铁门关校区','23智能焊接技术1班' ,'23', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0C07','753.0', '郭高飞', '铁门关校区','23电气自动化技术1班' ,'40', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','567.0', '石可心', '铁门关校区','23婴幼儿托育服务与管理2班' ,'22', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B07','227.0', '王霞', '库尔勒校区','23计算机应用2班' ,'33', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育16班' ,'33', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B05','305.0', '韩紫芸', '库尔勒校区','21数字媒体2班(五年制)' ,'28', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A09','256.0', '韩增强', '铁门关校区','23应用化工技术3班' ,'32', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0A08','703.0', '王雨薇', '铁门关校区','24网络直播与运营1班（产业学院）' ,'52', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B08','439.0', '翟建楠', '库尔勒校区','23计算机应用1班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B09','46.0', '王瑾', '库尔勒校区','23应用化工技术1班（五年制）' ,'46', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','563.0', '李雪', '铁门关校区','23学前教育9班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300B0B08','192.0', '杨永胜', '库尔勒校区','22机电1班' ,'32', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','453.0', '刘佳', '铁门关校区','24党务工作2班' ,'43', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24汽车智能技术1班' ,'32', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','60.0', '刘苗', '铁门关校区','24计算机网络技术1班' ,'33', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24电子商务1班,24电子商务1班（产业学院）' ,'78', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','606.0', '周江鸥', '铁门关校区','23机电一体化技术1班' ,'49', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B09','548.0', '尹明涛', '铁门关校区','22汽车检测维修1班,22汽车检测维修2班' ,'51', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','324.0', '韩春林', '铁门关校区','23汽车技术服务与营销1班,23汽车智能技术班' ,'47', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','334.0', '李庆霞', '铁门关校区','24婴幼儿托育服务与管理1班,24婴幼儿托育服务与管理2班,24音乐表演1班' ,'88', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B04-2','308.0', '牛秀', '库尔勒校区','22应用化工1班(五年制)' ,'31', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B01','682.0', '房灵紫', '库尔勒校区','22保育3班' ,'30', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24早期教育3班,24计算机网络技术1班' ,'93', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0A04','91.0', '何莲梅', '铁门关校区','21机电一体化1班(五年制)' ,'36', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0B02','658.0', '月丽古·卡得尔', '库尔勒校区','23学前教育2班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A27','611.0', '李来徽', '铁门关校区','23社会工作2班' ,'37', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0A02','481.0', '孟怀洲', '铁门关校区','24数字化设计与制造技术1班' ,'38', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B05','292.0', '马逸伦', '铁门关校区','23婴幼儿托育服务与管理1班' ,'22', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0B10','84.0', '王永红', '铁门关校区','22汽车服务营销1班' ,'15', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','767.0', '翟月祥', '铁门关校区','24汽车智能技术1班,24汽车智能技术2班' ,'62', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0A07','341.0', '罗梦娇', '库尔勒校区','23学前教育2班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B01','559.0', '李娜', '铁门关校区','24音乐表演1班' ,'16', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24汽车智能技术2班' ,'30', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B03','701.0', '翟彩云', '铁门关校区','23软件技术1班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0A01','27.0', '鹿宏京', '铁门关校区','24网络直播与运营1班' ,'27', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B16','616.0', '贾村民', '铁门关校区','22化工智造1班,22应用化工1班' ,'77', '9','18','10','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0A10','36.0', '张焕', '库尔勒校区','23化学工艺1班' ,'27', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B11','341.0', '罗梦娇', '库尔勒校区','23幼儿保育1班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','683.0', '王小丽', '铁门关校区','24现代物流管理1班' ,'41', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','547.0', '贺彩', '铁门关校区','24电气自动化技术1班,24电气自动化技术2班' ,'54', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','470.0', '石云', '铁门关校区','22学前教育11班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0A03','341.0', '罗梦娇', '库尔勒校区','23学前教育1班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0C05','434.0', '李春霄', '铁门关校区','23机电一体化技术4班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B03','701.0', '翟彩云', '铁门关校区','23软件技术2班' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','10.0', '钟薇', '铁门关校区','23数字媒体技术1班' ,'38', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0C17','219.0', '付燕芸', '库尔勒校区','24化学工艺1班' ,'37', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-3','726.0', '杨子瑄', '库尔勒校区','23机电技术应用1班,23机电技术应用2班' ,'57', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540.0', '马华丽', '铁门关校区','24学前教育8班' ,'29', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B15','172.0', '彭美荣', '库尔勒校区','22数字媒体2班(五年制)' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KBOC13','341.0', '罗梦娇', '库尔勒校区','24学前教育1班（五年制）,24学前教育2班（五年制）,24幼儿保育1班' ,'56', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','25.0', '蒲丽', '铁门关校区','24分析检验技术2班' ,'39', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','309.0', '万晓娟', '铁门关校区','24电气自动化技术1班,24电气自动化技术2班' ,'54', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育13班' ,'35', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A01','748.0', '彭思婕', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班,24应用化工技术1班' ,'43', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530701B0A01','702.0', '邬玉璇', '铁门关校区','24网络直播与运营1班（产业学院）' ,'52', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','606.0', '周江鸥', '铁门关校区','23机械制造及自动化1班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','340.0', '刘玉阁', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','508.0', '张生涛', '铁门关校区','24电子商务1班（产业学院）' ,'53', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214ZXA02','701.0', '翟彩云', '铁门关校区','22电子商务1班' ,'38', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B06','273.0', '王欢', '库尔勒校区','23计算机应用1班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXB10','699.0', '李棋景', '铁门关校区','23数字媒体技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B16','700.0', '顾乡侬', '铁门关校区','23数字媒体技术3班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B37','99.0', '戈琳娜', '库尔勒校区','22数字媒体1班(五年制)' ,'35', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','759.0', '李博文', '铁门关校区','24汽车智能技术1班' ,'32', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A07','452.0', '刘启全', '铁门关校区','23机电一体化技术1班' ,'49', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB12','588.0', '邹尚岑', '库尔勒校区','22保育1班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23数字媒体技术2班,23数字媒体技术3班' ,'79', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','28.0', '张燕林', '库尔勒校区','24教学12班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470209B0A08','672.0', '马得梅', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育1班' ,'32', '9','12','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A14','166.0', '赵银芳', '铁门关校区','23早期教育1班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-1','74.0', '何承波', '库尔勒校区','24教学9班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300B0B02','118.0', '耿黎潞', '库尔勒校区','23机电一体化技术1班（五年制）,23机电一体化技术2班（五年制）' ,'54', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B07','327.0', '金龙', '铁门关校区','23新能源汽车检测与维修技术3班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24社会工作2班,24社会工作3班' ,'45', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117B0B05','33.0', '王宇雷', '铁门关校区','24棉花加工与经营管理2班' ,'36', '7','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540.0', '马华丽', '铁门关校区','24学前教育4班' ,'32', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','584.0', '牛添', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','547.0', '贺彩', '铁门关校区','24机械制造与自动化1班,24机电一体化技术1班' ,'72', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107ZXA04','719.0', '雍睿思', '铁门关校区','23汽车智能技术班' ,'21', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A18','733.0', '张亮', '铁门关校区','24党务工作1班' ,'44', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A12','490.0', '张亚楠', '铁门关校区','22油气储运1班' ,'28', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','418.0', '陈录琴', '铁门关校区','23党务工作2班,23党务工作3班' ,'66', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育4班' ,'33', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110B0B01','481.0', '孟怀洲', '铁门关校区','24智能焊接技术2班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B03','675.0', '王颖', '铁门关校区','23音乐表演1班' ,'18', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A01','64.0', '刘若莘', '铁门关校区','22机电一体化1班(五年制)' ,'43', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0A07','455.0', '袁慧楠', '铁门关校区','22网络直播2班' ,'39', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130.0', '曹立汶', '铁门关校区','22学前教育5班' ,'34', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','467.0', '于东晖', '铁门关校区','23学前教育8班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-3','73.0', '刘健', '库尔勒校区','23化学工艺1班,23汽车检测与维修技术1班（五年制）' ,'56', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0B07','306.0', '甄梦杰', '铁门关校区','22电气自动化1班,22电气自动化2班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0A05','348.0', '尚鹏博', '铁门关校区','22分析检验1班' ,'26', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0B10','498.0', '彭聪', '铁门关校区','22物联网1班' ,'45', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','199.0', '陈忠宏', '铁门关校区','24棉花加工与经营管理1班,24棉花加工与经营管理2班' ,'69', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','449.0', '侯莉', '铁门关校区','24早期教育1班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B02','346.0', '裴涛', '铁门关校区','24计算机网络技术2班' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B05','305.0', '韩紫芸', '库尔勒校区','21数字媒体1班(五年制)' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','167.0', '尚巾慧', '库尔勒校区','24教学13班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','22学前教育7班' ,'32', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B03','511.0', '高珊珊', '铁门关校区','24计算机网络技术2班' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A05','38.0', '杨璐', '铁门关校区','23机电一体化技术1班' ,'49', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24党务工作2班' ,'43', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','453.0', '刘佳', '铁门关校区','24油气储运技术1班' ,'40', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','168.0', '苗森', '库尔勒校区','24教学11班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110B0B13','717.0', '武云涛', '铁门关校区','22智能焊接1班' ,'24', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0A02','352.0', '孙生莲', '铁门关校区','24汽车技术服务与营销1班,24汽车技术服务与营销2班' ,'80', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0B13','20.0', '杨鲁军', '铁门关校区','23电气自动化技术2班' ,'43', '1','18','8','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A34','602.0', '马欢', '铁门关校区','23党务工作2班,23党务工作3班' ,'66', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','467.0', '于东晖', '铁门关校区','23学前教育5班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','260.0', '古丽博斯坦·艾比不拉', '库尔勒校区','24教学5班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0B06','686.0', '张秀红', '铁门关校区','22社会工作1班,22社会工作2班' ,'49', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B06','57.0', '董伟', '铁门关校区','22应用化工1班' ,'49', '1','6','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B19','503.0', '周圆圆', '铁门关校区','22网络技术4班' ,'46', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A01','480.0', '候芳芳', '铁门关校区','24现代物流管理2班' ,'42', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','300.0', '刘省委', '铁门关校区','24学前教育2班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','740.0', '向荣欣', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B04','778.0', '王永红', '铁门关校区','23网络直播与运营2班' ,'37', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B04','720.0', '杨新明', '铁门关校区','23汽车检测与维修技术2班' ,'37', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','366.0', '张锋', '铁门关校区','24新能源汽车检测与维修技术3班' ,'35', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','498.0', '彭聪', '铁门关校区','24社会工作2班' ,'23', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A13','463.0', '王凡兰', '铁门关校区','23早期教育3班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214ZXB04','609.0', '倪正阳', '铁门关校区','23网络直播与运营1班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B01','682.0', '房灵紫', '库尔勒校区','22保育1班' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A44','494.0', '闫军刚', '铁门关校区','24党务工作1班,24党务工作2班' ,'87', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','568.0', '赵银刚', '铁门关校区','23学前教育3班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB04','613.0', '雷昱彤', '铁门关校区','22网络技术3班' ,'45', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B01','554.0', '胡惠元', '铁门关校区','24现代农业经济管理2班' ,'42', '13','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B11','332.0', '李海超', '铁门关校区','22汽车检测维修1班' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','10.0', '钟薇', '铁门关校区','23计算机网络技术3班' ,'41', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','418.0', '陈录琴', '铁门关校区','23现代物流管理1班,23畜禽智能化养殖1班' ,'57', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0B01','772.0', '杨梦蕾', '铁门关校区','23现代物流管理1班' ,'31', '1','6','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A02','140.0', '张叶荣', '铁门关校区','24棉花加工与经营管理1班' ,'33', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24数字化设计与制造技术1班' ,'38', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B05','415.0', '刘畅', '库尔勒校区','23计算机应用2班' ,'33', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B05','676.0', '李杰', '库尔勒校区','23学前教育2班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300ZXA08','301.0', '王勇健', '库尔勒校区','22机电2班,22机电3班' ,'48', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','730.0', '冯艳霞', '库尔勒校区','24教学13班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','31.0', '李富丽', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','72.0', '路菁', '库尔勒校区','24教学6班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','567.0', '石可心', '铁门关校区','23学前教育1班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','724.0', '宁亚', '铁门关校区','24软件技术1班' ,'44', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117B0B05','33.0', '王宇雷', '铁门关校区','24棉花加工与经营管理1班' ,'33', '1','6','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A02','769.0', '黄甜甜', '铁门关校区','24现代物流管理2班' ,'42', '1','9','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','22学前教育6班' ,'33', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540.0', '马华丽', '铁门关校区','24学前教育1班' ,'31', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23机电一体化技术2班' ,'48', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B40','604.0', '张太龙', '铁门关校区','23数字媒体技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXA02','437.0', '薛叶子', '库尔勒校区','21数字媒体1班(五年制)' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B13-1','61.0', '王对宝', '库尔勒校区','22应用化工1班(五年制)' ,'31', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A17-1','725.0', '衡怡欣', '铁门关校区','24数字媒体技术3班,24计算机网络技术1班,24软件技术2班' ,'89', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','471.0', '赵伟华', '铁门关校区','22学前教育8班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','374.0', '曹玉婷', '铁门关校区','24物联网应用技术1班' ,'39', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0A01','304.0', '李凤娟', '铁门关校区','24分析检验技术2班' ,'39', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','353.0', '孙燕华', '铁门关校区','24分析检验技术1班,24计算机网络技术2班' ,'76', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A42','419.0', '杨文莉', '铁门关校区','23党务工作1班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B07','741.0', '王姝懿', '铁门关校区','23音乐表演1班' ,'18', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','168.0', '苗森', '库尔勒校区','24教学9班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300B0B08','192.0', '杨永胜', '库尔勒校区','22机电2班,22机电3班' ,'48', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB05','509.0', '刘帅彬', '铁门关校区','23计算机网络技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA04','742.0', '冯祎芸', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B16','272.0', '牟倡宏', '铁门关校区','23数字媒体技术1班' ,'38', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0B13','433.0', '连进牛', '铁门关校区','23电气自动化技术1班' ,'40', '1','18','8','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','166.0', '赵银芳', '铁门关校区','24学前教育2班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','470.0', '石云', '铁门关校区','22学前教育13班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','309.0', '万晓娟', '铁门关校区','24应用化工技术1班,24机电一体化技术1班' ,'67', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0B16','487.0', '王宁', '铁门关校区','22分析检验1班' ,'26', '9','18','10','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育9班' ,'29', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','773.0', '陶倩倩', '铁门关校区','24畜牧兽医2班' ,'28', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B09','553.0', '宋箫龙', '库尔勒校区','23汽车运用与维修1班' ,'39', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','508.0', '张生涛', '铁门关校区','24计算机网络技术3班' ,'32', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','309.0', '万晓娟', '铁门关校区','24化工智能制造技术1班' ,'43', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','60.0', '刘苗', '铁门关校区','24化工智能制造技术2班' ,'38', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','353.0', '孙燕华', '铁门关校区','23学前教育3班,23学前教育4班' ,'69', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23汽车检测与维修技术1班,23汽车检测与维修技术2班' ,'69', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','683.0', '王小丽', '铁门关校区','24软件技术2班' ,'42', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育14班' ,'31', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B06','617.0', '付玉', '库尔勒校区','22应用化工1班(五年制)' ,'31', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0A05','348.0', '尚鹏博', '铁门关校区','22分析检验1班' ,'26', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206ZXB02','58.0', '朱子鹤', '库尔勒校区','22汽修2班' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A03','662.0', '冯靖棋', '库尔勒校区','23计算机应用1班,23计算机应用2班' ,'64', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A01','85.0', '曲红霞', '铁门关校区','24汽车智能技术1班,24汽车智能技术2班' ,'62', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B13','53.0', '王挺', '铁门关校区','22汽车检测维修1班,22汽车检测维修2班' ,'51', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','260.0', '古丽博斯坦·艾比不拉', '库尔勒校区','24教学9班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B31','658.0', '月丽古·卡得尔', '库尔勒校区','22保育1班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B13','63.0', '赵帅庆', '铁门关校区','21汽车检测维修1班(五年制)' ,'22', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B14','618.0', '朱嘉琪', '库尔勒校区','22计算机应用2班' ,'37', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B09','383.0', '张祥', '铁门关校区','23计算机网络技术3班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B02','584.0', '牛添', '铁门关校区','24音乐表演1班' ,'16', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B39','713.0', '王靖', '铁门关校区','21应用化工1班(五年制)' ,'53', '1','8','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA04','742.0', '冯祎芸', '铁门关校区','24学前教育2班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','372.0', '赵亚丽', '库尔勒校区','24教学8班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B02','585.0', '唐振钊', '铁门关校区','22音乐表演1班' ,'7', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B14','618.0', '朱嘉琪', '库尔勒校区','22数字媒体1班(五年制)' ,'35', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB02','506.0', '孙雅莹', '铁门关校区','22网络技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0B02','772.0', '杨梦蕾', '铁门关校区','23现代物流管理1班' ,'31', '1','12','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B08','601.0', '刘嘉雄', '铁门关校区','23计算机网络技术4班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育11班' ,'35', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470209B0A02','337.0', '李泳宏', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班' ,'43', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','503.0', '周圆圆', '铁门关校区','24物联网应用技术2班' ,'38', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24社会工作1班,24软件技术1班' ,'67', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','292.0', '马逸伦', '铁门关校区','24学前教育2班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','470.0', '石云', '铁门关校区','22学前教育15班' ,'18', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0B12','62.0', '董树华', '铁门关校区','22机械制造1班' ,'30', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0B02','550.0', '李俩俩', '铁门关校区','23汽车智能技术班' ,'21', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B19','503.0', '周圆圆', '铁门关校区','22网络技术3班' ,'45', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','73.0', '刘健', '库尔勒校区','22汽车检测维修1班(五年制)' ,'19', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','752.0', '白轩宇', '铁门关校区','24现代物流管理1班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','584.0', '牛添', '铁门关校区','24学前教育8班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410303B0B02','376.0', '代佳君', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '13','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A01','667.0', '刘凤会', '铁门关校区','24现代物流管理1班' ,'41', '1','9','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育4班' ,'35', '9','12','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0A01','653.0', '张晓涵', '铁门关校区','24汽车智能技术1班,24汽车智能技术2班' ,'62', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201ZXB01','439.0', '翟建楠(饶学东)', '库尔勒校区','24数字媒体技术1班（五年制）,24数字媒体技术2班（五年制）,24计算机应用1班,24计算机应用2班' ,'66', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24机械制造与自动化1班' ,'40', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','260.0', '古丽博斯坦·艾比不拉', '库尔勒校区','24教学3班,24教学4班' ,'100', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXB10','307.0', '李荣荣', '铁门关校区','23数字媒体技术3班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A03','81.0', '梁辉', '库尔勒校区','23学前教育1班（五年制）,23学前教育2班（五年制）' ,'66', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0C02','458.0', '王丽荣', '铁门关校区','22数字媒体2班' ,'41', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','377.0', '李素丽', '铁门关校区','24物联网应用技术2班' ,'38', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','16.0', '成丽', '铁门关校区','24棉花加工与经营管理2班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130.0', '曹立汶', '铁门关校区','23学前教育6班' ,'33', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24现代物流管理1班,24现代物流管理2班' ,'83', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B22','697.0', '张瑜', '库尔勒校区','23幼儿保育1班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','340.0', '刘玉阁', '铁门关校区','24学前教育2班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A45','626.0', '柴琴', '铁门关校区','23党务工作1班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0B05','708.0', '何代弟', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '1','12','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','547.0', '贺彩', '铁门关校区','24新能源汽车检测与维修技术2班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24数字化设计与制造技术2班,24音乐表演1班' ,'46', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','560.0', '方佳璐', '铁门关校区','23学前教育7班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','309.0', '万晓娟', '铁门关校区','24化工智能制造技术2班' ,'38', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B09','40.0', '饶学东', '库尔勒校区','23计算机应用2班' ,'33', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0B07','608.0', '王国华', '铁门关校区','24社会工作2班,24社会工作3班' ,'45', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B03','678.0', '张丽娜', '库尔勒校区','23汽车运用与维修1班' ,'39', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','260.0', '古丽博斯坦·艾比不拉', '库尔勒校区','24教学11班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23学前教育13班,23学前教育14班' ,'71', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXA02','437.0', '薛叶子', '库尔勒校区','21数字媒体2班(五年制)' ,'28', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','328.0', '靳忠宏', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','377.0', '李素丽', '铁门关校区','24计算机网络技术1班,24计算机网络技术2班' ,'67', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','23学前教育9班' ,'33', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802ZXA34','130.0', '曹立汶', '铁门关校区','22幼儿托育1班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B03','326.0', '胡梨红', '铁门关校区','23物联网应用技术2班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0B02','658.0', '月丽古·卡得尔', '库尔勒校区','23学前教育1班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','567.0', '石可心', '铁门关校区','23学前教育2班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B08','18.0', '邓斌', '铁门关校区','23计算机网络技术1班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','692.0', '高世杰', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23棉花加工与经营管理1班' ,'25', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B15','499.0', '李鑫川', '铁门关校区','22软件技术1班' ,'33', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','177.0', '吕晗', '铁门关校区','24机械制造与自动化1班' ,'40', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0B01','58.0', '朱子鹤', '库尔勒校区','24汽车运用与维修1班' ,'42', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','691.0', '谭翱翔', '库尔勒校区','24教学5班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0A01','557.0', '张策百川', '铁门关校区','23音乐表演1班' ,'18', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','260.0', '古丽博斯坦·艾比不拉', '库尔勒校区','24教学13班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300B0B03','23.0', '姜维', '库尔勒校区','23机电技术应用1班,23机电技术应用2班' ,'57', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0A16','46.0', '王瑾', '库尔勒校区','22化工1班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','468.0', '胡娜', '库尔勒校区','24教学14班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','167.0', '尚巾慧', '库尔勒校区','24教学14班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','31.0', '李富丽', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','374.0', '曹玉婷', '铁门关校区','24计算机网络技术2班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB05','540.0', '马华丽', '铁门关校区','24学前教育6班' ,'32', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B16','99.0', '戈琳娜', '库尔勒校区','22计算机应用2班' ,'37', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369.0', '赵兰兰', '铁门关校区','22学前教育7班' ,'32', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102ZXB02','499.0', '李鑫川', '铁门关校区','23物联网应用技术2班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A02','329.0', '马得林', '铁门关校区','24分析检验技术2班' ,'39', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','675.0', '王颖', '铁门关校区','23学前教育6班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B19','438.0', '郭雨婷', '铁门关校区','22网络技术2班' ,'43', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','23学前教育14班' ,'36', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','340.0', '刘玉阁', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','559.0', '李娜', '铁门关校区','23学前教育12班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211ZXA05','352.0', '孙生莲', '铁门关校区','22汽车检测维修1班,22汽车检测维修2班' ,'51', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A02','329.0', '马得林', '铁门关校区','24应用化工技术1班' ,'35', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B02','518.0', '骆彦朝', '铁门关校区','23机电一体化技术4班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B22','697.0', '张瑜', '库尔勒校区','23学前教育2班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0C05','350.0', '宋春雨', '铁门关校区','23机电一体化技术2班' ,'48', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0B04','43.0', '任雪', '铁门关校区','23现代物流管理1班' ,'31', '1','9','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0B07','672.0', '马得梅', '铁门关校区','23分析检验技术1班' ,'50', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB04','613.0', '雷昱彤', '铁门关校区','22网络技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530701ZXA01','232.0', '何向荣', '铁门关校区','23电子商务1班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0C05','65.0', '谢天航', '铁门关校区','23机电一体化技术3班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0B01','772.0', '杨梦蕾', '铁门关校区','23现代物流管理1班' ,'31', '7','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','369.0', '赵兰兰', '铁门关校区','22学前教育8班' ,'33', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300B0B03','118.0', '耿黎潞', '库尔勒校区','23机电一体化技术1班（五年制）,23机电一体化技术2班（五年制）' ,'54', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','563.0', '李雪', '铁门关校区','23学前教育10班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B22','697.0', '张瑜', '库尔勒校区','23学前教育1班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24软件技术2班' ,'42', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B01','32.0', '唐雪', '铁门关校区','21机电一体化1班(五年制)' ,'36', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A07','489.0', '杜红雁', '铁门关校区','23油气储运技术1班' ,'43', '10','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300B0B04','59.0', '安怡凤', '库尔勒校区','23机电一体化技术1班（五年制）,23机电一体化技术2班（五年制）' ,'54', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB06','586.0', '张丰', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','681.0', '郭科伟', '铁门关校区','22学前教育14班' ,'31', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','659.0', '胡高芳', '铁门关校区','24现代农业经济管理1班,24现代农业经济管理2班' ,'82', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','177.0', '吕晗', '铁门关校区','24数字化设计与制造技术2班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','584.0', '牛添', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A43','494.0', '闫军刚', '铁门关校区','23社会工作1班,23社会工作2班' ,'70', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0B10','522.0', '张惠敏', '铁门关校区','23电气自动化技术2班' ,'43', '1','18','8','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','709.0', '热伊莱·胡加木尼牙孜', '铁门关校区','24软件技术2班' ,'42', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','353.0', '孙燕华', '铁门关校区','24油气储运技术1班,24油气储运技术2班' ,'71', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23早期教育1班,23早期教育2班' ,'65', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB05','509.0', '刘帅彬', '铁门关校区','23计算机网络技术1班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214B0B14','582.0', '彭廷海', '铁门关校区','23电子商务1班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','88.0', '徐盈盈', '铁门关校区','24社会工作2班' ,'23', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','353.0', '孙燕华', '铁门关校区','23学前教育7班,23学前教育8班' ,'62', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','659.0', '胡高芳', '铁门关校区','24智能焊接技术1班' ,'41', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KZXA01','739.0', '武小玲', '铁门关校区','23早期教育3班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B09','40.0', '饶学东', '库尔勒校区','23数字媒体技术1班（五年制）' ,'50', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23应用化工技术3班' ,'32', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','313.0', '张燕青', '库尔勒校区','24教学5班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','418.0', '陈录琴', '铁门关校区','23社会工作2班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0B03','331.0', '李安', '铁门关校区','23汽车技术服务与营销1班' ,'26', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','349.0', '史正兵', '铁门关校区','23学前教育7班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','567.0', '石可心', '铁门关校区','23学前教育3班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B03','513.0', '麻翠翠', '铁门关校区','23计算机网络技术4班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','369.0', '赵兰兰', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','471.0', '赵伟华', '铁门关校区','22学前教育6班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB05','509.0', '刘帅彬', '铁门关校区','23计算机网络技术4班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','108.0', '孙思邈', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育8班' ,'33', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530701B0A01','704.0', '邢冬萍', '铁门关校区','24电子商务1班（产业学院）' ,'53', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KZXA01','739.0', '武小玲', '铁门关校区','23早期教育2班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','24.0', '刘学政', '库尔勒校区','24教学8班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B01','440.0', '刘建玺', '铁门关校区','24网络直播与运营1班' ,'27', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','365.0', '于鹤文', '铁门关校区','24电气自动化技术1班,24电气自动化技术2班' ,'54', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110BOA03','711.0', '刘宇杰', '铁门关校区','24智能焊接技术1班,24智能焊接技术2班' ,'77', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','353.0', '孙燕华', '铁门关校区','23学前教育10班,23学前教育9班' ,'64', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214B0B13','583.0', '马文华', '铁门关校区','23电子商务1班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育8班' ,'33', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育12班' ,'30', '13','16','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','108.0', '孙思邈', '铁门关校区','24学前教育2班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KZXA01','739.0', '武小玲', '铁门关校区','23婴幼儿托育服务与管理2班' ,'22', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','4.0', '苏强', '铁门关校区','24计算机网络技术2班' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410307B0B06','666.0', '王继学', '铁门关校区','23畜禽智能化养殖1班' ,'26', '1','14','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','568.0', '赵银刚', '铁门关校区','23学前教育4班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24智能焊接技术2班' ,'36', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104ZXB04','738.0', '段以泽', '铁门关校区','22机械制造1班' ,'30', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB04','613.0', '雷昱彤', '铁门关校区','22网络技术4班' ,'46', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0B04','550.0', '李俩俩', '铁门关校区','23汽车智能技术班' ,'21', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','349.0', '史正兵', '铁门关校区','23学前教育1班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0A02','273.0', '王欢', '库尔勒校区','22计算机应用2班' ,'37', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','88.0', '徐盈盈', '铁门关校区','24汽车技术服务与营销1班' ,'39', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','88.0', '徐盈盈', '铁门关校区','24社会工作3班' ,'22', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0B09','755.0', '王镱霏', '铁门关校区','22汽车服务营销1班' ,'15', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','580.0', '董家佑', '铁门关校区','23学前教育8班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212ZXA01','331.0', '李安', '铁门关校区','23新能源汽车检测与维修技术1班,23新能源汽车检测与维修技术2班,23新能源汽车检测与维修技术3班' ,'96', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B41','486.0', '蔡佳雪', '铁门关校区','21应用化工1班(五年制)' ,'53', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','22学前教育15班,22学前教育16班' ,'51', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA05','540.0', '马华丽', '铁门关校区','24学前教育3班' ,'28', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B05','676.0', '李杰', '库尔勒校区','23幼儿保育1班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B31','658.0', '月丽古·卡得尔', '库尔勒校区','22保育2班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B12','699.0', '李棋景', '铁门关校区','23物联网应用技术2班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','675.0', '王颖', '铁门关校区','23学前教育4班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','468.0', '胡娜', '库尔勒校区','24教学8班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0B08','616.0', '贾村民', '铁门关校区','23分析检验技术1班' ,'50', '1','9','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','513.0', '麻翠翠', '铁门关校区','24畜牧兽医1班' ,'27', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB04','613.0', '雷昱彤', '铁门关校区','22网络技术1班' ,'46', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B04','154.0', '唐阳阳', '库尔勒校区','22保育2班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B15','226.0', '韩书红', '铁门关校区','22网络直播2班' ,'39', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','374.0', '曹玉婷', '铁门关校区','24计算机网络技术1班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','349.0', '史正兵', '铁门关校区','23学前教育3班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('610214B0B16','763.0', '王滢', '铁门关校区','24电子商务1班' ,'25', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212ZXA05','352.0', '孙生莲', '铁门关校区','22新能源检测与维修1班,22新能源检测与维修2班' ,'62', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B13','669.0', '王成佳', '铁门关校区','23软件技术1班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','199.0', '陈忠宏', '铁门关校区','24汽车智能技术1班,24汽车智能技术2班' ,'62', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B01','66.0', '王艺璇', '库尔勒校区','23幼儿保育1班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','655.0', '张可盈', '铁门关校区','23学前教育11班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','310.0', '汪文舒', '铁门关校区','24电气自动化技术2班' ,'27', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110ZXB01','520.0', '康过强', '铁门关校区','23智能焊接技术1班' ,'23', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470209B0A04','348.0', '尚鹏博', '铁门关校区','24化工智能制造技术1班,24化工智能制造技术2班' ,'43', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B07','489.0', '杜红雁', '铁门关校区','23应用化工技术1班,23应用化工技术2班,23应用化工技术3班' ,'90', '1','10','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','177.0', '吕晗', '铁门关校区','24机械制造与自动化2班' ,'41', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','767.0', '翟月祥', '铁门关校区','24物联网应用技术1班' ,'39', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','10.0', '钟薇', '铁门关校区','23计算机网络技术4班' ,'41', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','736.0', '席文栋', '铁门关校区','24数字化设计与制造技术1班,24数字化设计与制造技术2班' ,'68', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA04','339.0', '刘亚萍', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0C04','327.0', '金龙', '铁门关校区','22新能源检测与维修1班,22新能源检测与维修2班' ,'62', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0C05','350.0', '宋春雨', '铁门关校区','23机电一体化技术1班' ,'49', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24棉花加工与经营管理1班,24棉花加工与经营管理2班' ,'69', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B05','551.0', '王虎龙', '铁门关校区','23汽车检测与维修技术2班' ,'37', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B09','553.0', '宋箫龙', '库尔勒校区','23汽车运用与维修2班' ,'33', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130.0', '曹立汶', '铁门关校区','23学前教育4班' ,'35', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','199.0', '陈忠宏', '铁门关校区','24新能源汽车检测与维修技术1班,24新能源汽车检测与维修技术2班' ,'68', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','358.0', '吴小银', '铁门关校区','24油气储运技术1班,24油气储运技术2班' ,'71', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A15','490.0', '张亚楠', '铁门关校区','22油气储运1班' ,'28', '9','18','10','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0A06','697.0', '张瑜', '库尔勒校区','22保育3班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('051300ZXA07','651.0', '郑洪水', '库尔勒校区','22机电1班' ,'32', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23电子商务1班' ,'47', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0B01','37.0', '孙娟', '铁门关校区','24物联网应用技术1班' ,'39', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0A01','667.0', '刘凤会', '铁门关校区','24现代物流管理2班' ,'42', '1','9','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410307B0B07','466.0', '韩光辉', '铁门关校区','23畜禽智能化养殖1班' ,'26', '1','8','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','498.0', '彭聪', '铁门关校区','24现代物流管理2班' ,'42', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301ZXB01','650.0', '鲁文斌', '铁门关校区','23机电一体化技术2班' ,'48', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','241.0', '李雪瑶', '铁门关校区','23学前教育7班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA04','339.0', '刘亚萍', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','568.0', '赵银刚', '铁门关校区','23学前教育5班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A02','737.0', '凌冰倩', '铁门关校区','24棉花加工与经营管理2班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','659.0', '胡高芳', '铁门关校区','24数字化设计与制造技术1班,24数字化设计与制造技术2班' ,'68', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510107B0B05','331.0', '李安', '铁门关校区','23汽车智能技术班' ,'21', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','357.0', '王晓蓓', '铁门关校区','24机械制造与自动化2班' ,'41', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','313.0', '张燕青', '库尔勒校区','24教学9班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA04','339.0', '刘亚萍', '铁门关校区','24学前教育4班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','692.0', '高世杰', '铁门关校区','24现代农业经济管理1班,24现代农业经济管理2班' ,'82', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB36','681.0', '郭科伟', '铁门关校区','22学前教育13班' ,'35', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23机电一体化技术4班' ,'47', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','302.0', '桂永春', '铁门关校区','23早期教育3班,23音乐表演1班' ,'47', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','661.0', '马慧', '铁门关校区','24数字化设计与制造技术1班,24数字化设计与制造技术2班' ,'68', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24机电一体化技术1班' ,'32', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','45.0', '高艺祯', '铁门关校区','23学前教育8班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-3','271.0', '李雪静', '库尔勒校区','23机电技术应用1班,23机电技术应用2班' ,'57', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0A03','557.0', '张策百川', '铁门关校区','23音乐表演1班' ,'18', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','24.0', '刘学政', '库尔勒校区','24教学7班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育9班' ,'33', '13','16','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','606.0', '周江鸥', '铁门关校区','23机电一体化技术4班' ,'47', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','557.0', '张策百川', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','309.0', '万晓娟', '铁门关校区','24油气储运技术1班,24油气储运技术2班' ,'71', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24电气自动化技术1班,24电气自动化技术2班' ,'54', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','470.0', '石云', '铁门关校区','22学前教育16班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B16','616.0', '贾村民', '铁门关校区','22化工智造1班,22应用化工1班' ,'77', '1','8','10','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','31.0', '李富丽', '铁门关校区','24学前教育1班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','580.0', '董家佑', '铁门关校区','23学前教育10班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','325.0', '韩慧', '铁门关校区','24现代农业经济管理1班,24现代农业经济管理2班' ,'82', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','417.0', '李荣', '铁门关校区','24党务工作1班,24党务工作2班' ,'87', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B03','432.0', '高占鹏', '库尔勒校区','23幼儿保育1班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206ZXB02','58.0', '朱子鹤', '库尔勒校区','22汽修1班' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','559.0', '李娜', '铁门关校区','23学前教育11班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','359.0', '吴玉梅', '铁门关校区','23数字化设计与制造技术1班,23智能焊接技术1班' ,'61', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110ZXB07','35.0', '刘生', '铁门关校区','22智能焊接1班' ,'24', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B11','502.0', '安吉芳', '铁门关校区','23计算机网络技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','729.0', '娜迪古丽·吾布里', '库尔勒校区','24教学9班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','357.0', '王晓蓓', '铁门关校区','24棉花加工与经营管理1班,24棉花加工与经营管理2班' ,'69', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B14','219.0', '付燕芸', '库尔勒校区','22化工1班' ,'31', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B03','63.0', '赵帅庆', '铁门关校区','23新能源汽车检测与维修技术2班' ,'35', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B08','548.0', '尹明涛', '铁门关校区','22新能源检测与维修1班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0A05','38.0', '杨璐', '铁门关校区','23机电一体化技术3班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育11班' ,'35', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','310.0', '汪文舒', '铁门关校区','24网络直播与运营1班' ,'27', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0A15','713.0', '王靖', '铁门关校区','22化工智造1班,22应用化工1班' ,'77', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','325.0', '韩慧', '铁门关校区','24现代物流管理1班,24现代物流管理2班' ,'83', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0B01','563.0', '李雪', '铁门关校区','24早期教育1班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301ZXB01','519.0', '李智军', '铁门关校区','23机电一体化技术1班' ,'49', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','300.0', '刘省委', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','464.0', '应俊平', '铁门关校区','23机电一体化技术3班' ,'47', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500211B0B05','762.0', '郭永栋', '铁门关校区','23汽车检测与维修技术1班' ,'32', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','691.0', '谭翱翔', '库尔勒校区','24教学7班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB07','585.0', '唐振钊', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXA03','335.0', '李晓龙', '铁门关校区','23数字媒体技术1班' ,'38', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','302.0', '桂永春', '铁门关校区','24网络直播与运营1班,24网络直播与运营1班（产业学院）' ,'79', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','16.0', '成丽', '铁门关校区','24新能源汽车检测与维修技术2班' ,'35', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410307B0B07','466.0', '韩光辉', '铁门关校区','23畜禽智能化养殖1班' ,'26', '9','12','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470209B0A07','714.0', '陈安琪', '铁门关校区','23化工智能制造技术1班,23化工智能制造技术2班' ,'55', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0B07','61.0', '王对宝', '铁门关校区','23油气储运技术1班' ,'43', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301ZXB01','650.0', '鲁文斌', '铁门关校区','23机电一体化技术3班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','374.0', '曹玉婷', '铁门关校区','24电子商务1班（产业学院）' ,'53', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','659.0', '胡高芳', '铁门关校区','24电气自动化技术3班,24电气自动化技术4班' ,'53', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0B09','716.0', '牛庆彬', '铁门关校区','23数字化设计与制造技术1班' ,'38', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B04','170.0', '曹镛', '铁门关校区','24婴幼儿托育服务与管理2班' ,'39', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B04-1','584.0', '牛添', '铁门关校区','24早期教育1班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','48.0', '巩俞含', '铁门关校区','22学前教育5班' ,'34', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B05','676.0', '李杰', '库尔勒校区','22保育3班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0A01','364.0', '于登高', '铁门关校区','24汽车技术服务与营销1班,24汽车技术服务与营销2班' ,'80', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','372.0', '赵亚丽', '库尔勒校区','24教学14班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育8班' ,'31', '13','16','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育10班' ,'31', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A02','661.0', '马慧', '铁门关校区','24智能焊接技术1班,24智能焊接技术2班' ,'77', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育14班' ,'31', '5','8','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','606.0', '周江鸥', '铁门关校区','23电气自动化技术1班,23电气自动化技术2班' ,'83', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','722.0', '吴奕涵', '铁门关校区','24现代农业经济管理2班' ,'42', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('160200B0A06','697.0', '张瑜', '库尔勒校区','22保育2班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0B09','514.0', '王自鹏', '铁门关校区','22物联网1班' ,'45', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301ZXB01','20.0', '杨鲁军', '铁门关校区','23机电一体化技术4班' ,'47', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470201B0B40','714.0', '陈安琪', '铁门关校区','21应用化工1班(五年制)' ,'53', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B16','99.0', '戈琳娜', '库尔勒校区','22计算机应用1班' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B09','383.0', '张祥', '铁门关校区','23计算机网络技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('470208B0B08','616.0', '贾村民', '铁门关校区','23分析检验技术1班' ,'50', '10','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','556.0', '王振华', '铁门关校区','24学前教育7班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410303B0B03','311.0', '张超', '铁门关校区','24畜牧兽医1班,24畜牧兽医2班' ,'55', '1','14','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B11','501.0', '马军鹏', '铁门关校区','22网络直播1班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A06-1','359.0', '吴玉梅', '铁门关校区','23应用化工技术1班,23应用化工技术2班' ,'58', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B09','610.0', '董延芳', '铁门关校区','23网络直播与运营2班' ,'37', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A31','323.0', '程双儿', '铁门关校区','23婴幼儿托育服务与管理2班' ,'22', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203ZXA01','335.0', '李晓龙', '铁门关校区','23软件技术2班' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A14','166.0', '赵银芳', '铁门关校区','23早期教育3班' ,'29', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-1','74.0', '何承波', '库尔勒校区','24教学10班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214ZXB04','609.0', '倪正阳', '铁门关校区','23网络直播与运营2班' ,'37', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204ZXA01','335.0', '李晓龙', '库尔勒校区','21数字媒体1班(五年制),21数字媒体2班(五年制)' ,'59', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','23学前教育13班' ,'35', '13','16','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A09-1','689.0', '赵倩', '库尔勒校区','24教学5班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A17-1','456.0', '丁婕', '铁门关校区','24电子商务1班（产业学院）' ,'53', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460102B0A01','306.0', '甄梦杰', '铁门关校区','24数字化设计与制造技术1班,24数字化设计与制造技术2班' ,'68', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0A03','364.0', '于登高', '铁门关校区','24汽车技术服务与营销1班,24汽车技术服务与营销2班' ,'80', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','580.0', '董家佑', '铁门关校区','23学前教育12班' ,'30', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-1','74.0', '何承波', '库尔勒校区','24教学7班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B11','610.0', '董延芳', '铁门关校区','22网络直播3班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460306B0C07','753.0', '郭高飞', '铁门关校区','23电气自动化技术2班' ,'43', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB11','340.0', '刘玉阁', '铁门关校区','24学前教育6班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB09','467.0', '于东晖', '铁门关校区','23学前教育4班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B07','32.0', '唐雪', '铁门关校区','22机电一体化1班,22机电一体化2班' ,'56', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201ZXB01','428.0', '刘嘉斌', '铁门关校区','23音乐表演1班' ,'18', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KZXB04','470.0', '石云', '铁门关校区','22学前教育14班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','748.0', '彭思婕', '铁门关校区','24化工智能制造技术2班' ,'38', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0A05','560.0', '方佳璐', '铁门关校区','22音乐表演1班' ,'7', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510102B0B06','698.0', '龚德滔', '铁门关校区','23物联网应用技术1班' ,'49', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B11','307.0', '李荣荣', '库尔勒校区','21数字媒体2班(五年制)' ,'28', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B07','49.0', '瞿林', '库尔勒校区','23化学工艺1班' ,'27', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B01','257.0', '胡宇', '铁门关校区','23新能源汽车检测与维修技术1班,23新能源汽车检测与维修技术2班' ,'65', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','709.0', '热伊莱·胡加木尼牙孜', '铁门关校区','24网络直播与运营1班（产业学院）' ,'52', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A01','72.0', '路菁', '库尔勒校区','24教学10班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('560214B0B04','778.0', '王永红', '铁门关校区','23网络直播与运营1班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510204B0B43','351.0', '苏光辉', '铁门关校区','23数字媒体技术3班' ,'36', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B04','453.0', '刘佳', '铁门关校区','24物联网应用技术1班' ,'39', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','330.0', '雷涛', '铁门关校区','24学前教育7班,24学前教育8班' ,'59', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KZXA01','739.0', '武小玲', '铁门关校区','23早期教育1班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('700206B0B07','360.0', '徐国申', '库尔勒校区','22汽修2班' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0B13','733.0', '张亮', '铁门关校区','22社会工作1班,22社会工作2班' ,'49', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A12','547.0', '贺彩', '铁门关校区','24分析检验技术2班,24应用化工技术1班' ,'74', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202B0B11','502.0', '安吉芳', '铁门关校区','23计算机网络技术1班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000GXA04','761.0', '孟凯凯', '铁门关校区','22学前教育5班' ,'34', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117ZXB01','708.0', '何代弟', '铁门关校区','23现代农业经济管理1班,23现代农业经济管理2班' ,'38', '1','12','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203ZXA01','335.0', '李晓龙', '铁门关校区','23软件技术1班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','45.0', '高艺祯', '铁门关校区','23学前教育7班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','464.0', '应俊平', '铁门关校区','24数字媒体技术3班,24计算机网络技术3班' ,'46', '10','13','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460110B0A04','520.0', '康过强', '铁门关校区','24智能焊接技术1班,24智能焊接技术2班' ,'77', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460104B0C04','196.0', '何雪梅', '铁门关校区','23机械制造及自动化1班' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A34','602.0', '马欢', '铁门关校区','23党务工作1班' ,'37', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-1','496.0', '张桂香', '铁门关校区','24党务工作1班' ,'44', '14','17','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B15','172.0', '彭美荣', '库尔勒校区','22计算机应用1班' ,'34', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('530802B0B04','43.0', '任雪', '铁门关校区','23现代物流管理1班' ,'31', '10','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('590101B0A32','626.0', '柴琴', '铁门关校区','22党务工作1班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','310.0', '汪文舒', '铁门关校区','24机电一体化技术1班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0A02','742.0', '冯祎芸', '铁门关校区','24婴幼儿托育服务与管理1班' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0A32','680.0', '任蓉', '铁门关校区','24早期教育2班' ,'35', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410117B0B05','33.0', '王宇雷', '铁门关校区','24棉花加工与经营管理1班' ,'33', '7','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510202ZXB05','509.0', '刘帅彬', '铁门关校区','23计算机网络技术3班' ,'41', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A17-1','456.0', '丁婕', '铁门关校区','24社会工作1班,24社会工作2班,24社会工作3班' ,'68', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','313.0', '张燕青', '库尔勒校区','24教学11班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','740.0', '向荣欣', '铁门关校区','24学前教育5班' ,'31', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('670201B0B06','617.0', '付玉', '库尔勒校区','22化工1班' ,'31', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A10','34.0', '晁蕾', '铁门关校区','24数字媒体技术3班,24计算机网络技术3班' ,'46', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410119B0A01','603.0', '洪贤泰', '铁门关校区','24现代农业经济管理1班' ,'40', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','729.0', '娜迪古丽·吾布里', '库尔勒校区','24教学11班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500210B0C04','352.0', '孙生莲', '铁门关校区','22汽车服务营销1班' ,'15', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-3','726.0', '杨子瑄', '库尔勒校区','23机电一体化技术1班（五年制）,23机电一体化技术2班（五年制）' ,'54', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A02-1','372.0', '赵亚丽', '库尔勒校区','24教学1班,24教学2班' ,'100', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203ZXB02','438.0', '郭雨婷', '铁门关校区','23软件技术1班,23软件技术2班' ,'65', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('420401B0A02','256.0', '韩增强', '铁门关校区','24油气储运技术1班,24油气储运技术2班' ,'71', '11','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0B02-1','561.0', '宋贺', '库尔勒校区','22保育2班' ,'29', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB10','568.0', '赵银刚', '铁门关校区','23学前教育1班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570101KB0A13','463.0', '王凡兰', '铁门关校区','23早期教育1班' ,'32', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('550201B0B03','560.0', '方佳璐', '铁门关校区','24音乐表演1班' ,'16', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('500212B0B03','765.0', '钱晓艳', '铁门关校区','23新能源汽车检测与维修技术3班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('460301B0B01','715.0', '潘瑞莹', '铁门关校区','23机电一体化技术1班' ,'49', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('770101B0B05','676.0', '李杰', '库尔勒校区','23学前教育1班（五年制）' ,'33', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A16-1','692.0', '高世杰', '铁门关校区','24现代物流管理1班,24现代物流管理2班' ,'83', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A07-1','425.0', '郝娇娇', '库尔勒校区','24教学5班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','558.0', '杨永芬', '铁门关校区','22学前教育14班' ,'31', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410307B0B08','555.0', '张江伟', '铁门关校区','23畜禽智能化养殖1班' ,'26', '15','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A11','88.0', '徐盈盈', '铁门关校区','24汽车检测与维修技术1班,24汽车检测与维修技术2班' ,'96', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOB03','130.0', '曹立汶', '铁门关校区','22学前教育4班' ,'33', '1','9','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A04-3','496.0', '张桂香', '铁门关校区','23智能焊接技术1班,23机械制造及自动化1班' ,'52', '1','4','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('710201B0B07','227.0', '王霞', '库尔勒校区','23计算机应用1班' ,'31', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A06-1','468.0', '胡娜', '库尔勒校区','24教学12班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410303B0B11','666.0', '王继学', '铁门关校区','23畜禽智能化养殖1班' ,'26', '15','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('00000GXA02-1','74.0', '何承波', '库尔勒校区','24教学5班' ,'50', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0A09','683.0', '王小丽', '铁门关校区','24现代物流管理2班' ,'42', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('000000B0A08-1','685.0', '姚欣仪', '库尔勒校区','24教学5班' ,'50', '1','18','4','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('510203B0B10','670.0', '李豪', '铁门关校区','23软件技术1班' ,'31', '1','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('410307B0B06','666.0', '王继学', '铁门关校区','23畜禽智能化养殖1班' ,'26', '15','18','6','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('570102KBOA015','562.0', '杨舒程', '铁门关校区','22学前教育15班,22学前教育16班' ,'51', '10','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('100000B0B02-1','244.0', '吴沁林', '铁门关校区','24现代物流管理1班' ,'41', '1','18','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B05','682.0', '房灵紫', '库尔勒校区','24学前教育1班（五年制）,24学前教育2班（五年制）,24幼儿保育1班' ,'56', '13','16','2','2');
-
-
-INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','676.0', '李杰', '库尔勒校区','24学前教育1班（五年制）,24学前教育2班（五年制）,24幼儿保育1班' ,'56', '9','12','2','2');
+INSERT INTO schedule (course_id, teacher_id, teacher_name, campus, classes,student_count,week_begin,week_end,week_times,consecutive_sections) VALUES ('520802B0B03','676', '李杰', '库尔勒校区','24学前教育1班（五年制）,24学前教育2班（五年制）,24幼儿保育1班' ,'56', '9','12','2','2');
 
 INSERT INTO course (course_id, course_name, course_type, room_type, department) VALUES ('570102KBOB03','学前儿童社会教育', '必修课', '多媒体教室','教育艺术学院' );
 
